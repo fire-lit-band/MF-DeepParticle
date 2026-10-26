@@ -1,0 +1,10 @@
+{
+  "checkpoint": "output\\unified_ks_histogram_20261021\\references\\kpp2d\\simulation_checkpoint.pt",
+  "sha256": "ed2f216691036da659eece4be6f747379c2d5fca717477fcde4ae5bde59845cb",
+  "generation": 2304,
+  "seed": 10999,
+  "all_particles_retained": 100000,
+  "source_hash_matches": true,
+  "selection": "first 11 complete ensembles and first RNG; no particle subsampling",
+  "old_directory_status": "cancelled earlier; only validated simulation state reused, never old metric summaries"
+}

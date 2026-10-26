@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "counts": {
+    "kpp2d": 99,
+    "kpp3d": 99,
+    "non_kpp_cubic": 63,
+    "non_kpp_arrhenius": 63
+  },
+  "expected": {
+    "kpp2d": 99,
+    "kpp3d": 99,
+    "non_kpp_cubic": 63,
+    "non_kpp_arrhenius": 63
+  },
+  "protected_manuscript_files_unchanged": true,
+  "model_checkpoints_unchanged": true,
+  "all_particles_retained": true,
+  "max_marginal_residual": 2.220446049250313e-16,
+  "max_primal_dual_gap": 3.3399487620044965e-09,
+  "max_dual_violation": 2.7939677238464355e-09,
+  "all_solver_results_optimal": true,
+  "fallacy_scan": "11/11 considered: no pooling of levels as independent repeats; no significance or causal claims; fixed final checkpoints and all planned levels retained; reference and metric change together; other human-study categories inapplicable."
+}

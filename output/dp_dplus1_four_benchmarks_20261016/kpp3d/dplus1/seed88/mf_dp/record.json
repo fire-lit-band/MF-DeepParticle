@@ -1,0 +1,16 @@
+{
+  "model": "kpp3d",
+  "variant": "dplus1",
+  "seed": 88,
+  "method": "mf_dp",
+  "DP_stage_seconds": 8.572823599999538,
+  "DP_updates": 500,
+  "parameters": 8835,
+  "MF_frozen_unchanged": true,
+  "control_parameters_bitwise_equal": null,
+  "control_loss_trace_byte_identical": null,
+  "ot_solves": 8,
+  "checkpoint_sha256": "4650b4a8fe16b35045f40de29626941a1e8643df7efa000f1f031596a4c4700e",
+  "reused_verified_run": false,
+  "origin": "this_experiment"
+}

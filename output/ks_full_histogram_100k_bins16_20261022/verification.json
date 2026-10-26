@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "rows": 360,
+  "cases": 40,
+  "all_dimensions_included": true,
+  "all_particles_retained": 100000,
+  "protected_inputs_unchanged": true,
+  "max_marginal_residual": 3.749865679471623e-16,
+  "max_primal_dual_gap": 8.292494468875589e-11,
+  "optimal_solver_status_count": 360,
+  "statistical_fallacy_scan": "11/11 considered: avoid pooling parameter points as independent replicates, no significance claims, no conclusions about dimensional difficulty solely from absolute errors; full fixed-grid sweep retained.",
+  "physical_reference_limit": "4D uses a new larger physical reference. Single physical seed at each amplitude; bands across training seeds are not confidence intervals."
+}

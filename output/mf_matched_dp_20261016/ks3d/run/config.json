@@ -1,0 +1,81 @@
+{
+  "status": "complete",
+  "dataset": "E:\\working_space\\overleaf-6ab213532624b316eadcbdcc\\deepparticle\\data\\imported_current_ks3d_20261012",
+  "dataset_signature": "4275851063464ea8789a107ba8be647a61aa88a2081bec51ea9d765e73040014",
+  "protocol": {
+    "schema": "particle_pipeline_v1",
+    "model_id": "ks3d_mainv2_current_gradient_regularized_3d_kernel_v1",
+    "name": "ks3d",
+    "dimension": 3,
+    "family": "ks",
+    "dt": 0.005,
+    "generations": 4096,
+    "final_time": 0.02,
+    "lam": 2.0,
+    "theta": 1.0,
+    "reaction_rate": 1.0,
+    "resample_every": 1,
+    "mu": 1.0,
+    "chi": 50.26548245743669,
+    "delta": 0.1,
+    "flow_amplitude": 1.0,
+    "n_train": 15000,
+    "n_eval": 10000,
+    "level_definition": "sigma=advection amplitude",
+    "boundary": "R^d",
+    "phase": null,
+    "potential": null,
+    "eigenvalue": null,
+    "resampler": null
+  },
+  "training": {
+    "mf_steps": 500,
+    "dp_steps": 500,
+    "mf_lr": 0.001,
+    "dp_lr": 0.0001,
+    "width": 64,
+    "mf_width": 64,
+    "mf_hidden_layers": 3,
+    "dp_blocks": 4,
+    "alpha": 0.1,
+    "hybrid_alpha": 10.0,
+    "residual_weight": 0.1,
+    "profile": "original_tuned",
+    "batch_size": 2000,
+    "batch_refresh": 500,
+    "ot_refresh": 500,
+    "seeds": [
+      88,
+      89,
+      90
+    ],
+    "device": "cuda"
+  },
+  "dp_architecture": {
+    "kind": "mf_matched_dp",
+    "dimension": 3,
+    "width": 64,
+    "hidden_layers": 3,
+    "activation": "SELU",
+    "alpha": 0.1,
+    "condition_mode": "log10_sigma",
+    "input_order": [
+      "x",
+      "t=1",
+      "r=0",
+      "condition"
+    ],
+    "head_initialization": "zero",
+    "internal_residual_blocks": 0,
+    "layer_norms": 0,
+    "periodic_position_encoding": false,
+    "output": "x + alpha * MLP(x,1,0,condition)",
+    "KS_feature_note": "centered log10(sigma/15) converted to log10(sigma); float32 rounding may differ"
+  },
+  "budgets": {
+    "mf": 1000,
+    "mf_init": 500,
+    "dp": 1000,
+    "mf_dp": 1000
+  }
+}

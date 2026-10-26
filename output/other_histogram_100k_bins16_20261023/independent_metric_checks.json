@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "independent_legacy_histogram_W2": 0.41651657303344275,
+  "new_histogram_W2": 0.41651657303344275,
+  "difference": 0.0,
+  "legacy_reference_retained": 100000,
+  "legacy_generated_retained": 100000,
+  "periodic_boundary_squared_cost": 0.0007999999999999659,
+  "all_non_kpp_planned_seed_method_pairs_retained": true,
+  "three_dimensional_crosscheck": {
+    "status": "passed",
+    "legacy_W2": 0.4137788809834273,
+    "new_W2": 0.4137788809834273,
+    "difference": 0.0,
+    "dimension": 3,
+    "reference_retained": 100000,
+    "generated_retained": 100000
+  }
+}

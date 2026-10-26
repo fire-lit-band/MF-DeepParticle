@@ -1,0 +1,16 @@
+{
+  "model": "ks3d",
+  "variant": "dplus1",
+  "seed": 89,
+  "method": "mf_dp",
+  "DP_stage_seconds": 7.35537999999724,
+  "DP_updates": 500,
+  "parameters": 8835,
+  "MF_frozen_unchanged": true,
+  "control_parameters_bitwise_equal": null,
+  "control_loss_trace_byte_identical": null,
+  "ot_solves": 8,
+  "checkpoint_sha256": "bdc6d05e5da5bbf6c1f76c8491eb9e6db00d02f21a0f02a1275ba376065b4701",
+  "reused_verified_run": false,
+  "origin": "this_experiment"
+}

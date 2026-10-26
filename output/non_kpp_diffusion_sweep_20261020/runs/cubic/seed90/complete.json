@@ -1,0 +1,9 @@
+{
+  "sha256": {
+    "mf": "52a3312effe002d2b986e206bcc7936fa0cf27883700260202c67c3934a3606e",
+    "dp": "72ccee49de42807ea0130bebfec02956a198aae4fd5ed88c5e7b13063907ff2b",
+    "mf_dp": "623254c6b7a14a32870cacc123e432ffa656f0f23dd47dc93947c39bfe5e8b02",
+    "mf_init": "f0f73c67b446389c5c6ebc245b6b1452362bb95e6ad86ad8a0d9b8f4f64343e0"
+  },
+  "frozen_MF_unchanged": true
+}

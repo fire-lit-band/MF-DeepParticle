@@ -1,0 +1,28 @@
+{
+  "origin": [
+    -0.05207565799355507,
+    -1.5166332721710205,
+    -1.6253612041473389
+  ],
+  "widths": [
+    0.3063562086317688,
+    0.194076307117939,
+    0.1993560940027237
+  ],
+  "base_bins_per_axis": 16,
+  "dimension": 3,
+  "reference_particles": 100000,
+  "cloud_sha256": "93e06f0a6d02c26fc6f852131596cf9269f876a1a95234323db3559accef39c2",
+  "occupied_bins": {
+    "reference": 1770,
+    "seed88_mf": 769,
+    "seed89_mf": 812,
+    "seed90_mf": 820,
+    "seed88_dp": 730,
+    "seed88_mf_dp": 933,
+    "seed89_dp": 747,
+    "seed89_mf_dp": 915,
+    "seed90_dp": 721,
+    "seed90_mf_dp": 958
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model": "kpp2d",
+  "variant": "dplus1",
+  "seed": 89,
+  "method": "mf_dp",
+  "DP_stage_seconds": 7.951495600000271,
+  "DP_updates": 500,
+  "parameters": 8706,
+  "MF_frozen_unchanged": true,
+  "control_parameters_bitwise_equal": null,
+  "control_loss_trace_byte_identical": null,
+  "ot_solves": 8,
+  "checkpoint_sha256": "88fae2ae44c02b2be461ea021f178e5ae3aa7f7d430479634f33cccef4f67bc3",
+  "reused_verified_run": true,
+  "origin": "output\\mfdp_dplus1_input_ablation_20261016\\dplus1\\seed89"
+}

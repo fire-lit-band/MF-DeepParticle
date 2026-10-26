@@ -1,0 +1,56 @@
+{
+  "88": {
+    "mf": {
+      "file": "seed88/mf.pt",
+      "sha256": "496633356f7d90812076fa261687d3779b7cd503776fd0bf12f8dae8cb43ed20"
+    },
+    "dp": {
+      "file": "seed88/dp.pt",
+      "sha256": "f489d5b4f38a1670abfd13cb2103235fe6f58f9bbb5ab5611c283dbb06297775"
+    },
+    "mf_dp": {
+      "file": "seed88/mf_dp.pt",
+      "sha256": "02322fb6bdb45764f7bca1a4f1ac780431b2fc3c4075a89fb8a7b2a2c7b3844e"
+    },
+    "mf_init": {
+      "file": "seed88/mf_init.pt",
+      "sha256": "3d17e136e89bbc1151de73178b5ee43c00c2c1b6bf6c14543da336b8d2f26669"
+    }
+  },
+  "89": {
+    "mf": {
+      "file": "seed89/mf.pt",
+      "sha256": "79182a5f73b3db31f359131287789d888f361a439c303fc53cfdb2cd7746b1be"
+    },
+    "dp": {
+      "file": "seed89/dp.pt",
+      "sha256": "c18e1d6dfc5266dcdb702e73841b750d6807340a57a3554068dbfd9afd484a4b"
+    },
+    "mf_dp": {
+      "file": "seed89/mf_dp.pt",
+      "sha256": "17fb7b17d0c571d72774782b9e90a3b984200f935a30a058644dff0f8e4189b5"
+    },
+    "mf_init": {
+      "file": "seed89/mf_init.pt",
+      "sha256": "e7327ad92fe7da22e74e45eb913ad31a892426f5df39cf0bad239f5800fcb2b7"
+    }
+  },
+  "90": {
+    "mf": {
+      "file": "seed90/mf.pt",
+      "sha256": "a39939c64e9503f2e0219895cb84faf69989ea978de7441433a0f35a0d05df73"
+    },
+    "dp": {
+      "file": "seed90/dp.pt",
+      "sha256": "da51a168efd869e8f6caf522ca57df4c135916d3c5a5f73dc8ff1f977d44d7f0"
+    },
+    "mf_dp": {
+      "file": "seed90/mf_dp.pt",
+      "sha256": "39c5c896ba359f73ed5f3875b0a982fee9aa725c8a3690eec25b37102a546c3d"
+    },
+    "mf_init": {
+      "file": "seed90/mf_init.pt",
+      "sha256": "a8a494753975e2fc366e719b6d050336c666d0c2bf90cab7e54ad13df82547ed"
+    }
+  }
+}

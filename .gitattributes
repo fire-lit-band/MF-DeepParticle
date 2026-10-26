@@ -1,0 +1,3 @@
+# Preserve byte identities recorded by the physical-source and input manifests.
+# Python accepts both LF and CRLF; Git must not rewrite validated source files.
+* -text

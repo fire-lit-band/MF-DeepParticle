@@ -1,0 +1,552 @@
+{
+  "schema": 2,
+  "date_utc": "2026-10-26T10:55:20.761581+00:00",
+  "status": "passed",
+  "source_only_validation": true,
+  "scope": "All physical data, models, evaluations, timing and figures generated from a source-only checkout with no installed NPZ data or old checkpoints. Historical files were read only in separate, external comparison audits.",
+  "environment": {
+    "os": "Windows-10-10.0.26200-SP0",
+    "python": "3.10.19",
+    "torch": "2.8.0+cu129",
+    "cuda_runtime": "12.9",
+    "gpu": "NVIDIA GeForce RTX 5080",
+    "numpy": "2.2.5",
+    "scipy": "1.15.3",
+    "POT": "0.9.7.post1"
+  },
+  "full_reproduction": {
+    "status": "complete",
+    "models": [
+      "ks3d",
+      "ks4d",
+      "kpp2d",
+      "kpp3d",
+      "cubic"
+    ],
+    "from_scratch": true,
+    "stages": [
+      "data",
+      "training",
+      "evaluation",
+      "timing",
+      "figures"
+    ],
+    "elapsed_seconds": 4768.4882851,
+    "initial_binary_files": 0,
+    "old_data_archive_installed": false,
+    "new_checkpoints": 60,
+    "new_model_parameter_tensors_bitwise_equal_to_historical": true,
+    "historical_weights_read_by_training": false,
+    "physical_data_manifest_sha256": {
+      "ks": "38e1260207fb869da84fe8399d066f95fae987b57de132676f6ccdd73eea0c6c",
+      "kpp": "0c171f3a1777b29d7dd257fe4d78e0a89b9656e0690eaa55466246d25915e53d",
+      "cubic": "ee297b4e613041687ae743bc8eee0d7e975f30d5a0297cc57b0bc6828040133a"
+    },
+    "metrics": {
+      "ks": {
+        "rows": 360,
+        "all_exact_OT_certificates_passed": true,
+        "max_marginal_residual": 3.749865679471623e-16,
+        "max_primal_dual_gap": 8.292494468875589e-11,
+        "historical_comparison_by_model": {
+          "ks3d": {
+            "rows": 180,
+            "max_absolute_W2_difference": 0.002195222170090494,
+            "mean_absolute_W2_difference": 0.0004702567054851187
+          },
+          "ks4d": {
+            "rows": 180,
+            "max_absolute_W2_difference": 0.0,
+            "mean_absolute_W2_difference": 0.0
+          }
+        }
+      },
+      "kpp": {
+        "rows": 198,
+        "numeric_values": 594,
+        "different_values": 0,
+        "maximum_absolute_difference": 0.0,
+        "fields": {
+          "w2": {
+            "different": 0,
+            "max_abs": 0.0
+          },
+          "w2_squared": {
+            "different": 0,
+            "max_abs": 0.0
+          },
+          "w2_normalized": {
+            "different": 0,
+            "max_abs": 0.0
+          }
+        }
+      },
+      "cubic": {
+        "status": "passed",
+        "rows": 90,
+        "target_errors": 81,
+        "reference_diagnostics": 9,
+        "new_training_provenance_verified": true,
+        "primary_metrics_exact": true,
+        "primary_max_absolute_difference": {
+          "w2": 0.0,
+          "w2_squared": 0.0,
+          "w2_normalized": 0.0
+        },
+        "solver_certificate_maxima": {
+          "marginal_residual": 1.8735013540549517e-16,
+          "primal_dual_gap": 7.756515429946376e-10,
+          "dual_violation": 1.1368683772161603e-13
+        },
+        "solver_certificate_differences_from_history": {
+          "marginal_residual": 0.0,
+          "primal_dual_gap": 6.466578383879096e-10,
+          "dual_violation": 2.7939677238464355e-09
+        },
+        "strict_solver_bounds": {
+          "marginal_residual": 1e-09,
+          "primal_dual_gap": 1e-08,
+          "dual_violation": 1e-08
+        },
+        "all_solver_result_codes": [
+          1
+        ],
+        "summary_records_verified": 36,
+        "metrics_sha256": "8870620ac9cd65544910e2cbfde9a4ac418bd63a4969133f8e38e736f7bff903",
+        "new_physical_data_and_model_provenance_verified": true
+      },
+      "two_step_mf": {
+        "rows": 60,
+        "all_exact_OT_certificates_passed": true,
+        "max_marginal_residual": 1.6740081543176188e-16,
+        "max_primal_dual_gap": 1.765698698363849e-12,
+        "historical_comparison_by_model": {
+          "ks3d": {
+            "rows": 60,
+            "max_absolute_W2_difference": 0.00219839047773851,
+            "mean_absolute_W2_difference": 0.0005772513908607659
+          }
+        }
+      }
+    },
+    "FK": {
+      "trace_rows": 480,
+      "particles": 20000,
+      "forcing_periods": 128,
+      "new_initial_cloud_identity_checks": 60,
+      "maximum_historical_numeric_difference": 0.0
+    },
+    "figures": {
+      "PDFs": 21,
+      "fresh_input_files": 24,
+      "all_sources_verified": true,
+      "historical_output_folder_blocked_in_separate_plotting_run": true,
+      "render_and_visual_check": "passed"
+    },
+    "timing": {
+      "status": "passed",
+      "audited_at_utc": "2026-10-26T10:53:49.514887+00:00",
+      "model_method_cases": 13,
+      "per_seed_rows": 39,
+      "raw_rows": 1560,
+      "particles": 100000,
+      "chunk": 10000,
+      "warmups": 10,
+      "repeats": 40,
+      "model_checkpoints": 48,
+      "fresh_data_signatures": {
+        "ks3d": "97641ad0fee95eaeed93ab0d1f1b6c55b5478aa4fbd0f148f6d86d3ebd13c2e9",
+        "ks4d": "5b807423dd7f37aa0adaf9acc7b8b9aa1c70ac68f6b74130fc412067fb28f9c2",
+        "kpp2d": "8d6e628c0083c1884df05f143b42de4edd7e518f50bdd47483e22b2634e2dfb1",
+        "kpp3d": "130bc1569abb07a2b1c20c78afab2a1a7b67d8609fb2cbe83e075c493d24f3c0"
+      },
+      "checkpoint_SHA_protocol_step_signature_finite": "passed",
+      "new_training_duration_rows": 36,
+      "medians_and_mean_sample_SD": "exact",
+      "shuffled_method_order": "exact seed20261016",
+      "resident_CPU_input_output_identity_checks": 39,
+      "forbidden_historical_binary_reads": [],
+      "runtime_summary": [
+        {
+          "model": "kpp2d",
+          "method": "dp",
+          "training_mean": "18.44533433333345",
+          "training_sd": "0.19068224082160357",
+          "gpu_resident_mean": "2.4379833327354086",
+          "gpu_resident_sd": "0.10909122631379661"
+        },
+        {
+          "model": "kpp2d",
+          "method": "mf",
+          "training_mean": "4.137336933332942",
+          "training_sd": "0.14048953615964013",
+          "gpu_resident_mean": "2.90103333281877",
+          "gpu_resident_sd": "0.10181471253507304"
+        },
+        {
+          "model": "kpp2d",
+          "method": "mf_dp",
+          "training_mean": "11.231755300000563",
+          "training_sd": "0.0353073415275746",
+          "gpu_resident_mean": "4.564499999711795",
+          "gpu_resident_sd": "0.16332419441145615"
+        },
+        {
+          "model": "kpp3d",
+          "method": "dp",
+          "training_mean": "20.383838033333934",
+          "training_sd": "0.3789294875278353",
+          "gpu_resident_mean": "2.491549999831477",
+          "gpu_resident_sd": "0.14131266706311815"
+        },
+        {
+          "model": "kpp3d",
+          "method": "mf",
+          "training_mean": "4.194639000001189",
+          "training_sd": "0.14236405555510426",
+          "gpu_resident_mean": "2.958283333403718",
+          "gpu_resident_sd": "0.19506723444502003"
+        },
+        {
+          "model": "kpp3d",
+          "method": "mf_dp",
+          "training_mean": "11.888166800000667",
+          "training_sd": "0.15888201215130918",
+          "gpu_resident_mean": "4.960616666115432",
+          "gpu_resident_sd": "0.16713438653908436"
+        },
+        {
+          "model": "ks3d",
+          "method": "dp",
+          "training_mean": "18.60941559999992",
+          "training_sd": "0.33704342629638995",
+          "gpu_resident_mean": "2.639133334014332",
+          "gpu_resident_sd": "0.2630453216844218"
+        },
+        {
+          "model": "ks3d",
+          "method": "mf",
+          "training_mean": "4.842005999998946",
+          "training_sd": "1.1250451161114186",
+          "gpu_resident_mean": "2.822133333514406",
+          "gpu_resident_sd": "0.35802781244307813"
+        },
+        {
+          "model": "ks3d",
+          "method": "mf_dp",
+          "training_mean": "11.37037223333391",
+          "training_sd": "1.1089058570308978",
+          "gpu_resident_mean": "4.944566666987764",
+          "gpu_resident_sd": "0.47207783862470265"
+        },
+        {
+          "model": "ks3d",
+          "method": "mf_two_step",
+          "training_mean": "4.842005999998946",
+          "training_sd": "1.1250451161114186",
+          "gpu_resident_mean": "4.992216666626821",
+          "gpu_resident_sd": "0.4125822103106007"
+        },
+        {
+          "model": "ks4d",
+          "method": "dp",
+          "training_mean": "19.618275699999987",
+          "training_sd": "0.2637334939590111",
+          "gpu_resident_mean": "2.425083333340202",
+          "gpu_resident_sd": "0.09126464756752356"
+        },
+        {
+          "model": "ks4d",
+          "method": "mf",
+          "training_mean": "4.120406166664907",
+          "training_sd": "0.21113030017110393",
+          "gpu_resident_mean": "2.5408666660950985",
+          "gpu_resident_sd": "0.20823114675360938"
+        },
+        {
+          "model": "ks4d",
+          "method": "mf_dp",
+          "training_mean": "10.981401533332246",
+          "training_sd": "0.39886329807618776",
+          "gpu_resident_mean": "4.5434999998785015",
+          "gpu_resident_sd": "0.2354359312649679"
+        }
+      ],
+      "gpu": "NVIDIA GeForce RTX 5080",
+      "torch": "2.8.0+cu129",
+      "numpy": "2.2.5",
+      "raw_wall_ms_range": [
+        1.8022000003838912,
+        10.300099998858059
+      ],
+      "evidence_SHA256": {
+        "reproduction_run.json": "f147e255d0c79a97bca77aa230679c2c1c48a645304b871a874314b2fa4b6831",
+        "results/timing/inference_verification.json": "b705de7534fc48b9a097f09310fb6fb67c03b90bab51042955f24868fbb9650b",
+        "results/timing/inference_raw.csv": "18163e17c8ade58202ab97ffdc6104906252d93f83df03bdc840b7a4f1a22d16",
+        "results/timing/inference_per_seed.csv": "a07eef35958be47ba5d9a7605ba460f08dda455fb17d0bd96755e8892fa27f0b",
+        "results/timing/inference_summary.csv": "f7e4e59e3a09edec4858069693d95d905e842bb4c66d4bd92e0ddaef2ec41837",
+        "results/timing/runtime_summary.csv": "5655864a18c9980644a185e0564fb88a4d990be8003314c802bf7b504ac65133",
+        "training/ks_kpp/training_replay_verification.json": "23399212204cb2752e3ca599f199f5a48ae03947c960c8c90be75c765aa86f2c",
+        "training/ks_kpp/checkpoint_manifest.json": "1f9598900951c5dd6967ca1a4c45c0067c29b234ab4685107c8909bfcab8e9a7",
+        "training/ks_kpp/training_per_seed.csv": "5b68ed7a50ce09ebb028ce52875a6a8efe57f441a92e95474908860b33d0ebc6"
+      },
+      "audit_CPU_only": true,
+      "audit_did_not_repeat_GPU_measurements": true,
+      "runtime_units": {
+        "training_mean": "seconds",
+        "training_sd": "seconds",
+        "gpu_resident_mean": "milliseconds",
+        "gpu_resident_sd": "milliseconds"
+      }
+    }
+  },
+  "physical_data_agreement": {
+    "KS3D": {
+      "training_conditions": 8,
+      "training_arrays_exact": true,
+      "native_evaluation_conditions": 20,
+      "native_evaluation_uses_new_explicit_seeds": true,
+      "native_evaluation_seed_recipe": "999 + 1009*i",
+      "prediction_source_100k_new_prefix_particles": 10000,
+      "physical_reference_conditions": 20,
+      "physical_reference_max_array_difference": 2.384185791015625e-07,
+      "physical_reference_16_bin_histograms_identical": 20,
+      "historical_sampling_CPU_threads": 4,
+      "new_sampling_CPU_threads": 1,
+      "note": "The original native evaluation RNG sequence was not recoverable. New prefix samples change W2 slightly; one-versus-four-thread rounding does not change reference or prediction-suffix histogram bins."
+    },
+    "KS4D": {
+      "training_conditions": 8,
+      "native_evaluation_conditions": 20,
+      "reference_100k_conditions": 20,
+      "all_compared_physical_arrays_exact": true
+    },
+    "KPP": {
+      "training_and_native_evaluation_files": 38,
+      "reference_100k_files": 22,
+      "compared_arrays": 290,
+      "compared_array_elements": 39800000,
+      "different_elements": 0,
+      "compared_final_scalars": 208,
+      "compared_common_trace_values": 1944,
+      "metadata_note": "Paths, hashes, wall time and trace coverage can differ; numerical arrays and scalar values agree."
+    },
+    "cubic": {
+      "conditions": 9,
+      "particles_per_condition": 5000000,
+      "physical_time": 20,
+      "time_step": 0.5,
+      "compared_arrays": 68,
+      "all_arrays_exact": true,
+      "identical_NPZ_files": 18
+    }
+  },
+  "scientific_comparison": {
+    "ks3d": {
+      "refinement_lower_than_both_baselines_amplitudes": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100,
+        110,
+        120,
+        130,
+        140,
+        150,
+        160,
+        170,
+        180,
+        190,
+        200
+      ],
+      "extrapolation_mean_minus_interpolation_mean": {
+        "mf": 0.42257033167967106,
+        "dp": 0.613277822764855,
+        "mf_dp": 0.15841247408002623
+      }
+    },
+    "ks4d": {
+      "refinement_lower_than_both_baselines_amplitudes": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100,
+        110,
+        120,
+        130,
+        140,
+        150,
+        160,
+        170,
+        180,
+        190,
+        200
+      ],
+      "extrapolation_mean_minus_interpolation_mean": {
+        "mf": 0.3819170812899213,
+        "dp": 0.4867129224818957,
+        "mf_dp": 0.1677100940058812
+      }
+    },
+    "two_step": {
+      "two_step_lower_than_one_step_amplitudes": [
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100,
+        110,
+        120,
+        130,
+        140,
+        150,
+        160,
+        170,
+        180,
+        190,
+        200
+      ],
+      "refinement_lower_than_two_step_amplitudes": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100,
+        110,
+        120,
+        130,
+        140,
+        150,
+        160,
+        170,
+        180,
+        190,
+        200
+      ],
+      "sigma160_means": {
+        "mf": 0.4822415327441736,
+        "mf_two_step": 0.44071557608134015,
+        "mf_dp": 0.22113424994319925
+      },
+      "paper_sigma160_rounded_means": {
+        "mf": 0.4829,
+        "mf_two_step": 0.4415,
+        "mf_dp": 0.2216
+      }
+    }
+  },
+  "checks": {
+    "numerical_unit_tests": 19,
+    "python_sources_validated": 70,
+    "unchanged_initial_source_files": 265,
+    "private_or_retained_access_attempts": 0,
+    "protected_source_write_attempts": 0,
+    "standalone_generation_and_saved_cloud_evaluation": "passed for kpp2d; data run inferred from new training",
+    "historical_arrays_and_weights_comparison": "Separate read-only audits; never inputs to the source-only pipeline"
+  },
+  "commands": [
+    "python -m paper_reproduction check --source-only",
+    "python -m paper_reproduction reproduce --models ks3d ks4d kpp2d kpp3d cubic --from-scratch --workers 4 --out reproduced/full",
+    "python -m paper_reproduction generate --models kpp2d --model-run reproduced/full/training --out reproduced/standalone-generated",
+    "python -m paper_reproduction evaluate --models kpp2d --model-run reproduced/full/training --generated reproduced/standalone-generated --out reproduced/standalone-scores",
+    "python -m paper_reproduction figures --results reproduced/full/results --out reproduced/standalone-fresh-figures"
+  ],
+  "limits": [
+    "KS3D native evaluation uses a newly specified Monte Carlo realization. Historical evaluation rows and quoted paper decimals are not all identical; see measured differences above.",
+    "Linux execution and cross-hardware bitwise equality have not been tested.",
+    "Timing is hardware and load dependent.",
+    "Publication to GitHub was not performed."
+  ],
+  "validated_python_sha256": {
+    "install_data.py": "f7054197a96ff313a0a449421fc1e1cbbc1242e01d94c7bd1a2743039010a659",
+    "deepparticle/run_particles.py": "e95cbadd145b9267a8abbeb768eed4e7cdcd3bc0a456a30e8ba332a5facfcd92",
+    "deepparticle/data/particle_sources/kpp_archive_20261012/source_snapshot/kpp3d_kolmogorov.py": "1bef7b223c50a1fb3077f32d76aa1da8b9ae65982ed403a4de4025d62f183cf1",
+    "deepparticle/data/particle_sources/kpp_archive_20261012/source_snapshot/kpp_common.py": "c897a188aa762ed67ed1c4ab87265ff6146f421d2db7039f4b2719eb95266b36",
+    "deepparticle/non_kpp/experiment.py": "2d11ac91db192d7c5a66746f6b8937393b53d84c247de1940826f718ddbca3e9",
+    "deepparticle/non_kpp/high_count_ot.py": "821ef6f0e222592831d4a1d96e4ab1b713b21ad18ad28f1fe91f3b9f628e93a4",
+    "deepparticle/non_kpp/histogram_ot.py": "64920302236565abbaea385af8e06ca6ddabf59693dd548f0f0dffd770a511ad",
+    "deepparticle/non_kpp/models.py": "e45e5532ef7a89b52dc62a5f0490092b34e95098e2caccd16010bfb5510f4839",
+    "deepparticle/non_kpp/physics.py": "df66f17f661dc8e5c827def90e6136d7be1939231b8bd0e34021e3e04470dbfa",
+    "deepparticle/non_kpp/sweep.py": "d9002c748720ebfe3f9431a63b5779c27521794fd567317e35b86d00be22f431",
+    "deepparticle/non_kpp/verify.py": "d02346f0f05f661da58a9a65e0e62c5790c10280b2d226c559f8843da3bf63d4",
+    "deepparticle/non_kpp/__init__.py": "5e99512d345689e172af5a9f96b75560610be91c8b8f6e3b4c082b6c2043399b",
+    "deepparticle/particle_pipeline/bdp.py": "e29bc2a9b9efd33cd23b440d24a400be404f4866e54a008f646f3b477a67be12",
+    "deepparticle/particle_pipeline/cli.py": "0ac5f628d57d8cefc2d36457d25da6feb5284cb48e4f72dcab60c8bcdc45d727",
+    "deepparticle/particle_pipeline/data.py": "8a8906b4fa1ede4eeb4d865d62ac5dc847e857baec49dcc7db4a96476b65cc28",
+    "deepparticle/particle_pipeline/engine.py": "7fb48b2ef85469e699f9545755bb721705e0e061ccf737e2db97eab0926d80f7",
+    "deepparticle/particle_pipeline/fk_batch.py": "6033ed71914876a5b58fa57e80a3eb5880ad39b7c6e62debae331c23961cfba4",
+    "deepparticle/particle_pipeline/geometry.py": "e52517694f4ceb2bec912985f23f43d032d7b70bdf692b2c12318820c63194e3",
+    "deepparticle/particle_pipeline/models.py": "6f7bd0b0eb45d652b431d53101b2481aac6a84919337c27a8141dc94f40cf9ae",
+    "deepparticle/particle_pipeline/physics.py": "a8a708f38478e8d33ce30d053b832dea220f177ed02aa96e635a42c98d4c5f2f",
+    "deepparticle/particle_pipeline/plotting.py": "1628d4d730c9a9c7b2685734babe89c4bcd7f0d228144088ecf6d13e686c9499",
+    "deepparticle/particle_pipeline/protocol.py": "6a1572aac766594a5fd4ceca77e39c510bd7b9f4752802320ce6536400a3a7d8",
+    "deepparticle/particle_pipeline/__init__.py": "f9e0056a717421321d957d8e3324d264b414df203da0a4369377da12df731138",
+    "deepparticle/tests/test_non_kpp_histogram_ot.py": "7434187f957d4b4ec48c9aaccc0ce408bf2d466bae8ce75cc6caac556714cffa",
+    "deepparticle/tests/test_particle_pipeline.py": "79a986732623794d20d047fb143d24c0d90b7cbe0ba95d3af9411e7883e184df",
+    "deepparticle/training/core.py": "efefc6c6c6c97fcbbd3cc2c8791edb3995c6728c2f9e2a15f1ce893c2ec73d2c",
+    "deepparticle/training/protocol.py": "7991789493e13f518fa097f9251dbddb11260ac683627250f867a57cb56f2809",
+    "deepparticle/training/__init__.py": "69d5baf5a79194915845ad44beb98c4b3536d157f6dfc11f6b6acfce63cf1d68",
+    "output/bdp_five_datasets_20261015/experiment.py": "c7835afddced9aedec855838df9d3d85b5734905351414f4543644bf4b42d518",
+    "output/dp_dplus1_four_benchmarks_20261016/compact_architecture.py": "0ef5e016c94c3da16a58fbc6f16497ca0d713de3c8c8a09be20dc1ab20029221",
+    "output/dp_dplus1_four_benchmarks_20261016/experiment.py": "606c6e8839893c95b5bcc0bc92889b012a1fd5252e5bfe3accba12687c9ef03b",
+    "output/dp_dplus1_manuscript_20261016/measure.py": "566ea9efc4fdfff96e7dd6d9604128a44ccd320f8a8e485e3db264188b8a240f",
+    "output/kpp_original_sampling_20261014/original_gpu_accelerator.py": "c3e26196d2c147bc52b2c2db45b972d4d9a9bf085318e52d56e8768f11585953",
+    "output/kpp_original_training_total1k_20261014/experiment.py": "c9b8fab25a45227871bf7e39599dda3490419bdd425bc5e691bcfff9208d06c1",
+    "output/kpp_original_training_total1k_20261014/warm_starts.py": "027ad9c85e0574fb7d2bcf77b26c548f6a358acb52e5b5220f7b7947bbadb3d6",
+    "output/ks_full_histogram_100k_20261022/exact_sparse.py": "7ccf78997990aac4654b2f197ab209b78d2b974df14cb1efb83f83774b9194ee",
+    "output/ks_full_histogram_100k_20261022/run_evaluation.py": "9e1e8ecf9c8f3160b3da04fa0da9c51a9d0e4c4386faae7f3840bbc40ea48cf8",
+    "output/ks_full_histogram_100k_bins16_20261022/check_solver.py": "e332e829e06a2fed632e9aa951a95bfa39ee267e348b406e5b667ae08b221a50",
+    "output/ks_full_histogram_100k_bins16_20261022/exact_sparse.py": "7ccf78997990aac4654b2f197ab209b78d2b974df14cb1efb83f83774b9194ee",
+    "output/ks_full_histogram_100k_bins16_20261022/run_evaluation.py": "edf53cef7d5387e4749d8c8f551d2d2caf80b21053e51e3f0b1a7e83777e3dd3",
+    "output/ks_histogram_adoption_20261023/prepare_figures.py": "023928bffa15cc0ae0ecb3058cf026f1e3263e9d388e2dc26cfb91dc08a7c330",
+    "output/mf_matched_dp_20261016/experiment.py": "9bddba8471c9d713a673ba6ce1486520a5855a39fb87a0daad8070ab5f60446b",
+    "output/mf_matched_dp_20261016/matched_architecture.py": "38930b262f9756a72bc86b7d787d374212066d39c76893cc6f1a68715fe55fef",
+    "output/non_kpp_cubic_ood_20261023/run_ood.py": "f71f8244c042a969a6d91b434323baaae7caf482a5062ff1d5cbb3cf0bb47690",
+    "output/other_histogram_100k_bins16_20261023/evaluate.py": "4b4d22f0400ceeed835d1a014b3296df6e4c7e8d244aafb84b03506d3e914aa7",
+    "output/other_histogram_100k_bins16_20261023/prepare_kpp_references.py": "d9cb096cff6bab090ee2c730469b0b5a2bef9eaf3f3cb8ebac67dccba8e297ca",
+    "output/particle_count100k_budget_comparison_20261009/run_evaluation.py": "333a2ed62ff0be71a619dc95c7bf3ed15939f6d0b856cffdba33278628b38706",
+    "output/total_budget_refresh50_20261003/runtime/training/core.py": "fbb1b73249732c1cfae19e2f63bbd01d3aef2c67aedbeef990fa30f0ff890d29",
+    "output/total_budget_refresh50_20261003/runtime/training/protocol.py": "7991789493e13f518fa097f9251dbddb11260ac683627250f867a57cb56f2809",
+    "output/total_budget_refresh50_20261003/runtime/training/__init__.py": "69d5baf5a79194915845ad44beb98c4b3536d157f6dfc11f6b6acfce63cf1d68",
+    "paper_reproduction/checks.py": "95f31592090aac116b7544631aec9b73e1672994be1ec4d9f7463a67a247cfe1",
+    "paper_reproduction/cubic.py": "c3ccef4a57aee7859a691d3a8cf2e6a9e6767285fbe5474002d84f0d558f9269",
+    "paper_reproduction/cubic_data.py": "7a884b826f57a9dc9d1c68b0616bc3dd6ee1e1455aa025ea4b678e306dd54cb5",
+    "paper_reproduction/cubic_experiment.py": "50df7739f0ab9a065c93d0c3d563ae9910fd89bb1355ebe9042e29e736c20fc8",
+    "paper_reproduction/data_runs.py": "500fb375cb35b950eb7181c9ee5a42cd5ab07d8a98deda6755635667b3ac17ee",
+    "paper_reproduction/experiments.py": "8c5febf8fb6920600cbad364ca486324de15bf40c1fb9ca293fc2cdd3db8d055",
+    "paper_reproduction/kpp.py": "e9b62bc152e5f170246e174cad9574f28a5d6f8e65b8bb3c0faf17ef2dbc76be",
+    "paper_reproduction/kpp_data.py": "79f722a83e3f45b8c7ce735a16fcd6e0bba3dfc866aae2a3d477916e85957ef9",
+    "paper_reproduction/kpp_workflows.py": "bc6dc63f6f9da2d6b45417265df734e6e00e467157720f67558c7b386d6725ae",
+    "paper_reproduction/ks.py": "ee84ee675467e41f5e4136297f2b99ad56391b6bdd156d294d7e6b30778fec8f",
+    "paper_reproduction/ks_data.py": "6cf906cf1a1bf6cb1ce95b487d34c3ab58cdd8175e3f74ec8b4045b5e283fe31",
+    "paper_reproduction/ks_workflows.py": "131570b1639e333ad35e6bf212d89ae0d2ea6a6ae83dc6284120baa40598bffa",
+    "paper_reproduction/locations.py": "19c12e014ffaa24938be221702834462e1919e0201d3c82498dbef303cd77a5e",
+    "paper_reproduction/portability.py": "49329e5eccf4674868b3e282226737d4bff21ffbfbe9f5d70d24fad98c0cb2c4",
+    "paper_reproduction/result_figures.py": "f320efa1f64d4e308ff50666167f8b2f451063224ce14dc8a95c3e957554aa3d",
+    "paper_reproduction/runtime.py": "6597887d06bc9d28eb8580f1384aaa5b53b07cb5eeeee7132f03bb89d3d4ea4e",
+    "paper_reproduction/timing.py": "d6e1135917ace977436283ee7b4108f5248d2bee228e1c18d238ce26710645cc",
+    "paper_reproduction/workflow.py": "268129da0d7dc1178fb0d1afcd207240576e0343c411e213fef7034d191af041",
+    "paper_reproduction/__init__.py": "13f1c660c14bd3edbaf1a1139f706579f179f8a69e009c76a99f3acb244640b3",
+    "paper_reproduction/__main__.py": "46f6f8e210ba8fa8ccac4fe0c33495d8c99e7a8aa1fcbff6d30e6cd0c3d04000"
+  }
+}

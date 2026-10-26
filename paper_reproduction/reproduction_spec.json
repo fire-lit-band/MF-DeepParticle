@@ -1,0 +1,208 @@
+{
+  "schema": 1,
+  "experiments": [
+    "ks3d",
+    "ks4d",
+    "kpp2d",
+    "kpp3d",
+    "cubic"
+  ],
+  "seeds": [
+    88,
+    89,
+    90
+  ],
+  "figure_outputs": [
+    "figure8_compact_20261023/kpp3d_fk.pdf",
+    "kpp_cubic_histogram_100k_bins16_20261023/kpp2d_w2.pdf",
+    "kpp_cubic_histogram_100k_bins16_20261023/kpp3d_w2.pdf",
+    "ks_histogram_100k_bins16_20261023/ks3d_multistep_w2.pdf",
+    "ks_histogram_100k_bins16_20261023/ks3d_w2.pdf",
+    "ks_histogram_100k_bins16_20261023/ks4d_w2.pdf",
+    "non_kpp_cubic_ood_upto3_20261023/cubic_total2k_normalized_w2.pdf",
+    "selected_dp_results_20261017/dplus1_kpp2d_boundary_mf_20261016.pdf",
+    "selected_dp_results_20261017/dplus1_kpp2d_boundary_mf_dp_20261016.pdf",
+    "selected_dp_results_20261017/dplus1_kpp2d_boundary_ref_20261016.pdf",
+    "selected_dp_results_20261017/dplus1_kpp2d_extrapolation_mf_20261016.pdf",
+    "selected_dp_results_20261017/dplus1_kpp2d_extrapolation_mf_dp_20261016.pdf",
+    "selected_dp_results_20261017/dplus1_kpp2d_extrapolation_ref_20261016.pdf",
+    "selected_dp_results_20261017/dplus1_kpp2d_fk_20261016.pdf",
+    "selected_dp_results_20261017/dplus1_kpp3d_projection_mf_20261016.pdf",
+    "selected_dp_results_20261017/dplus1_kpp3d_projection_mf_dp_20261016.pdf",
+    "selected_dp_results_20261017/dplus1_kpp3d_projection_ref_20261016.pdf",
+    "selected_dp_results_20261017/dplus1_ks3d_projection_20261016.pdf",
+    "selected_dp_results_20261017/dplus1_multistep_projection_mf_dp_20261016.pdf",
+    "selected_dp_results_20261017/dplus1_multistep_projection_mf_two_step_20261016.pdf",
+    "selected_dp_results_20261017/dplus1_multistep_projection_ref_20261016.pdf"
+  ],
+  "runtime_methods": [
+    "mf",
+    "dp",
+    "mf_dp"
+  ],
+  "extra_runtime_cases": [
+    {
+      "model": "ks3d",
+      "method": "mf_two_step"
+    }
+  ],
+  "reference_documents_required": false,
+  "runtime_reference": [
+    {
+      "model": "kpp2d",
+      "method": "dp",
+      "training_seconds": [
+        "15.25",
+        "0.16"
+      ],
+      "inference_ms": [
+        "1.81",
+        "0.05"
+      ]
+    },
+    {
+      "model": "kpp2d",
+      "method": "mf",
+      "training_seconds": [
+        "3.57",
+        "0.18"
+      ],
+      "inference_ms": [
+        "2.13",
+        "0.04"
+      ]
+    },
+    {
+      "model": "kpp2d",
+      "method": "mf_dp",
+      "training_seconds": [
+        "9.38",
+        "0.37"
+      ],
+      "inference_ms": [
+        "3.46",
+        "0.06"
+      ]
+    },
+    {
+      "model": "kpp3d",
+      "method": "dp",
+      "training_seconds": [
+        "17.14",
+        "0.63"
+      ],
+      "inference_ms": [
+        "2.90",
+        "1.73"
+      ]
+    },
+    {
+      "model": "kpp3d",
+      "method": "mf",
+      "training_seconds": [
+        "3.54",
+        "0.25"
+      ],
+      "inference_ms": [
+        "3.39",
+        "2.05"
+      ]
+    },
+    {
+      "model": "kpp3d",
+      "method": "mf_dp",
+      "training_seconds": [
+        "10.10",
+        "0.35"
+      ],
+      "inference_ms": [
+        "5.49",
+        "3.25"
+      ]
+    },
+    {
+      "model": "ks3d",
+      "method": "dp",
+      "training_seconds": [
+        "15.26",
+        "0.10"
+      ],
+      "inference_ms": [
+        "2.09",
+        "0.44"
+      ]
+    },
+    {
+      "model": "ks3d",
+      "method": "mf",
+      "training_seconds": [
+        "3.97",
+        "0.75"
+      ],
+      "inference_ms": [
+        "2.28",
+        "0.47"
+      ]
+    },
+    {
+      "model": "ks3d",
+      "method": "mf_dp",
+      "training_seconds": [
+        "9.47",
+        "0.69"
+      ],
+      "inference_ms": [
+        "3.90",
+        "0.86"
+      ]
+    },
+    {
+      "model": "ks3d",
+      "method": "mf_two_step",
+      "training_seconds": [
+        "3.97",
+        "0.75"
+      ],
+      "inference_ms": [
+        "3.90",
+        "0.82"
+      ]
+    },
+    {
+      "model": "ks4d",
+      "method": "dp",
+      "training_seconds": [
+        "16.78",
+        "0.32"
+      ],
+      "inference_ms": [
+        "1.87",
+        "0.05"
+      ]
+    },
+    {
+      "model": "ks4d",
+      "method": "mf",
+      "training_seconds": [
+        "3.39",
+        "0.18"
+      ],
+      "inference_ms": [
+        "2.02",
+        "0.03"
+      ]
+    },
+    {
+      "model": "ks4d",
+      "method": "mf_dp",
+      "training_seconds": [
+        "9.11",
+        "0.20"
+      ],
+      "inference_ms": [
+        "3.47",
+        "0.02"
+      ]
+    }
+  ]
+}

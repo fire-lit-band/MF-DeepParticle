@@ -1,0 +1,70 @@
+{
+  "protocol": {
+    "schema": "non_kpp_diffusion_conditional_v1",
+    "physics_except_D": {
+      "reaction": "cubic",
+      "particles": 5000000,
+      "bins": 100,
+      "half_width": 60.0,
+      "initial_radius": 5.0,
+      "final_time": 20.0,
+      "dt": 0.5,
+      "seed": 666
+    },
+    "dimension": 3,
+    "periodic": false,
+    "diffusion": "level",
+    "condition": "(log2(D)+2)/3",
+    "train_D": [
+      0.25,
+      0.5,
+      1.0,
+      2.0
+    ],
+    "coordinate_scale": 5.0,
+    "target": "normalized SGIP final density at the requested D",
+    "prior": "uniform unit 3-ball in scaled coordinates"
+  },
+  "dataset_signature": "d6df600d7248ec66c59d1c69f29685243d4f3d307d55d9f7789c49ade1f5b2ce",
+  "training": {
+    "mf_steps": 1000,
+    "dp_steps": 1000,
+    "mf_lr": 0.001,
+    "dp_lr": 0.0001,
+    "batch_size": 2000,
+    "width": 64,
+    "mf_width": 64,
+    "mf_hidden_layers": 3,
+    "dp_blocks": 0,
+    "alpha": 0.1,
+    "hybrid_alpha": 10.0,
+    "profile": "original_tuned",
+    "residual_weight": 0.1,
+    "batch_refresh": 500,
+    "ot_refresh": 500,
+    "device": "cuda"
+  },
+  "seeds": [
+    88,
+    89,
+    90
+  ],
+  "train_D": [
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "eval_D": [
+    0.25,
+    0.375,
+    0.5,
+    0.75,
+    1.0,
+    1.5,
+    2.0
+  ],
+  "status": "complete",
+  "sampling": "MF samples one D per update; DP optimizes the summed batches over all four training Ds",
+  "budget_caveat": "Matched optimizer updates, not matched FLOPs or number of examples"
+}

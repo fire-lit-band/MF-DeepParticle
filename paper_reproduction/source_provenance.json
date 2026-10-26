@@ -1,0 +1,12 @@
+{
+  "deepparticle/data/particle_sources/kpp_archive_20261012/source_snapshot/kpp3d_kolmogorov.py": {
+    "original_sha256": "e5506a52a985ce0c252bc0d0a5f7f148cb22628d4504e149408f46ebec0f6f93",
+    "published_sha256": "1bef7b223c50a1fb3077f32d76aa1da8b9ae65982ed403a4de4025d62f183cf1",
+    "change": "Only non-executable documentation is removed; numerical AST must remain identical."
+  },
+  "deepparticle/data/particle_sources/kpp_archive_20261012/source_snapshot/kpp_common.py": {
+    "original_sha256": "41c725df17e169b2e6c26aa8070ee7af55c6b4dc0bf6590840323e2c4ecaaf07",
+    "published_sha256": "c897a188aa762ed67ed1c4ab87265ff6146f421d2db7039f4b2719eb95266b36",
+    "change": "Only non-executable documentation is removed; numerical AST must remain identical."
+  }
+}

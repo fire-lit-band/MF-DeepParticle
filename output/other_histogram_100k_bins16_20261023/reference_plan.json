@@ -1,0 +1,24 @@
+{
+  "particles_per_reference": 100000,
+  "generations": 4096,
+  "levels": [
+    2.0,
+    2.25,
+    2.5,
+    2.75,
+    3.0,
+    3.25,
+    3.5,
+    3.75,
+    4.0,
+    4.25,
+    4.5
+  ],
+  "physical_seed": 10999,
+  "accelerator_sha256": "59d1a10832d9d4c83661ea7b1cc0841f35a34c6329be15465d5ef11e36cac37d",
+  "source_validation": "output\\kpp_original_sampling_20261014\\gpu_validation.json",
+  "source_validation_sha256": "a42f03442c8b5ba3f1d3092f8e25e42ea1be04a209e58bd9f6d0461f29880fdb",
+  "training_data_reused": false,
+  "methods_retrained": false,
+  "reference_uncertainty": "One independent physical reference per level; parameter levels share random innovations."
+}

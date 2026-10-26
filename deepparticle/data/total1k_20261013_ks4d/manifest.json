@@ -1,0 +1,243 @@
+{
+  "signature": "0ae6796e2595164e5ee00ef401b9ad2536a1bfe2efd340aaa7a45709780aec0b",
+  "protocol": {
+    "schema": "particle_pipeline_v1",
+    "model_id": "ks4d_mainv2_current_gradient_regularized_3d_kernel_v1",
+    "name": "ks4d",
+    "dimension": 4,
+    "family": "ks",
+    "dt": 0.005,
+    "generations": 4096,
+    "final_time": 0.02,
+    "lam": 2.0,
+    "theta": 1.0,
+    "reaction_rate": 1.0,
+    "resample_every": 1,
+    "mu": 1.0,
+    "chi": 50.26548245743669,
+    "delta": 0.1,
+    "flow_amplitude": 1.0,
+    "n_train": 15000,
+    "n_eval": 10000,
+    "level_definition": "sigma=advection amplitude",
+    "boundary": "R^d",
+    "phase": null,
+    "potential": null,
+    "eigenvalue": null,
+    "resampler": null
+  },
+  "train_seed": 666,
+  "eval_seed": 999,
+  "train_levels": [
+    15.0,
+    20.842432415597067,
+    28.960465933248752,
+    40.24043692919588,
+    55.913905804724095,
+    77.69212018846818,
+    107.95285095017279,
+    150.0
+  ],
+  "eval_levels": [
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100,
+    110,
+    120,
+    130,
+    140,
+    150,
+    160,
+    170,
+    180,
+    190,
+    200
+  ],
+  "generator_hash": "adcedfc68c39872f7780605f4ac4e57710405c685d1c1b4e8b018e8e7262d80f",
+  "backend": {
+    "numpy": "2.2.5",
+    "torch": "2.8.0+cu129",
+    "simulation": "torch_float64_cuda"
+  },
+  "purpose": "experiment",
+  "train": [
+    {
+      "level": 15.0,
+      "parameter": 15.0,
+      "file": "clouds/train_00_6ff4cdf9d132bbc6b89d.npz",
+      "sha256": "9eacaf0d1eba78fba442a0ec4f7f5c04c390e8773bc65386117901eb75ac9506"
+    },
+    {
+      "level": 20.842432415597067,
+      "parameter": 20.842432415597067,
+      "file": "clouds/train_01_b0ff911564c187ffc7a8.npz",
+      "sha256": "44ee72f6c31516ef208c861da3a8adafe37281b521baf543ff356caf23111f59"
+    },
+    {
+      "level": 28.960465933248752,
+      "parameter": 28.960465933248752,
+      "file": "clouds/train_02_2e2f51baf86c15256a10.npz",
+      "sha256": "453853658f98866833c7b2dbe5c6047e907cfce063ca4dd311c0acff433edc36"
+    },
+    {
+      "level": 40.24043692919588,
+      "parameter": 40.24043692919588,
+      "file": "clouds/train_03_13d53e59797f1e40e5bb.npz",
+      "sha256": "9e7817f89d956b34792b113fec6f889f76e56506d5a15c20ddf9bbd1e2cf6d2b"
+    },
+    {
+      "level": 55.913905804724095,
+      "parameter": 55.913905804724095,
+      "file": "clouds/train_04_d0ac378b1ff525884be2.npz",
+      "sha256": "68442a104688804a8ee62561a932559f472a6811e8d8e5fea1433e283aedb853"
+    },
+    {
+      "level": 77.69212018846818,
+      "parameter": 77.69212018846818,
+      "file": "clouds/train_05_8ee5cfee0d350e096efa.npz",
+      "sha256": "a3231328d67d617f1f1f6baba0339d062c59312d105c1f7e1757e6c91e7afe92"
+    },
+    {
+      "level": 107.95285095017279,
+      "parameter": 107.95285095017279,
+      "file": "clouds/train_06_692ec9960d622fa49527.npz",
+      "sha256": "175f4075cc84876089bbd293c4b4f795767994eaef72f42b36d4962b46a1a749"
+    },
+    {
+      "level": 150.0,
+      "parameter": 150.0,
+      "file": "clouds/train_07_86a92b31dccf053ede75.npz",
+      "sha256": "954066da73345c1d4418f54c19d1879f5500865b1fcd6cc7c6d61527b718d817"
+    }
+  ],
+  "eval": [
+    {
+      "level": 10.0,
+      "parameter": 10.0,
+      "file": "clouds/eval_00_bbdc27821ceb348da455.npz",
+      "sha256": "3da89e8e28fc8d94d2cf52e8842ee0d75730423609a1f2b7faffaf9df2774835"
+    },
+    {
+      "level": 20.0,
+      "parameter": 20.0,
+      "file": "clouds/eval_01_db4dd84c6aabecc1347e.npz",
+      "sha256": "5813421476dd2b4d85e12c1876509d083aba76f1af9d0e76bbf36ce819206d17"
+    },
+    {
+      "level": 30.0,
+      "parameter": 30.0,
+      "file": "clouds/eval_02_a4678c923505bd0c07ef.npz",
+      "sha256": "5428d2f5ecb963ebb8ca843044503964a30b25601e6fe1b4ba6738bea356bc02"
+    },
+    {
+      "level": 40.0,
+      "parameter": 40.0,
+      "file": "clouds/eval_03_a750e7cedba7be146ae3.npz",
+      "sha256": "cf936ea2cf1f4cf997a47f1a6b0954b80ab451d71bfedd49e6dc59694db81086"
+    },
+    {
+      "level": 50.0,
+      "parameter": 50.0,
+      "file": "clouds/eval_04_ef21824b2c6ce6b16c37.npz",
+      "sha256": "802e81cf694151d725a329be6454364626d115b4010ec7ca44ee57acbf91cd22"
+    },
+    {
+      "level": 60.0,
+      "parameter": 60.0,
+      "file": "clouds/eval_05_c628d34b95546c1c52d2.npz",
+      "sha256": "8640f4b969dc47a6b5532d48f1ff70275604599ad21d49b4000e9e95167fb5d5"
+    },
+    {
+      "level": 70.0,
+      "parameter": 70.0,
+      "file": "clouds/eval_06_be42eac6a407be06c81a.npz",
+      "sha256": "b9dad035fd911a008943c4a6c79a6021e336afdf814603dafd4b32cadf1ee6b6"
+    },
+    {
+      "level": 80.0,
+      "parameter": 80.0,
+      "file": "clouds/eval_07_f63a70a446d8837085d2.npz",
+      "sha256": "da9e10fc5eef5c8aa01aeef20878de14ceebd09383ad24668b758f67f425cd4f"
+    },
+    {
+      "level": 90.0,
+      "parameter": 90.0,
+      "file": "clouds/eval_08_77570744817bf353e7a7.npz",
+      "sha256": "304ec7aff7362bc1b1a59d52ce73aeae4f7e2db9fe4a29ac1052f5fe8c5f81e7"
+    },
+    {
+      "level": 100.0,
+      "parameter": 100.0,
+      "file": "clouds/eval_09_ab1d112d318e4ffa5c99.npz",
+      "sha256": "225a051711dc051a62fbcc88b2d87577964220613c00ec1a3a45da6324589eee"
+    },
+    {
+      "level": 110.0,
+      "parameter": 110.0,
+      "file": "clouds/eval_10_bdad9fb347f5b243ca46.npz",
+      "sha256": "be53db6289d05da9bf71920aae38223e34bb427cb1b7220ca951dc7f73c3fb96"
+    },
+    {
+      "level": 120.0,
+      "parameter": 120.0,
+      "file": "clouds/eval_11_bd4a1a6dcecab71eda88.npz",
+      "sha256": "f7694c35cea525271ac7a93d27ccd8975fb75a33f9fcfa7ecc1ab49d2dc19170"
+    },
+    {
+      "level": 130.0,
+      "parameter": 130.0,
+      "file": "clouds/eval_12_83b1bb3303c09889224f.npz",
+      "sha256": "9ebb08c7cbb6f6a6bb86749081cb16e4253dbd294786042dd8d531eb7248d49a"
+    },
+    {
+      "level": 140.0,
+      "parameter": 140.0,
+      "file": "clouds/eval_13_f59efa9acc041348f4b2.npz",
+      "sha256": "a870224409c9c7ba4e4fa724dbe88299a3ed96431ccb895740038f4df4f29655"
+    },
+    {
+      "level": 150.0,
+      "parameter": 150.0,
+      "file": "clouds/eval_14_6cfb2e211db9d8115b08.npz",
+      "sha256": "8074c79a224e25e082161df9450f32e40feb03458f06d801f0e3dc09dc199f72"
+    },
+    {
+      "level": 160.0,
+      "parameter": 160.0,
+      "file": "clouds/eval_15_5ffd4f16ffe1073a931a.npz",
+      "sha256": "d924faf4dd885eb17371cce4d4d546848b9cbe50dc6c6983300a12ca00384012"
+    },
+    {
+      "level": 170.0,
+      "parameter": 170.0,
+      "file": "clouds/eval_16_b2561a0681cd5b01e96a.npz",
+      "sha256": "4897bedd7800c4a1a840ec346fe72d025482568c3d763a6793e5ca8f5b1f0477"
+    },
+    {
+      "level": 180.0,
+      "parameter": 180.0,
+      "file": "clouds/eval_17_d8f1677df4fa6665ddd1.npz",
+      "sha256": "7ab2dd2da1a9237da52d2dd2e4446b662fc625c0959380096144dbe2fb89f1e7"
+    },
+    {
+      "level": 190.0,
+      "parameter": 190.0,
+      "file": "clouds/eval_18_c99b1b6cd0149a87572d.npz",
+      "sha256": "10e217b9cd970e763ef4b303cb0717502e2319a0efe6144665df0afe94540ff3"
+    },
+    {
+      "level": 200.0,
+      "parameter": 200.0,
+      "file": "clouds/eval_19_1b68ff5ee1246a29064e.npz",
+      "sha256": "1a2e963dd862bad1217507e20fc4a6a14476fbc15bf6fa37d73f83d3d4aa1e3b"
+    }
+  ],
+  "status": "complete"
+}

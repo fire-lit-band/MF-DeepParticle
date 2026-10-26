@@ -1,0 +1,3943 @@
+{
+  "scope": "Standalone numerical reproduction of KS, KPP and cubic reaction experiments",
+  "model_files": 60,
+  "total_files": 468,
+  "total_bytes": 1028548428,
+  "files": [
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/eval_00.npz",
+      "bytes": 336084,
+      "sha256": "b6d4e6520c9d2ed2ce5d322e89b90ce44542bb8af3d2fa6a545aaf532e38dc9e",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/eval_01.npz",
+      "bytes": 336153,
+      "sha256": "a663817c2009173f7b89256fcb156eb6fe8eb7a3e480a84eb6b000990768d6d6",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/eval_02.npz",
+      "bytes": 336006,
+      "sha256": "b7d94283c80b7945da1a90299943e7ed158463144c37f93a2627bc83efb18cd7",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/eval_03.npz",
+      "bytes": 335983,
+      "sha256": "6af04a0102665227bf633129e32173a8038bca27838b9ea501105789af0156cb",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/eval_04.npz",
+      "bytes": 335868,
+      "sha256": "b4047eb2a1ed67a9abab082892829f205da58d6861cb191c0fb32091a1bfb76f",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/eval_05.npz",
+      "bytes": 335723,
+      "sha256": "a5c0efe92344174fdd1629cf256a0156edee5658417abefdcfffde42495c2358",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/eval_06.npz",
+      "bytes": 335886,
+      "sha256": "55f2dc31c7f122c22c2f89f0fe591db3a878bbaaf3e66cc06391cb385f570eba",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/eval_07.npz",
+      "bytes": 335769,
+      "sha256": "911f02adeeb92be620ef919de9204d1556804f6a44dd6e6808fd33263fe0caf1",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/eval_08.npz",
+      "bytes": 335885,
+      "sha256": "9c195a8abe21b686023663194b5d0bcc00fe8e21076da2ec4e99dfb46695d301",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/eval_09.npz",
+      "bytes": 336025,
+      "sha256": "e69dade2dee321d2ba5afe06b77356ee2883df784170b246d204eedb0044232d",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/eval_10.npz",
+      "bytes": 336281,
+      "sha256": "e9f9c0914cd09588699c6ff61ec1c81511939023f22d60b7eb2f834f8469d130",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/eval_11.npz",
+      "bytes": 336266,
+      "sha256": "1fc422076375017b71114f384b8141735a389b0ed68da00a799e37a7c68d0510",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/eval_12.npz",
+      "bytes": 336302,
+      "sha256": "e380c2417d7fe6db73d45261a7a5c7724a60d953b3167b533a7db44ee238c918",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/eval_13.npz",
+      "bytes": 336370,
+      "sha256": "e82680d07d850f5ac1120b655127511ccd68a5f53792dca38b2284669f32f7ae",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/eval_14.npz",
+      "bytes": 336402,
+      "sha256": "51a1451718902c698726af6cbaf76b85aebfcc38efdb8e2d6a7a46aee6b4cfc4",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/eval_15.npz",
+      "bytes": 336318,
+      "sha256": "d4896a21c2ce4859a26665c1133f6b82ee30ee1b067264ea6891660445538ee0",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/eval_16.npz",
+      "bytes": 336437,
+      "sha256": "8aeab1b0db4bbb881810a9d3022a4231350aef0c4690b082e073c34a9b50d884",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/eval_17.npz",
+      "bytes": 336369,
+      "sha256": "2076058c29d54d1a444cee0a164d634526ec36bad9b593ef0636acc36c174da5",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/eval_18.npz",
+      "bytes": 336412,
+      "sha256": "c01072d380500aa0ec69bf6a5b5cdb0a70241d729dbe0a7fdba351047ee60e33",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/eval_19.npz",
+      "bytes": 336336,
+      "sha256": "98383741114253989f0b49f9e011b1fbc551e4352b9b455f7c428973cd09150d",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/train_00.npz",
+      "bytes": 502947,
+      "sha256": "d31a195826e46915c581ddf5433da7a23dc6896264e06f6a3213f0189e53a8ea",
+      "reason": [
+        "train/timing dataset loader validates and loads every train case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/train_01.npz",
+      "bytes": 502948,
+      "sha256": "cca16503c29da21e3c1e7b6ea513dbf74fedbcedaba94986e502f2872f1cffff",
+      "reason": [
+        "train/timing dataset loader validates and loads every train case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/train_02.npz",
+      "bytes": 502819,
+      "sha256": "ebd08bed6d513ef6e9fc94213333ab58d7f1c189135f66b35230b9be16fb98fc",
+      "reason": [
+        "train/timing dataset loader validates and loads every train case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/train_03.npz",
+      "bytes": 502825,
+      "sha256": "8aaac8039e28929f4130f532c0f55ec3728a93e83fcbf3d6498f8c879ac6f358",
+      "reason": [
+        "train/timing dataset loader validates and loads every train case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/train_04.npz",
+      "bytes": 502608,
+      "sha256": "da4aec4bb780d5ddd0f9be6a605c0ffb991dda665e867508637f254d863bbcdf",
+      "reason": [
+        "train/timing dataset loader validates and loads every train case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/train_05.npz",
+      "bytes": 502595,
+      "sha256": "479c99a64d5b00476514a6c660202cff327d8faaad3b0fdba6dea8e4de057e67",
+      "reason": [
+        "train/timing dataset loader validates and loads every train case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/train_06.npz",
+      "bytes": 502923,
+      "sha256": "ecf5e5642a4ee8b7b23f26ed89e948d592307f3b15b00f40abbe3a41318e6c6e",
+      "reason": [
+        "train/timing dataset loader validates and loads every train case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/clouds/train_07.npz",
+      "bytes": 503433,
+      "sha256": "c370440a4bb65c095e0bd7054b02137eb04a980de8c581696a732e30afdf81ce",
+      "reason": [
+        "train/timing dataset loader validates and loads every train case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/imported_current_ks3d_20261012/manifest.json",
+      "bytes": 7282,
+      "sha256": "521060d42a4afa58a3d4d5151af97e837262b43eeca32210f303fa5ffb4d0cde",
+      "reason": [
+        "train/timing: physical dataset identity, case list and exact per-case hashes",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/eval_00_bbdc27821ceb348da455.npz",
+      "bytes": 447272,
+      "sha256": "3da89e8e28fc8d94d2cf52e8842ee0d75730423609a1f2b7faffaf9df2774835",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/eval_01_db4dd84c6aabecc1347e.npz",
+      "bytes": 447451,
+      "sha256": "5813421476dd2b4d85e12c1876509d083aba76f1af9d0e76bbf36ce819206d17",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/eval_02_a4678c923505bd0c07ef.npz",
+      "bytes": 447401,
+      "sha256": "5428d2f5ecb963ebb8ca843044503964a30b25601e6fe1b4ba6738bea356bc02",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/eval_03_a750e7cedba7be146ae3.npz",
+      "bytes": 447281,
+      "sha256": "cf936ea2cf1f4cf997a47f1a6b0954b80ab451d71bfedd49e6dc59694db81086",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/eval_04_ef21824b2c6ce6b16c37.npz",
+      "bytes": 447216,
+      "sha256": "802e81cf694151d725a329be6454364626d115b4010ec7ca44ee57acbf91cd22",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/eval_05_c628d34b95546c1c52d2.npz",
+      "bytes": 447133,
+      "sha256": "8640f4b969dc47a6b5532d48f1ff70275604599ad21d49b4000e9e95167fb5d5",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/eval_06_be42eac6a407be06c81a.npz",
+      "bytes": 447111,
+      "sha256": "b9dad035fd911a008943c4a6c79a6021e336afdf814603dafd4b32cadf1ee6b6",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/eval_07_f63a70a446d8837085d2.npz",
+      "bytes": 447124,
+      "sha256": "da9e10fc5eef5c8aa01aeef20878de14ceebd09383ad24668b758f67f425cd4f",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/eval_08_77570744817bf353e7a7.npz",
+      "bytes": 447251,
+      "sha256": "304ec7aff7362bc1b1a59d52ce73aeae4f7e2db9fe4a29ac1052f5fe8c5f81e7",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/eval_09_ab1d112d318e4ffa5c99.npz",
+      "bytes": 447318,
+      "sha256": "225a051711dc051a62fbcc88b2d87577964220613c00ec1a3a45da6324589eee",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/eval_10_bdad9fb347f5b243ca46.npz",
+      "bytes": 447480,
+      "sha256": "be53db6289d05da9bf71920aae38223e34bb427cb1b7220ca951dc7f73c3fb96",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/eval_11_bd4a1a6dcecab71eda88.npz",
+      "bytes": 447591,
+      "sha256": "f7694c35cea525271ac7a93d27ccd8975fb75a33f9fcfa7ecc1ab49d2dc19170",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/eval_12_83b1bb3303c09889224f.npz",
+      "bytes": 447690,
+      "sha256": "9ebb08c7cbb6f6a6bb86749081cb16e4253dbd294786042dd8d531eb7248d49a",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/eval_13_f59efa9acc041348f4b2.npz",
+      "bytes": 447772,
+      "sha256": "a870224409c9c7ba4e4fa724dbe88299a3ed96431ccb895740038f4df4f29655",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/eval_14_6cfb2e211db9d8115b08.npz",
+      "bytes": 447913,
+      "sha256": "8074c79a224e25e082161df9450f32e40feb03458f06d801f0e3dc09dc199f72",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/eval_15_5ffd4f16ffe1073a931a.npz",
+      "bytes": 447919,
+      "sha256": "d924faf4dd885eb17371cce4d4d546848b9cbe50dc6c6983300a12ca00384012",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/eval_16_b2561a0681cd5b01e96a.npz",
+      "bytes": 447998,
+      "sha256": "4897bedd7800c4a1a840ec346fe72d025482568c3d763a6793e5ca8f5b1f0477",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/eval_17_d8f1677df4fa6665ddd1.npz",
+      "bytes": 448101,
+      "sha256": "7ab2dd2da1a9237da52d2dd2e4446b662fc625c0959380096144dbe2fb89f1e7",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/eval_18_c99b1b6cd0149a87572d.npz",
+      "bytes": 448187,
+      "sha256": "10e217b9cd970e763ef4b303cb0717502e2319a0efe6144665df0afe94540ff3",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/eval_19_1b68ff5ee1246a29064e.npz",
+      "bytes": 448204,
+      "sha256": "1a2e963dd862bad1217507e20fc4a6a14476fbc15bf6fa37d73f83d3d4aa1e3b",
+      "reason": [
+        "train/timing dataset loader validates and loads every eval case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/train_00_6ff4cdf9d132bbc6b89d.npz",
+      "bytes": 669873,
+      "sha256": "9eacaf0d1eba78fba442a0ec4f7f5c04c390e8773bc65386117901eb75ac9506",
+      "reason": [
+        "train/timing dataset loader validates and loads every train case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/train_01_b0ff911564c187ffc7a8.npz",
+      "bytes": 670036,
+      "sha256": "44ee72f6c31516ef208c861da3a8adafe37281b521baf543ff356caf23111f59",
+      "reason": [
+        "train/timing dataset loader validates and loads every train case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/train_02_2e2f51baf86c15256a10.npz",
+      "bytes": 669962,
+      "sha256": "453853658f98866833c7b2dbe5c6047e907cfce063ca4dd311c0acff433edc36",
+      "reason": [
+        "train/timing dataset loader validates and loads every train case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/train_03_13d53e59797f1e40e5bb.npz",
+      "bytes": 669823,
+      "sha256": "9e7817f89d956b34792b113fec6f889f76e56506d5a15c20ddf9bbd1e2cf6d2b",
+      "reason": [
+        "train/timing dataset loader validates and loads every train case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/train_04_d0ac378b1ff525884be2.npz",
+      "bytes": 669754,
+      "sha256": "68442a104688804a8ee62561a932559f472a6811e8d8e5fea1433e283aedb853",
+      "reason": [
+        "train/timing dataset loader validates and loads every train case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/train_05_8ee5cfee0d350e096efa.npz",
+      "bytes": 669644,
+      "sha256": "a3231328d67d617f1f1f6baba0339d062c59312d105c1f7e1757e6c91e7afe92",
+      "reason": [
+        "train/timing dataset loader validates and loads every train case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/train_06_692ec9960d622fa49527.npz",
+      "bytes": 670038,
+      "sha256": "175f4075cc84876089bbd293c4b4f795767994eaef72f42b36d4962b46a1a749",
+      "reason": [
+        "train/timing dataset loader validates and loads every train case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/clouds/train_07_86a92b31dccf053ede75.npz",
+      "bytes": 670808,
+      "sha256": "954066da73345c1d4418f54c19d1879f5500865b1fcd6cc7c6d61527b718d817",
+      "reason": [
+        "train/timing dataset loader validates and loads every train case, even when only the representative timing case is used",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "deepparticle/data/total1k_20261013_ks4d/manifest.json",
+      "bytes": 7440,
+      "sha256": "cbfdf52aa25b5273e813591bd95914676e91794b9ba7a6548b124deb91f0de1f",
+      "reason": [
+        "train/timing: physical dataset identity, case list and exact per-case hashes",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_alpha01_refinement_alpha10_20261017/benchmarks/kpp2d/evaluation/particles_07.npz",
+      "bytes": 1392315,
+      "sha256": "5b79bf78cc3242e0a75a408684672391d8b65674026d01de12ff8147dac8efcd",
+      "reason": [
+        "Selected density panel arrays; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/dp_alpha01_refinement_alpha10_20261017/benchmarks/kpp2d/evaluation/particles_08.npz",
+      "bytes": 1392213,
+      "sha256": "683dc1b8ae8f6e28f9a82ab81a3dfce26376800691af15ca94a3773e04e5d00d",
+      "reason": [
+        "Selected density panel arrays; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/dp_alpha01_refinement_alpha10_20261017/benchmarks/kpp2d/evaluation/particles_10.npz",
+      "bytes": 1392974,
+      "sha256": "782f17bd73deeb2127400c3b4085f5318723a88f2a102ee5b2de494003784ac1",
+      "reason": [
+        "Selected s=4.5 initial clouds for the paper FK continuation experiment; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/dp_alpha01_refinement_alpha10_20261017/benchmarks/kpp2d/warm_starts/trace.csv",
+      "bytes": 20429,
+      "sha256": "34c85ebf7c5847b63e6dc6cf8baa6dd24f25a7c7f92b090a5676c4784b34e178",
+      "reason": [
+        "Current FK convergence plot: all physical/model replicate trajectories; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/dp_alpha01_refinement_alpha10_20261017/benchmarks/kpp2d/warm_starts/verification.json",
+      "bytes": 4191,
+      "sha256": "7cc949fe94e9a562377d0dde2222208d58b267ff813f47ccded4722b84fc171a",
+      "reason": [
+        "Current FK experiment verification and hashes of the initial particle arrays; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/dp_alpha01_refinement_alpha10_20261017/benchmarks/kpp3d/evaluation/particles_10.npz",
+      "bytes": 2102552,
+      "sha256": "9579439c005bf23abecf83dfc2919a9fab5bb8fd0e31fe18ace2f4a7aaec8d05",
+      "reason": [
+        "Selected density panel arrays; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/dp_alpha01_refinement_alpha10_20261017/benchmarks/kpp3d/warm_starts/trace.csv",
+      "bytes": 20341,
+      "sha256": "2edb616518c927784514d3fd0fe29fcab4237fef03ed0891efb1d7bf8c7b779b",
+      "reason": [
+        "Current FK convergence plot: all physical/model replicate trajectories; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/dp_alpha01_refinement_alpha10_20261017/benchmarks/kpp3d/warm_starts/verification.json",
+      "bytes": 4191,
+      "sha256": "1cc417f83949a57fc6ffeb8e2e6854a464a3467c47e99873891bb23a9e0e46b8",
+      "reason": [
+        "Current FK experiment verification and hashes of the initial particle arrays; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/dp_alpha01_refinement_alpha10_20261017/benchmarks/ks3d/evaluation/particles_15.npz",
+      "bytes": 11150495,
+      "sha256": "55b2f00833628471018d46cce1661d654c4973c1ca27d070982923d2fa7f4230",
+      "reason": [
+        "figures/timing: accepted sigma160 reference and MF/DP/refinement clouds for three seeds",
+        "retained representative KS3d data",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_alpha01_refinement_alpha10_20261017/checkpoint_manifest.json",
+      "bytes": 12187,
+      "sha256": "b935a171d8ecf1edc9ff64565d8088242d531f17f6b38c3d82561c6516b11805",
+      "reason": [
+        "check/timing: selected checkpoint paths and hashes, shared by all body benchmarks",
+        "Current selected checkpoint mapping used by checks/timing and inference; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_alpha01_refinement_alpha10_20261017/inference_per_seed.csv",
+      "bytes": 2084,
+      "sha256": "e5e197acce1c5b0009094581bf531ccd31a6ea2e83f388f68eab6939ef750243",
+      "reason": [
+        "check runtime audit: manuscript training/inference table, per-seed and raw repeat evidence (shared KS/KPP file)",
+        "Shared current-paper runtime evidence, including the KPP table rows; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: runtime_tables"
+      ]
+    },
+    {
+      "path": "output/dp_alpha01_refinement_alpha10_20261017/inference_raw.csv",
+      "bytes": 104787,
+      "sha256": "48a4aafef9ab8d348edc2feee5f1dcfa35a97f6e6cdbba46a1e3aa4bdf5c88ad",
+      "reason": [
+        "check runtime audit: manuscript training/inference table, per-seed and raw repeat evidence (shared KS/KPP file)",
+        "Shared current-paper runtime evidence, including the KPP table rows; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: runtime_tables"
+      ]
+    },
+    {
+      "path": "output/dp_alpha01_refinement_alpha10_20261017/inference_verification.json",
+      "bytes": 5557,
+      "sha256": "d267bf4f2d434b26f6b1f383ccb642bb88366c90b4c234b8ec3d7e78764561ad",
+      "reason": [
+        "Published inference timing protocol and output-identity checks",
+        "Evidence for published timing protocol and original bitwise training replay; small metadata associated with retained timing records."
+      ]
+    },
+    {
+      "path": "output/dp_alpha01_refinement_alpha10_20261017/multistep_particles/sigma160.npz",
+      "bytes": 4458627,
+      "sha256": "8fc2e133ebcd33ace8ad9f27accbac550aab39fc77f2ad34b1bc1003f94e75af",
+      "reason": [
+        "figures/timing/two-step prepare_ablation: accepted sigma160 two-step MF clouds and shared reference",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_alpha01_refinement_alpha10_20261017/runtime_summary.csv",
+      "bytes": 1288,
+      "sha256": "e9fc12900cedd6feca15f90a97398d7ab1c03326b0e09dd0908112c5e5d6e525",
+      "reason": [
+        "check runtime audit: manuscript training/inference table, per-seed and raw repeat evidence (shared KS/KPP file)",
+        "Shared current-paper runtime evidence, including the KPP table rows; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: runtime_tables"
+      ]
+    },
+    {
+      "path": "output/dp_alpha01_refinement_alpha10_20261017/training_per_seed.csv",
+      "bytes": 2205,
+      "sha256": "fa87f95f6cc1414ba8a2ba286ffaa7e517a0d9bd95494ecc47d4fc995b4b97ed",
+      "reason": [
+        "check runtime audit: manuscript training/inference table, per-seed and raw repeat evidence (shared KS/KPP file)",
+        "Shared current-paper runtime evidence, including the KPP table rows; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: runtime_tables"
+      ]
+    },
+    {
+      "path": "output/dp_alpha01_refinement_alpha10_20261017/training_replay_verification.json",
+      "bytes": 6013,
+      "sha256": "f51cb9ef76118154cb45d1c56d7880f4c61c88dea6d8deead32e822cfa0352eb",
+      "reason": [
+        "Published timing training replay reproduced all adopted checkpoint tensors",
+        "Evidence for published timing protocol and original bitwise training replay; small metadata associated with retained timing records."
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/kpp2d/dplus1/seed88/dp/dp.pt",
+      "bytes": 114679,
+      "sha256": "29d2d2495e3bdde9d497774a00cbd600627e274ab17cc1b15023fa6886f113f7",
+      "reason": [
+        "Current kpp2d seed88 dp checkpoint; required by train/timing/check/inference; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/kpp2d/dplus1/seed88/dp/record.json",
+      "bytes": 440,
+      "sha256": "52a8b23663ca038cea0e582187971ed64102e9c934c1cbc77374ff350c767304",
+      "reason": [
+        "Actual d+1 checkpoint hash consumed by original model loader and training replay; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/kpp2d/dplus1/seed88/mf_dp/mf_dp.pt",
+      "bytes": 116137,
+      "sha256": "25d6a4761f309ef04129215a6b9f6935f8a4437570491c9dc1984372ab7567e2",
+      "reason": [
+        "Current kpp2d seed88 mf_dp checkpoint; required by train/timing/check/inference; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/kpp2d/dplus1/seed88/mf_dp/record.json",
+      "bytes": 516,
+      "sha256": "73f8fd5ed2a5b7e1e27829aaa01bba299821a8b1652216c0587af87a37858c15",
+      "reason": [
+        "Actual d+1 checkpoint hash consumed by original model loader and training replay; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/kpp2d/dplus1/seed89/dp/dp.pt",
+      "bytes": 114679,
+      "sha256": "ec1cde9ade8733df5935aa563cab4c951e22953e8fba0c9e88f0cb699aa6b16e",
+      "reason": [
+        "Current kpp2d seed89 dp checkpoint; required by train/timing/check/inference; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/kpp2d/dplus1/seed89/dp/record.json",
+      "bytes": 472,
+      "sha256": "8bdb4f30ba0a505413d8ce4b099aa29db773f8fe6fe6a69d0c207236426403fd",
+      "reason": [
+        "Actual d+1 checkpoint hash consumed by original model loader and training replay; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/kpp2d/dplus1/seed89/mf_dp/mf_dp.pt",
+      "bytes": 116137,
+      "sha256": "88fae2ae44c02b2be461ea021f178e5ae3aa7f7d430479634f33cccef4f67bc3",
+      "reason": [
+        "Current kpp2d seed89 mf_dp checkpoint; required by train/timing/check/inference; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/kpp2d/dplus1/seed89/mf_dp/record.json",
+      "bytes": 516,
+      "sha256": "cc2a8bc58b95dec7286872b07c363a8eb13f5ff7f70e1d169e058c691457bf8d",
+      "reason": [
+        "Actual d+1 checkpoint hash consumed by original model loader and training replay; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/kpp2d/dplus1/seed90/dp/dp.pt",
+      "bytes": 114679,
+      "sha256": "9d67aaf6f5d61c9d77f90a090add875c5a43cf28fcd3030e6ecc9ce7772c3d43",
+      "reason": [
+        "Current kpp2d seed90 dp checkpoint; required by train/timing/check/inference; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/kpp2d/dplus1/seed90/dp/record.json",
+      "bytes": 473,
+      "sha256": "0234c3523f9273f7782129a36fee31712f73b322c288b89c70a7073702f24260",
+      "reason": [
+        "Actual d+1 checkpoint hash consumed by original model loader and training replay; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/kpp2d/dplus1/seed90/mf_dp/mf_dp.pt",
+      "bytes": 116137,
+      "sha256": "ca90cb3b3d2c049dc515b0a71973ea98589bdcf6200924a2eb241ba45794f2b6",
+      "reason": [
+        "Current kpp2d seed90 mf_dp checkpoint; required by train/timing/check/inference; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/kpp2d/dplus1/seed90/mf_dp/record.json",
+      "bytes": 517,
+      "sha256": "bcf99a9417eaa795a4232f767fcfd6d35ee7b26754e987bb2397728d392d0012",
+      "reason": [
+        "Actual d+1 checkpoint hash consumed by original model loader and training replay; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/kpp3d/dplus1/seed88/dp/dp.pt",
+      "bytes": 116279,
+      "sha256": "b0c9955a2cfa9446a4dec4cb7d3f7e5a0d5ff77126f06de35a7561bac1da6b28",
+      "reason": [
+        "Current kpp3d seed88 dp checkpoint; required by train/timing/check/inference; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/kpp3d/dplus1/seed88/dp/record.json",
+      "bytes": 472,
+      "sha256": "e54fa09c55302ce4ad6d2ae3f8ab1e08cc82522635a7b5a280d2de26bb9ab4dd",
+      "reason": [
+        "Actual d+1 checkpoint hash consumed by original model loader and training replay; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/kpp3d/dplus1/seed88/mf_dp/mf_dp.pt",
+      "bytes": 117737,
+      "sha256": "4650b4a8fe16b35045f40de29626941a1e8643df7efa000f1f031596a4c4700e",
+      "reason": [
+        "Current kpp3d seed88 mf_dp checkpoint; required by train/timing/check/inference; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/kpp3d/dplus1/seed88/mf_dp/record.json",
+      "bytes": 473,
+      "sha256": "dc717792202990cf8edd59e5635ca4471573817025d572ba4fc0c489f9c4dfe9",
+      "reason": [
+        "Actual d+1 checkpoint hash consumed by original model loader and training replay; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/kpp3d/dplus1/seed89/dp/dp.pt",
+      "bytes": 116279,
+      "sha256": "1eae485059d963665f9029b29842906ee3ce3f71999fbef839388df86878915a",
+      "reason": [
+        "Current kpp3d seed89 dp checkpoint; required by train/timing/check/inference; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/kpp3d/dplus1/seed89/dp/record.json",
+      "bytes": 473,
+      "sha256": "4aabf4723c6a1b5f1b29325e64a2daf3033ce1281e3490a060837f142c7f5323",
+      "reason": [
+        "Actual d+1 checkpoint hash consumed by original model loader and training replay; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/kpp3d/dplus1/seed89/mf_dp/mf_dp.pt",
+      "bytes": 117737,
+      "sha256": "3c6d4167a0f98fc21286e1319dc5369247cc3c2f8d493206f50c051f7615c636",
+      "reason": [
+        "Current kpp3d seed89 mf_dp checkpoint; required by train/timing/check/inference; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/kpp3d/dplus1/seed89/mf_dp/record.json",
+      "bytes": 473,
+      "sha256": "100cffbd70379635217ab9de5cdf0d76d4285557267006f6f4007d1bc5412fa6",
+      "reason": [
+        "Actual d+1 checkpoint hash consumed by original model loader and training replay; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/kpp3d/dplus1/seed90/dp/dp.pt",
+      "bytes": 116279,
+      "sha256": "b1db61f9c272f91c7cc2ac42adbb42dc2535d4abe1501d7463c1faf8245f8b0e",
+      "reason": [
+        "Current kpp3d seed90 dp checkpoint; required by train/timing/check/inference; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/kpp3d/dplus1/seed90/dp/record.json",
+      "bytes": 472,
+      "sha256": "4aaf8462f9683a41f39600e3dda4c9fb38695bda97d3208013a3fc832d83074e",
+      "reason": [
+        "Actual d+1 checkpoint hash consumed by original model loader and training replay; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/kpp3d/dplus1/seed90/mf_dp/mf_dp.pt",
+      "bytes": 117737,
+      "sha256": "c33bbcf749998534a6658eab337c64cd0a3b491385d50570fbbe9f11a4683206",
+      "reason": [
+        "Current kpp3d seed90 mf_dp checkpoint; required by train/timing/check/inference; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/kpp3d/dplus1/seed90/mf_dp/record.json",
+      "bytes": 473,
+      "sha256": "990aabc6b44ac27daed18c8c9380f4327da13912349a51e277d01fb511c36351",
+      "reason": [
+        "Actual d+1 checkpoint hash consumed by original model loader and training replay; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/ks3d/dplus1/seed88/dp/dp.pt",
+      "bytes": 115767,
+      "sha256": "ba624e36d9b1d7975faa3f8fac75522145168ec8ab507c64b59bef7e554824d2",
+      "reason": [
+        "current adopted ks3d seed88 dp weights: train replay target, check, inference and timing",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/ks3d/dplus1/seed88/dp/record.json",
+      "bytes": 472,
+      "sha256": "6eda3193048c67c5ee38ce45fff2c620cf00ed08f476240e8538eedf767e6e20",
+      "reason": [
+        "train/timing loader verifies d+1 selected checkpoint hash and architecture/training metadata",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/ks3d/dplus1/seed88/mf_dp/mf_dp.pt",
+      "bytes": 117225,
+      "sha256": "5c9d2d16aef0e599f17b51244917be2cca970935711be7fe8e704e329f999e74",
+      "reason": [
+        "current adopted ks3d seed88 mf_dp weights: train replay target, check, inference and timing",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/ks3d/dplus1/seed88/mf_dp/record.json",
+      "bytes": 472,
+      "sha256": "0dbf39b407ec1a3472890eabc115c41ad69e74250791151209b859302797a5c8",
+      "reason": [
+        "train/timing loader verifies d+1 selected checkpoint hash and architecture/training metadata",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/ks3d/dplus1/seed89/dp/dp.pt",
+      "bytes": 115767,
+      "sha256": "736bd348fc6265a3b324a38095a11da76b1f645d929fbb671533101dc727c439",
+      "reason": [
+        "current adopted ks3d seed89 dp weights: train replay target, check, inference and timing",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/ks3d/dplus1/seed89/dp/record.json",
+      "bytes": 472,
+      "sha256": "181ef78f956b629441dbaa4dd1782c80decddd7f0faa2ed4cc6b1080b9a9c3ab",
+      "reason": [
+        "train/timing loader verifies d+1 selected checkpoint hash and architecture/training metadata",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/ks3d/dplus1/seed89/mf_dp/mf_dp.pt",
+      "bytes": 117225,
+      "sha256": "bdc6d05e5da5bbf6c1f76c8491eb9e6db00d02f21a0f02a1275ba376065b4701",
+      "reason": [
+        "current adopted ks3d seed89 mf_dp weights: train replay target, check, inference and timing",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/ks3d/dplus1/seed89/mf_dp/record.json",
+      "bytes": 471,
+      "sha256": "6af07b882e3a19cabc43dae312130f215f4f800322c1b253af579b35a7e00d6d",
+      "reason": [
+        "train/timing loader verifies d+1 selected checkpoint hash and architecture/training metadata",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/ks3d/dplus1/seed90/dp/dp.pt",
+      "bytes": 115767,
+      "sha256": "2e68a0ef222a629e9be5a74530fb90746e69de45df5d164ddf14034b1ae79b68",
+      "reason": [
+        "current adopted ks3d seed90 dp weights: train replay target, check, inference and timing",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/ks3d/dplus1/seed90/dp/record.json",
+      "bytes": 472,
+      "sha256": "bf0d364483207df3caee444358e307ce7da7d168012ad1dd5f7790c822283477",
+      "reason": [
+        "train/timing loader verifies d+1 selected checkpoint hash and architecture/training metadata",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/ks3d/dplus1/seed90/mf_dp/mf_dp.pt",
+      "bytes": 117225,
+      "sha256": "bdb126b8f32ddb65a554517e9624e392281b0dc60a83b12bbaa86e11d249050b",
+      "reason": [
+        "current adopted ks3d seed90 mf_dp weights: train replay target, check, inference and timing",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/ks3d/dplus1/seed90/mf_dp/record.json",
+      "bytes": 471,
+      "sha256": "92d707f5e89ed8c9ae22f519f8417e18938f56fe397e700947aeb4c2ec27cad7",
+      "reason": [
+        "train/timing loader verifies d+1 selected checkpoint hash and architecture/training metadata",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/ks4d/dplus1/seed88/dp/dp.pt",
+      "bytes": 117303,
+      "sha256": "367d74e0dcc9f1a987204f704fe021247071d4e4da67cf45ea1fdbd53e7c72cb",
+      "reason": [
+        "current adopted ks4d seed88 dp weights: train replay target, check, inference and timing",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/ks4d/dplus1/seed88/dp/record.json",
+      "bytes": 472,
+      "sha256": "69fc8320acc59931b96738dde2af949d03ba190dd561042f2281acf9fc67e363",
+      "reason": [
+        "train/timing loader verifies d+1 selected checkpoint hash and architecture/training metadata",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/ks4d/dplus1/seed88/mf_dp/mf_dp.pt",
+      "bytes": 118761,
+      "sha256": "df158f2c25cd4d7d8569cb642e8f534f8b93094138f0880164b4c78399ddf384",
+      "reason": [
+        "current adopted ks4d seed88 mf_dp weights: train replay target, check, inference and timing",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/ks4d/dplus1/seed88/mf_dp/record.json",
+      "bytes": 472,
+      "sha256": "d120e8574765d9607d7c823b80a5437ae711aa82f5c3655860927f49fec482ac",
+      "reason": [
+        "train/timing loader verifies d+1 selected checkpoint hash and architecture/training metadata",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/ks4d/dplus1/seed89/dp/dp.pt",
+      "bytes": 117303,
+      "sha256": "34ed277efbdfff4761538b448be69f51d28b49b6844c1f45c37e09d2ff68b580",
+      "reason": [
+        "current adopted ks4d seed89 dp weights: train replay target, check, inference and timing",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/ks4d/dplus1/seed89/dp/record.json",
+      "bytes": 472,
+      "sha256": "b8d714223f7f02e1f501226a228e0d456271a52571b669e7cfd98579a4d954fb",
+      "reason": [
+        "train/timing loader verifies d+1 selected checkpoint hash and architecture/training metadata",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/ks4d/dplus1/seed89/mf_dp/mf_dp.pt",
+      "bytes": 118761,
+      "sha256": "dce50d42c20bc157f4aaeb10f23c4d174f7bd07bb7817b8f48209f3b42815726",
+      "reason": [
+        "current adopted ks4d seed89 mf_dp weights: train replay target, check, inference and timing",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/ks4d/dplus1/seed89/mf_dp/record.json",
+      "bytes": 472,
+      "sha256": "2964932e3f7045aa365f1ed8fceed9a422c1a6412352ebf7fa4c4ea04c98107f",
+      "reason": [
+        "train/timing loader verifies d+1 selected checkpoint hash and architecture/training metadata",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/ks4d/dplus1/seed90/dp/dp.pt",
+      "bytes": 117303,
+      "sha256": "0919df1b8fcfe1b4afb4a4e4e0ea770a8ad870bca35f4ce08f1b7abac4c563d9",
+      "reason": [
+        "current adopted ks4d seed90 dp weights: train replay target, check, inference and timing",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/ks4d/dplus1/seed90/dp/record.json",
+      "bytes": 472,
+      "sha256": "018834b8e0586d3f6f89d2664592059f570ec2eaf29092406d7e929ccbad628f",
+      "reason": [
+        "train/timing loader verifies d+1 selected checkpoint hash and architecture/training metadata",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/ks4d/dplus1/seed90/mf_dp/mf_dp.pt",
+      "bytes": 118761,
+      "sha256": "886bd1c2800abd7531eb861af433540d33c2ed2d5801a400d715032ffee4fcb6",
+      "reason": [
+        "current adopted ks4d seed90 mf_dp weights: train replay target, check, inference and timing",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/dp_dplus1_four_benchmarks_20261016/ks4d/dplus1/seed90/mf_dp/record.json",
+      "bytes": 472,
+      "sha256": "a92c34882c8fdb750a1359b45253e526cf331e4ac277e6d8cedc8e8013011fde",
+      "reason": [
+        "train/timing loader verifies d+1 selected checkpoint hash and architecture/training metadata",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_sampling_20261014/gpu_validation.json",
+      "bytes": 1618,
+      "sha256": "a42f03442c8b5ba3f1d3092f8e25e42ea1be04a209e58bd9f6d0461f29880fdb",
+      "reason": [
+        "Original generator validation record is hash-bound by the final reference plan; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp2d/clouds/eval_00.npz",
+      "bytes": 416709,
+      "sha256": "f8bb15f6fe9b1dbccd0950dd1af13831d5c1d78e258ad4f7767ed93371c74e66",
+      "reason": [
+        "kpp2d immutable eval cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp2d/clouds/eval_01.npz",
+      "bytes": 416982,
+      "sha256": "b2dce61c7d3e9399fee08f1540e253b4e8b48d9184d901560c9fc2f58ef472b9",
+      "reason": [
+        "kpp2d immutable eval cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp2d/clouds/eval_02.npz",
+      "bytes": 417233,
+      "sha256": "f49dcd7977d8e438386cf6e7f8d6052d5842ef9a503cb38b1ae1d2e84abe1d8f",
+      "reason": [
+        "kpp2d immutable eval cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp2d/clouds/eval_03.npz",
+      "bytes": 417129,
+      "sha256": "9cc15087bb8b01ee2bd0b89a4289f72c872a8e6e02c9db83f4f70c92a8cae8e5",
+      "reason": [
+        "kpp2d immutable eval cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp2d/clouds/eval_04.npz",
+      "bytes": 417217,
+      "sha256": "7e3ed98fa4e9a5975598463783d1df424275bc839dbc8b3f37f636b0fbdd03fe",
+      "reason": [
+        "kpp2d immutable eval cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp2d/clouds/eval_05.npz",
+      "bytes": 417366,
+      "sha256": "122af88c849d2f7edee524dac9b47b51f70472f667067ab268b597eae293f472",
+      "reason": [
+        "kpp2d immutable eval cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp2d/clouds/eval_06.npz",
+      "bytes": 417002,
+      "sha256": "2dd1ed13316ee10abccea93f66cf6cbd87f3e844c42319c01df19a2ec56ebc10",
+      "reason": [
+        "kpp2d immutable eval cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp2d/clouds/eval_07.npz",
+      "bytes": 417055,
+      "sha256": "637113fa915283313e456367b8ae431e44d9e76d48f796850d04f9ae85fb8c3c",
+      "reason": [
+        "kpp2d immutable eval cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp2d/clouds/eval_08.npz",
+      "bytes": 416971,
+      "sha256": "e674954dacbde2708d9a998388bda9a8a327c2dd7465c88f59478266195b128f",
+      "reason": [
+        "kpp2d immutable eval cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp2d/clouds/eval_09.npz",
+      "bytes": 416971,
+      "sha256": "b7b53a965ced95f9d61bd74df00b4df36dbd45173861e9c5fe6156f5e41b98e1",
+      "reason": [
+        "kpp2d immutable eval cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp2d/clouds/eval_10.npz",
+      "bytes": 417335,
+      "sha256": "798a091bb5a341b5fd1b3dc7198ed1549a9948dda7195c4ec0182d5b291397c5",
+      "reason": [
+        "kpp2d immutable eval cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp2d/clouds/train_00.npz",
+      "bytes": 416792,
+      "sha256": "f5bd7138255891c966bf09f7c73a785e9378d134c9ba7653b431c7c0d3770204",
+      "reason": [
+        "kpp2d immutable train cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp2d/clouds/train_01.npz",
+      "bytes": 417007,
+      "sha256": "1f62ab3dad30a084eb7fbdea6d6c5f37da9191cf1b3231573c8f7b67d5d288fb",
+      "reason": [
+        "kpp2d immutable train cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp2d/clouds/train_02.npz",
+      "bytes": 417092,
+      "sha256": "d4a85a03f85a8cd10bc571e7a921eb599048b2dada344fb6a0cf60f8424b8ca8",
+      "reason": [
+        "kpp2d immutable train cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp2d/clouds/train_03.npz",
+      "bytes": 417174,
+      "sha256": "1054a6562fb2e6224f9a8f485c922fd3dca474223d57da6cbcbaec1ede02fbff",
+      "reason": [
+        "kpp2d immutable train cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp2d/clouds/train_04.npz",
+      "bytes": 417065,
+      "sha256": "6258c16271567d0d1120315a8912b7e77a05debffa363c47445135314366dbf3",
+      "reason": [
+        "kpp2d immutable train cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp2d/clouds/train_05.npz",
+      "bytes": 417413,
+      "sha256": "948bc7b732281a07358f177471e0b9daeba8957896d2cb6c80884a3897c2620b",
+      "reason": [
+        "kpp2d immutable train cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp2d/clouds/train_06.npz",
+      "bytes": 417010,
+      "sha256": "ead884f81bca2c666184e2456d1b553645250fdcc31c6117ae6f756eeec7f430",
+      "reason": [
+        "kpp2d immutable train cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp2d/clouds/train_07.npz",
+      "bytes": 417227,
+      "sha256": "e486d1c2b2dae6c1574047cc23e3385ea1b4bad37e517ff6da2573014395417a",
+      "reason": [
+        "kpp2d immutable train cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp2d/manifest.json",
+      "bytes": 7502,
+      "sha256": "1cd519394a02e8f384e716d9d583ba9c89a834c10b28e2cc25f2ed9058d6198b",
+      "reason": [
+        "Exact uploaded-protocol dataset identity and train/eval file hashes; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp3d/clouds/eval_00.npz",
+      "bytes": 629097,
+      "sha256": "46ab2f19bece9834c11c5efe37d5276eaf5c340682b00d13ed95856ef027c053",
+      "reason": [
+        "kpp3d immutable eval cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp3d/clouds/eval_01.npz",
+      "bytes": 629492,
+      "sha256": "b0e117939a4eac17e8400d276bed2ccebc556b48fc79e47e90cf69d196bfaa68",
+      "reason": [
+        "kpp3d immutable eval cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp3d/clouds/eval_02.npz",
+      "bytes": 629555,
+      "sha256": "0d6d12ecc6668b833b7f2c9bb1e0169ef539c555de11c976a460bb069a1ff7ed",
+      "reason": [
+        "kpp3d immutable eval cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp3d/clouds/eval_03.npz",
+      "bytes": 629811,
+      "sha256": "5a0658a84b7c6291abb4363bb2278d405fe81fb9aeb279be513a4811841205ee",
+      "reason": [
+        "kpp3d immutable eval cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp3d/clouds/eval_04.npz",
+      "bytes": 629897,
+      "sha256": "3d5833b2ab114fee903f14cd14f849b35c232be5e1f604ddab2855a5c82b7c37",
+      "reason": [
+        "kpp3d immutable eval cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp3d/clouds/eval_05.npz",
+      "bytes": 629987,
+      "sha256": "8ee520e8c7bc672bff86889e5af13b361fa13eb4e7ed79f647039cdec96ed131",
+      "reason": [
+        "kpp3d immutable eval cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp3d/clouds/eval_06.npz",
+      "bytes": 629533,
+      "sha256": "1c28c3f362a36e797542320990fb16987cadc46d1c72103170f7ef9a3bcb9369",
+      "reason": [
+        "kpp3d immutable eval cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp3d/clouds/eval_07.npz",
+      "bytes": 629505,
+      "sha256": "153ada033f35c65872f7eba360ec50050da35f16c0754bbafb4c3a9e4208cf2d",
+      "reason": [
+        "kpp3d immutable eval cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp3d/clouds/eval_08.npz",
+      "bytes": 629845,
+      "sha256": "6df7a95136183b21e22ee701f5ec3afd96050799bdd4f5baf339e79f275dafc0",
+      "reason": [
+        "kpp3d immutable eval cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp3d/clouds/eval_09.npz",
+      "bytes": 629975,
+      "sha256": "26bf9098a439e5a008710f5f9b0af30e259a2209fea29461d8e17019bcdce614",
+      "reason": [
+        "kpp3d immutable eval cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp3d/clouds/eval_10.npz",
+      "bytes": 630292,
+      "sha256": "6be2b565d7ec25e9d465f2945e889469d2358a090089c915535ee2fd3db8f4ce",
+      "reason": [
+        "kpp3d immutable eval cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp3d/clouds/train_00.npz",
+      "bytes": 629184,
+      "sha256": "0ed11e544a3c7b71fe76bf3c3b4bf3eecf9bbb4ea5cd7d4a4f8da95342b51bcd",
+      "reason": [
+        "kpp3d immutable train cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp3d/clouds/train_01.npz",
+      "bytes": 629392,
+      "sha256": "d26f9a2b7e41c528dc8f5065da094d1ac3d21fdc2c27a5308c99dbd74f8a21e9",
+      "reason": [
+        "kpp3d immutable train cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp3d/clouds/train_02.npz",
+      "bytes": 629415,
+      "sha256": "d6d3b8b6d05d961cf52931ad621786768d63a26004a4252e546d03b880c74169",
+      "reason": [
+        "kpp3d immutable train cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp3d/clouds/train_03.npz",
+      "bytes": 629222,
+      "sha256": "f6730b3f93bfe3e2ac2daf131b3c3ff32f13333b16be5ea396fc97420630a062",
+      "reason": [
+        "kpp3d immutable train cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp3d/clouds/train_04.npz",
+      "bytes": 629699,
+      "sha256": "6441638c747162f34516a133fd5e2afd35f1f598f6f0da0bbd384c9b77c6cbba",
+      "reason": [
+        "kpp3d immutable train cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp3d/clouds/train_05.npz",
+      "bytes": 630134,
+      "sha256": "abd78d05e9d3c821f9f2feff4360f17fb7b42fd00fb259554668d81bf625b839",
+      "reason": [
+        "kpp3d immutable train cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp3d/clouds/train_06.npz",
+      "bytes": 629466,
+      "sha256": "bd614cbcc776932c65075850818064ee1517d491164abf0bbf626c79be27bc32",
+      "reason": [
+        "kpp3d immutable train cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp3d/clouds/train_07.npz",
+      "bytes": 629630,
+      "sha256": "32836781cc88ef128f7d4eca043ff3ad14b2995aea2bd79ab79db76e6a90f8b2",
+      "reason": [
+        "kpp3d immutable train cloud: source, target and embedded original simulation metadata; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/kpp_original_training_total1k_20261014/datasets/kpp3d/manifest.json",
+      "bytes": 7522,
+      "sha256": "45534a52d23f47563dd561c9a8a136821e2e167d6f2e0d148cd9bcce010a9dce",
+      "reason": [
+        "Exact uploaded-protocol dataset identity and train/eval file hashes; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma10.json",
+      "bytes": 575,
+      "sha256": "c46669eb84f3e49213c3bcd24d915e33f8d501a79e44ee1e7c0448018380a903",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma10.npz",
+      "bytes": 11127261,
+      "sha256": "dc0416fe930ceb20e7ba3b462252c3a9498b43f75f8b5043eeb99abfd0c71016",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma100.json",
+      "bytes": 577,
+      "sha256": "73c5a8d5ce9f6ef771452bcfb150fc0ba57b3642ff3fda9e415869695c8e61bd",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma100.npz",
+      "bytes": 11116320,
+      "sha256": "dbb2847438502d8e01c309f7aed0d8ede0615baab90868507731761719522b89",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma110.json",
+      "bytes": 577,
+      "sha256": "1b0003f5bc66af202a2e3604db3ad405bb1011f8ce7d6143eed39d6111243ec9",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma110.npz",
+      "bytes": 11124604,
+      "sha256": "754280c1faf29a723ac3f52123c70dbee9ffbc323dde101fcd7b8c267d067644",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma120.json",
+      "bytes": 577,
+      "sha256": "857a8850e574f9a026f8b68ec949e7dc83a591f48370f99bc2b316b2c5f2dbb6",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma120.npz",
+      "bytes": 11127873,
+      "sha256": "dae01df0ebccc6d84889a886f5b8cddcaea0fee2b736bbde92a884c499bc8ce6",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma130.json",
+      "bytes": 577,
+      "sha256": "d2cda8e502c7a6a64862bfad3b72f7f50b514d330eb035641dd87473cf62feec",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma130.npz",
+      "bytes": 11133985,
+      "sha256": "7e25572759dd4c71b9091982089759ea250848f4eeeaf6503593c3344fac33c3",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma140.json",
+      "bytes": 577,
+      "sha256": "9d64208e3ac18036f0bcfc9040e768e840f108d914fbdda9afc754afdc68ba4e",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma140.npz",
+      "bytes": 11139397,
+      "sha256": "f614bef6dccc77c6775f845aa59427c868330556d8fcd14bd8614e5bd23ada74",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma150.json",
+      "bytes": 577,
+      "sha256": "2a90169639230be179e060d7f0d788b4e4f2e939d2fec8d5543c9afe44a172ad",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma150.npz",
+      "bytes": 11143542,
+      "sha256": "a6c14bfb4d65605280ddb60647015961e94536e6c9a1dabb64025a96b337b896",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma160.json",
+      "bytes": 577,
+      "sha256": "3ed0a8d2fa7d43772ec4064cf5fc91dcba91cf4036b5ab036223d2b26f862f43",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma160.npz",
+      "bytes": 11149068,
+      "sha256": "42a6b7c140d3367d7e2acc32c44f93df9d895d67614ac49498f80bf38028fb8a",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma170.json",
+      "bytes": 577,
+      "sha256": "62adee194186924d22da975f20dbabe7a2868440b547c6e2ec641cddfe71600f",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma170.npz",
+      "bytes": 11150863,
+      "sha256": "93e06f0a6d02c26fc6f852131596cf9269f876a1a95234323db3559accef39c2",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma180.json",
+      "bytes": 577,
+      "sha256": "0d02e9421d6aedefa5a8489561bb7c4d8ac79f7e0b8ff3624257e30791a6df7e",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma180.npz",
+      "bytes": 11151468,
+      "sha256": "ce49c7d70b3c63d0370fbf0535295709d10b8f94c2c8d1d4c309707951f1f708",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma190.json",
+      "bytes": 577,
+      "sha256": "70889bb2f4df47e1811872db2f6ff53b76830aa30fbfe80c6a782a35f8e791d2",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma190.npz",
+      "bytes": 11152331,
+      "sha256": "10b56c1f07d756742b020179cbe443e45f53aec7c5d6f654a8b495e03885a944",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma20.json",
+      "bytes": 575,
+      "sha256": "fc6bde0cf053b9897a6b3536cff2fd427d0302a8d3815fd4a1481740191be927",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma20.npz",
+      "bytes": 11119109,
+      "sha256": "40aa9b76f28447e48c15b91b9db23c83600d6e4664c91237157c1112d49cbb99",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma200.json",
+      "bytes": 577,
+      "sha256": "cb80f1e82dbfb6c545239b4be6e194ebc6ff94b5ba48ddfc6ab49f861d6dd16a",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma200.npz",
+      "bytes": 11152679,
+      "sha256": "ef209bf1532b990fbf8e05121a3e3a5e60f3f5223d555959411937c1c4035c28",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma30.json",
+      "bytes": 575,
+      "sha256": "6788a0a8afd4c7a3d2e9c6b4361f1503ec279f24c45844e18063d5dd3d5aa18b",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma30.npz",
+      "bytes": 11108322,
+      "sha256": "4781f8f157be8df4bf71fc4ddac50f411b0e71044e8eaee95b493fcef8b3516c",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma40.json",
+      "bytes": 575,
+      "sha256": "60941f5d1b14883d46b8a61dd8c4c0a200906aefe98e940de881c885bcdf0462",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma40.npz",
+      "bytes": 11104789,
+      "sha256": "63485f6d470009f56e65d80be79f6ef77a314cb066f6ceab753d5430e501a278",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma50.json",
+      "bytes": 575,
+      "sha256": "f3e243cbb84f4954d859dd1e888140d0814d16ee0829817ba5b388fc86b02b8b",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma50.npz",
+      "bytes": 11101616,
+      "sha256": "15a33728971e541d2c4081d42e70222b71e59fc2dc4340828e89c3704442797b",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma60.json",
+      "bytes": 575,
+      "sha256": "b2621e1568f4b3835d168c9ac86937e26db3fceba7d74a8c602abce727df960e",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma60.npz",
+      "bytes": 11100691,
+      "sha256": "23446b21952a9aaad5e92e1ea7d2430272492df09a7e3fe971f18603d5e89a74",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma70.json",
+      "bytes": 575,
+      "sha256": "200a93041d015f4b7ca1e5c2739b0970d21c49a0e0d98e1b30558589eaca3aec",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma70.npz",
+      "bytes": 11101038,
+      "sha256": "cf2414f90c6a692d80a8b2e5f548ed8ec9ee976c45a150fee21c09e446236279",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma80.json",
+      "bytes": 575,
+      "sha256": "6ffeb4ba673f42b4b1c33e6a162f30b6b3e22c199448355e03070672c211b406",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma80.npz",
+      "bytes": 11103237,
+      "sha256": "2bb596c828521294371d74e80afea588dac3388dd8bb29143ee101b0684b8421",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma90.json",
+      "bytes": 575,
+      "sha256": "9719029ce5d8ff0d86ca25e450cdccfa36153e445058a138a014ed5971633742",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks3d/sigma90.npz",
+      "bytes": 11108206,
+      "sha256": "88aad0a2cc7a60e959650010051230f4acb96c4376e52c478e95f6fe81b4b81e",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma10.json",
+      "bytes": 1269,
+      "sha256": "cdf0bcc2861c7724e67e409d54377b6d2ce318ed53a01ce76c7050ae53f604fd",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma10.npz",
+      "bytes": 14848600,
+      "sha256": "4009f418cccbf32f25d47243b626607a0c0ce332542a6dfaec1bcf06d536541f",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma100.json",
+      "bytes": 1133,
+      "sha256": "57157589959397b9c0116a3cdec46978b01b33bcf7d9bca17d73ceb678bfeb48",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma100.npz",
+      "bytes": 14833414,
+      "sha256": "f83b23ea5164804b2305166778b42a11b5954cab1917e6c474eec436a9d64c83",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma110.json",
+      "bytes": 1133,
+      "sha256": "2d5dfa0f0d816aee3cdac35bd412e7326599ea1cd068ce6f169b4befa27d554f",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma110.npz",
+      "bytes": 14840901,
+      "sha256": "1c945fdc9ac2c5392d6883f0042f50f451a3cc477749b2c4b9ee536f514e6e43",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma120.json",
+      "bytes": 1134,
+      "sha256": "d695097dee9088b511719a09b9fc0e9b24d59a48d26052c87a3034a896cb7c05",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma120.npz",
+      "bytes": 14848676,
+      "sha256": "f476e4eedcf77d1aefcda402c77ef8ccb2d728a37701b03bb0711499715dcf55",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma130.json",
+      "bytes": 1134,
+      "sha256": "04ec601ec75e3cfefb5d359f71b3119b6e639505d706630b676c5cd4b300b50e",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma130.npz",
+      "bytes": 14856431,
+      "sha256": "89c9e38929c70da32c08036a000798195bdf4a5674ef77c113e5e9c96aee6538",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma140.json",
+      "bytes": 1133,
+      "sha256": "2193e7346b2b09a67ce0e21839aa8a4f89875b1c564bdc589316b94707011eb9",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma140.npz",
+      "bytes": 14862993,
+      "sha256": "c7332855544c82ae4ecf002e2810a7f27a616e99457443f05a78a279cc8b10f8",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma150.json",
+      "bytes": 1133,
+      "sha256": "eeabdd6682d6e6f70442e08884961ff368640597612275bda3f76dca53d57d3b",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma150.npz",
+      "bytes": 14869394,
+      "sha256": "cc1ae23c973bc0ad1f799c6fb244c29accdb440bec825f17620701cf46caa161",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma160.json",
+      "bytes": 1133,
+      "sha256": "79b4e68762374caa2c0f3e39687195ee043272dfae60112d654af91575494cb2",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma160.npz",
+      "bytes": 14873985,
+      "sha256": "8db0ac422a4d7b7cf1eb2f5573fb78b0415de56c4e82c27cf70bfeb0230e333a",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma170.json",
+      "bytes": 1132,
+      "sha256": "dbacc64863a8ad41c0b48a3be257620d3f8990bf8868acdbf2c1edea79d2b8bc",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma170.npz",
+      "bytes": 14877712,
+      "sha256": "460f4a38aeb6ede434cb1d308c9ca193c9723c4c9ea599317bf3c1b25b6ff1ac",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma180.json",
+      "bytes": 1133,
+      "sha256": "9d6e547bee10e27214eb6393872ffba8b3f3d307a84641b9fb854d0cf09477c3",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma180.npz",
+      "bytes": 14881644,
+      "sha256": "9e91072f695169e1a7126ed76cc1c2d1c20c80844d895d55db418432c89c12c3",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma190.json",
+      "bytes": 1133,
+      "sha256": "0f7247d9997c4e84ffae8ca8772075878b9a3f39bb254a7aae77865182e97dc2",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma190.npz",
+      "bytes": 14885491,
+      "sha256": "c394d856b2310ddbac372c02e596a9e20793326fe2455828db881cd8f4d2d82b",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma20.json",
+      "bytes": 1272,
+      "sha256": "6d55c1daa5a2afff59e10437ed5f90c459e9d2f017f4bc0f65b5fcf159d0eed9",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma20.npz",
+      "bytes": 14841016,
+      "sha256": "1449d21b6560a06aae5e732904f757b8db56a83bc5c0d58bd3c3268eec47bfea",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma200.json",
+      "bytes": 1132,
+      "sha256": "941a5f855522a25c3c45dd0a5740750939c73e868f636814f53cab9eaf343d14",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma200.npz",
+      "bytes": 14889117,
+      "sha256": "3a1f9171a3b90db98871ac1d91c9a32475a3d3702b3eb9b548b2a007e95ee40e",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma30.json",
+      "bytes": 1272,
+      "sha256": "cc88c2ecdae7df30028707eca666cdb8bfde5c23854ca020bcded9aad531e5bf",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma30.npz",
+      "bytes": 14831472,
+      "sha256": "65b5ce19e9d7c47763fe196b6731d22001c3e752108c9b0be42b360930952729",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma40.json",
+      "bytes": 1272,
+      "sha256": "957171e6b60979bd6f348584f05f7f484498e924b1bd6d8808bc2b37691c4452",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma40.npz",
+      "bytes": 14825118,
+      "sha256": "c6560ab5591ebb0dadc9bbdc2ee3e6d4a51d79910c1b289783bd53f70f874a8f",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma50.json",
+      "bytes": 1272,
+      "sha256": "62f8c3e24f44e65f1834b308ed294b6c3e9165b002073a4762277465e5e57c4e",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma50.npz",
+      "bytes": 14821192,
+      "sha256": "0a5996cb698224df4ca55d23a51588d61e37e5ab55f038ad057298eba7e5d898",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma60.json",
+      "bytes": 1131,
+      "sha256": "00a133f78d93de29c3b893a0e53b21df779bcacd08f8bc4c88f8757876df5227",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma60.npz",
+      "bytes": 14818928,
+      "sha256": "76c4bb9750b893304811e9261eee58c9e61b846629e6d001a735f1b8b44c38a2",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma70.json",
+      "bytes": 1131,
+      "sha256": "aef1b5ef3a72da60662aa2e31308390e04f13bbdde681c86148f45b4b1309599",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma70.npz",
+      "bytes": 14817144,
+      "sha256": "343385c8a98fc7dad6b8b2ee3431dacdfa561dd358c529ce465b283c99f0a0cb",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma80.json",
+      "bytes": 1131,
+      "sha256": "7c4e839a53c5bc8ddd2de342ccb2ddc7db7f595bbadaeb00cb21079fb1d0da09",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma80.npz",
+      "bytes": 14820472,
+      "sha256": "ab7054d58de643500d890de5f94f3df05274c5510d7d1e3b3572028e3ecd2441",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma90.json",
+      "bytes": 1131,
+      "sha256": "b41a936e280e14766f5150109a37c3705ec7a33cabf770d4dd2dd01d317dd83c",
+      "reason": [
+        "evaluate_ks: frozen cloud SHA256 and physical/source provenance"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_20261022/clouds/ks4d/sigma90.npz",
+      "bytes": 14826008,
+      "sha256": "8c7aecc3a01e44536c62b0f99fd1ca23f2a2595e832004b8ea7c832551a49348",
+      "reason": [
+        "evaluate_ks: frozen100k reference plus3seeds x3methods full-dimensional clouds"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_bins16_20261022/metrics_per_seed.csv",
+      "bytes": 104791,
+      "sha256": "ce9920bbb1fab229f63cd05b36a8998e217aa739bec283b028aa751eb45c58bf",
+      "reason": [
+        "evaluate_ks: exact adopted per-seed W2 comparison and original solver certificates"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_bins16_20261022/plan.json",
+      "bytes": 7901,
+      "sha256": "3a2d1995419ea74326b852572b7b7622d602c3b746fcddf497f0fa0dd21658b7",
+      "reason": [
+        "two-step MF prepare_ablation: checks hashes of all 24 current KS checkpoints"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_bins16_20261022/results/ks3d/sigma10/grid.json",
+      "bytes": 638,
+      "sha256": "e6c6d95ce29b4c617840bc56b27992bf000afa1f04d1f3b9d4838fc17dc08987",
+      "reason": [
+        "two-step MF prepare_ablation validates identical reference-anchored origin/widths to current main comparison"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_bins16_20261022/results/ks3d/sigma100/grid.json",
+      "bytes": 633,
+      "sha256": "206b0b85aab4087ebdd7e60abc04b82f2fb4df18d697af748cfc5038ada18b12",
+      "reason": [
+        "two-step MF prepare_ablation validates identical reference-anchored origin/widths to current main comparison"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_bins16_20261022/results/ks3d/sigma110/grid.json",
+      "bytes": 632,
+      "sha256": "fc1d4bc2ae049dc22e3c159a82c72ab65128699dba9d95fb0562c060b99e65c4",
+      "reason": [
+        "two-step MF prepare_ablation validates identical reference-anchored origin/widths to current main comparison"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_bins16_20261022/results/ks3d/sigma120/grid.json",
+      "bytes": 631,
+      "sha256": "e231a795cdfed9412521eaeed8d85944c11a48c4df50623d135e9f1f5c6fb691",
+      "reason": [
+        "two-step MF prepare_ablation validates identical reference-anchored origin/widths to current main comparison"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_bins16_20261022/results/ks3d/sigma130/grid.json",
+      "bytes": 632,
+      "sha256": "13852ed762de1051ccfae6cfce53f07e5dd6de678e87e571cfb91f4c39a6db1a",
+      "reason": [
+        "two-step MF prepare_ablation validates identical reference-anchored origin/widths to current main comparison"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_bins16_20261022/results/ks3d/sigma140/grid.json",
+      "bytes": 635,
+      "sha256": "2e9e7cba48a2123fe4fee64a5f5ff43549147daf5868dbd87740c02608fc7a9d",
+      "reason": [
+        "two-step MF prepare_ablation validates identical reference-anchored origin/widths to current main comparison"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_bins16_20261022/results/ks3d/sigma150/grid.json",
+      "bytes": 633,
+      "sha256": "2b79e1c68eb4cd25403fcd4ed5d64ad37c5b70e67f91d0eeb6ddc7a8c5f27695",
+      "reason": [
+        "two-step MF prepare_ablation validates identical reference-anchored origin/widths to current main comparison"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_bins16_20261022/results/ks3d/sigma160/grid.json",
+      "bytes": 634,
+      "sha256": "b034994c4da6f66b7606ced8d955142db7ec7e4121d61fa784e865e56c0bd186",
+      "reason": [
+        "two-step MF prepare_ablation validates identical reference-anchored origin/widths to current main comparison"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_bins16_20261022/results/ks3d/sigma170/grid.json",
+      "bytes": 632,
+      "sha256": "b4b58883fb225ad5f8d9c472f2d4eb5ba1ca0170459c45f6c6e03d086e00a450",
+      "reason": [
+        "two-step MF prepare_ablation validates identical reference-anchored origin/widths to current main comparison"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_bins16_20261022/results/ks3d/sigma180/grid.json",
+      "bytes": 635,
+      "sha256": "bbb98b7ba25306445b89e4077aa38647e74a521697c2127aa96772de4b690bb5",
+      "reason": [
+        "two-step MF prepare_ablation validates identical reference-anchored origin/widths to current main comparison"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_bins16_20261022/results/ks3d/sigma190/grid.json",
+      "bytes": 633,
+      "sha256": "7f4a2670106239371e13fce05471b084466cddf8cf16caeddcf3c58fb47f2f91",
+      "reason": [
+        "two-step MF prepare_ablation validates identical reference-anchored origin/widths to current main comparison"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_bins16_20261022/results/ks3d/sigma20/grid.json",
+      "bytes": 634,
+      "sha256": "736a3b8a63b48f255d8494a5194558deb8adbf9b1690b43ae20f4c0be28f11eb",
+      "reason": [
+        "two-step MF prepare_ablation validates identical reference-anchored origin/widths to current main comparison"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_bins16_20261022/results/ks3d/sigma200/grid.json",
+      "bytes": 633,
+      "sha256": "87eb83b369e35c749780bedd7536fe624e236e90b56a6c8e55ba6b8ce430c86e",
+      "reason": [
+        "two-step MF prepare_ablation validates identical reference-anchored origin/widths to current main comparison"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_bins16_20261022/results/ks3d/sigma30/grid.json",
+      "bytes": 635,
+      "sha256": "901425cc3c8f21352ea5a6f5fb7961e7bb6bf3cf38628fd314dffcee9cc5154f",
+      "reason": [
+        "two-step MF prepare_ablation validates identical reference-anchored origin/widths to current main comparison"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_bins16_20261022/results/ks3d/sigma40/grid.json",
+      "bytes": 633,
+      "sha256": "22db94972cb740800ef7e69b9146aa3373c8202330d6e480210f342db1ef64c9",
+      "reason": [
+        "two-step MF prepare_ablation validates identical reference-anchored origin/widths to current main comparison"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_bins16_20261022/results/ks3d/sigma50/grid.json",
+      "bytes": 638,
+      "sha256": "117cec68e58789e160639acab6b2cdaa2b0b969f60494dea67eabc196c36de6f",
+      "reason": [
+        "two-step MF prepare_ablation validates identical reference-anchored origin/widths to current main comparison"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_bins16_20261022/results/ks3d/sigma60/grid.json",
+      "bytes": 632,
+      "sha256": "0c08d141c76d0ef71ab21dbf571abc41f09c78937496fe9067d8f65adb5456ad",
+      "reason": [
+        "two-step MF prepare_ablation validates identical reference-anchored origin/widths to current main comparison"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_bins16_20261022/results/ks3d/sigma70/grid.json",
+      "bytes": 638,
+      "sha256": "f6f35b1cd85273e3d60a140e2fe21570211bf4d66dd51f8dcebe912d85277482",
+      "reason": [
+        "two-step MF prepare_ablation validates identical reference-anchored origin/widths to current main comparison"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_bins16_20261022/results/ks3d/sigma80/grid.json",
+      "bytes": 637,
+      "sha256": "405e65faa3b70663f9e6f70d109609707fc366cff3ec2112960dea40e111e210",
+      "reason": [
+        "two-step MF prepare_ablation validates identical reference-anchored origin/widths to current main comparison"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_bins16_20261022/results/ks3d/sigma90/grid.json",
+      "bytes": 640,
+      "sha256": "5ef53364f65408897b7bae712dd294213a75d10049cfa64c8becef74853f748e",
+      "reason": [
+        "two-step MF prepare_ablation validates identical reference-anchored origin/widths to current main comparison"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_bins16_20261022/summary.csv",
+      "bytes": 12622,
+      "sha256": "9e6b93b2c71187f57055c29d63b2a9fc5fdd7e48861966d1e88c8e9ec81934bb",
+      "reason": [
+        "figures: adopted 3D/4D KS per-amplitude mean/min/max"
+      ]
+    },
+    {
+      "path": "output/ks_full_histogram_100k_bins16_20261022/verification.json",
+      "bytes": 721,
+      "sha256": "fc2793048ddf8d5cc9f7e1626287741d24ef761dcd6cdcdd4eb7359f345fbd60",
+      "reason": [
+        "two-step MF prepare_ablation: requires passed main 16-bin evaluation"
+      ]
+    },
+    {
+      "path": "output/ks_histogram_adoption_20261023/multistep_metrics_per_seed.csv",
+      "bytes": 11377,
+      "sha256": "0df8ba1dcabbcd3a532876c6bc69af1c0c0ffc9ea6834c75e55d4fe334941f39",
+      "reason": [
+        "original two-step MF 60 per-seed histogram results with solver certificates"
+      ]
+    },
+    {
+      "path": "output/ks_histogram_adoption_20261023/multistep_summary.csv",
+      "bytes": 2329,
+      "sha256": "d1f976e3e98bd692e09840c6412df48e0561c3bb70ec0c3d2f4ca86c179bdef5",
+      "reason": [
+        "figures: adopted two-step MF mean/min/max for all20 amplitudes"
+      ]
+    },
+    {
+      "path": "output/ks_histogram_adoption_20261023/multistep_verification.json",
+      "bytes": 11717,
+      "sha256": "4ea2a749cdade78f9d648758b16932d17637b9de3f14cbcc6d4d4e567a478e48",
+      "reason": [
+        "two-step MF source hashes, schedule, one-step/two-step prediction replay checks and solver certificate summary"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/kpp2d/run/checkpoint_manifest.json",
+      "bytes": 1733,
+      "sha256": "ba2b6cfe43f5a71088b9925bf1b5d571c2dde278ab441319acf92988390db2ea",
+      "reason": [
+        "Training replay checks adopted MF/MF500 checkpoint hashes here; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/kpp2d/run/config.json",
+      "bytes": 2535,
+      "sha256": "8c05a47a817175913260068efc9ec3fd13b1d52b8756b6e394a3c24e04c52481",
+      "reason": [
+        "Retained model protocol/dataset signature used by original selected-checkpoint inference loader; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/kpp2d/run/seed88/mf.pt",
+      "bytes": 115959,
+      "sha256": "c7d33274f4f9606618d4c7ccb7b70b17ca425c6c9059051733a29e38650fe255",
+      "reason": [
+        "Current kpp2d seed88 mf checkpoint; required by train/timing/check/inference; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/kpp2d/run/seed88/mf_init.pt",
+      "bytes": 117493,
+      "sha256": "68e1b66e74f9c21e174ccb0f6facef52a1c8401bf599f773974ac58b9cd2174a",
+      "reason": [
+        "Current kpp2d seed88 mf_init checkpoint; required by train/timing/check/inference; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/kpp2d/run/seed89/mf.pt",
+      "bytes": 115959,
+      "sha256": "9e716b7556387f8d374885b87e972be7421fc8670999010b8c9732f076135189",
+      "reason": [
+        "Current kpp2d seed89 mf checkpoint; required by train/timing/check/inference; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/kpp2d/run/seed89/mf_init.pt",
+      "bytes": 117493,
+      "sha256": "6db3a2d7e1f4535857ce0563715c214422cc9c8d10e704c82f7260d81f98c934",
+      "reason": [
+        "Current kpp2d seed89 mf_init checkpoint; required by train/timing/check/inference; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/kpp2d/run/seed90/mf.pt",
+      "bytes": 115959,
+      "sha256": "d14b61e16c3caad8747faccba3293be0026db4f2a6288fad64e134348efb0d71",
+      "reason": [
+        "Current kpp2d seed90 mf checkpoint; required by train/timing/check/inference; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/kpp2d/run/seed90/mf_init.pt",
+      "bytes": 117493,
+      "sha256": "86aa7684c1f804c4e8d797b33c76247bb4b25168d3ae0b2191586d3ec5b98fd9",
+      "reason": [
+        "Current kpp2d seed90 mf_init checkpoint; required by train/timing/check/inference; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/kpp3d/run/checkpoint_manifest.json",
+      "bytes": 1733,
+      "sha256": "fce40ff795b8751070a1379e883776384b90211cef4fb1df862cb17d239ce068",
+      "reason": [
+        "Training replay checks adopted MF/MF500 checkpoint hashes here; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/kpp3d/run/config.json",
+      "bytes": 2542,
+      "sha256": "9a412d046422f3145e428922c2a3a3c13a6c1fc5450dd37e074c6cd190fe4d89",
+      "reason": [
+        "Retained model protocol/dataset signature used by original selected-checkpoint inference loader; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/kpp3d/run/seed88/mf.pt",
+      "bytes": 117495,
+      "sha256": "496633356f7d90812076fa261687d3779b7cd503776fd0bf12f8dae8cb43ed20",
+      "reason": [
+        "Current kpp3d seed88 mf checkpoint; required by train/timing/check/inference; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/kpp3d/run/seed88/mf_init.pt",
+      "bytes": 119029,
+      "sha256": "3d17e136e89bbc1151de73178b5ee43c00c2c1b6bf6c14543da336b8d2f26669",
+      "reason": [
+        "Current kpp3d seed88 mf_init checkpoint; required by train/timing/check/inference; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/kpp3d/run/seed89/mf.pt",
+      "bytes": 117495,
+      "sha256": "79182a5f73b3db31f359131287789d888f361a439c303fc53cfdb2cd7746b1be",
+      "reason": [
+        "Current kpp3d seed89 mf checkpoint; required by train/timing/check/inference; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/kpp3d/run/seed89/mf_init.pt",
+      "bytes": 119029,
+      "sha256": "e7327ad92fe7da22e74e45eb913ad31a892426f5df39cf0bad239f5800fcb2b7",
+      "reason": [
+        "Current kpp3d seed89 mf_init checkpoint; required by train/timing/check/inference; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/kpp3d/run/seed90/mf.pt",
+      "bytes": 117495,
+      "sha256": "a39939c64e9503f2e0219895cb84faf69989ea978de7441433a0f35a0d05df73",
+      "reason": [
+        "Current kpp3d seed90 mf checkpoint; required by train/timing/check/inference; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/kpp3d/run/seed90/mf_init.pt",
+      "bytes": 119029,
+      "sha256": "a8a494753975e2fc366e719b6d050336c666d0c2bf90cab7e54ad13df82547ed",
+      "reason": [
+        "Current kpp3d seed90 mf_init checkpoint; required by train/timing/check/inference; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/ks3d/run/checkpoint_manifest.json",
+      "bytes": 1733,
+      "sha256": "e75265789aa05edbb141ea9b8a32c89fc1131f09abe091650cd0a8fa0e241d64",
+      "reason": [
+        "train replay verifies MF/mf_init hashes; old DP entries are not used by current reproduction",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/ks3d/run/config.json",
+      "bytes": 2058,
+      "sha256": "fdc5cbd83442fb45e1949a1612e37e2fbeaa1063ee6b831a8eb21098d4d198ba",
+      "reason": [
+        "KS numerical model loader protocol and dataset_signature; retained executed hyperparameters"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/ks3d/run/seed88/mf.pt",
+      "bytes": 116983,
+      "sha256": "6cadd5fedd993c94b531287b8069de8559ac491a41609dd773912f4a00b32a3f",
+      "reason": [
+        "current adopted ks3d seed88 mf weights: train replay target, check, inference and timing",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/ks3d/run/seed88/mf_init.pt",
+      "bytes": 118517,
+      "sha256": "af8b03cb879d1b383a1de59cd0e8c905c7be4490b5839bf928f3fa71d5f46c89",
+      "reason": [
+        "current adopted ks3d seed88 mf_init weights: train replay target, check, inference and timing",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/ks3d/run/seed89/mf.pt",
+      "bytes": 116983,
+      "sha256": "27c23ea44cc1fa6e3f739089ba30c75cc29d8760a67f3725c3592c8b3ed888ba",
+      "reason": [
+        "current adopted ks3d seed89 mf weights: train replay target, check, inference and timing",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/ks3d/run/seed89/mf_init.pt",
+      "bytes": 118517,
+      "sha256": "d003ddbc9210491c8eff4bfba088c00f15e85fd17d3e370b7c3d7fe91397f5e0",
+      "reason": [
+        "current adopted ks3d seed89 mf_init weights: train replay target, check, inference and timing",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/ks3d/run/seed90/mf.pt",
+      "bytes": 116983,
+      "sha256": "a1ed7eb8f7dcb025bcb50ed1839e979efb1c056f230669d3d24f0adab4d6993d",
+      "reason": [
+        "current adopted ks3d seed90 mf weights: train replay target, check, inference and timing",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/ks3d/run/seed90/mf_init.pt",
+      "bytes": 118517,
+      "sha256": "a925880d373ba7f48b7b9221aab10953e1df84ced109a76b3725f5b91b7f9207",
+      "reason": [
+        "current adopted ks3d seed90 mf_init weights: train replay target, check, inference and timing",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/ks4d/run/checkpoint_manifest.json",
+      "bytes": 1733,
+      "sha256": "c28cfc87268446bc20abf20c8dfe05c198a9010befb72b58a959c240cc0b4c3c",
+      "reason": [
+        "train replay verifies MF/mf_init hashes; old DP entries are not used by current reproduction",
+        "Observed successful read-only preflight: training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/ks4d/run/config.json",
+      "bytes": 2049,
+      "sha256": "32b3ee08f359071a8e6eabb549861e6a2a6e1b2cf44eea35d7385405319a0828",
+      "reason": [
+        "KS numerical model loader protocol and dataset_signature; retained executed hyperparameters"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/ks4d/run/seed88/mf.pt",
+      "bytes": 118519,
+      "sha256": "d5fd42f517ea40cbc77c0b9f35c0ca6452bbf9ecd3b3b34313d239abc102e6e1",
+      "reason": [
+        "current adopted ks4d seed88 mf weights: train replay target, check, inference and timing",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/ks4d/run/seed88/mf_init.pt",
+      "bytes": 120053,
+      "sha256": "ee0ff111856c21d23efbc09ba076178a072d96d16f311d359e341380bb9ce7ab",
+      "reason": [
+        "current adopted ks4d seed88 mf_init weights: train replay target, check, inference and timing",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/ks4d/run/seed89/mf.pt",
+      "bytes": 118519,
+      "sha256": "acf2aba91397506f159cb67647f584d3201b9e27352edd432e337d70b3c29a22",
+      "reason": [
+        "current adopted ks4d seed89 mf weights: train replay target, check, inference and timing",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/ks4d/run/seed89/mf_init.pt",
+      "bytes": 120053,
+      "sha256": "267e5794635a29402d5e07c15a05e825fd33c5f797fd2220175cda8f1044b17a",
+      "reason": [
+        "current adopted ks4d seed89 mf_init weights: train replay target, check, inference and timing",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/ks4d/run/seed90/mf.pt",
+      "bytes": 118519,
+      "sha256": "85862ef9e71f5e762f23b7f6dc72b6e5d7ce99c3c34954aa6b409119390c57eb",
+      "reason": [
+        "current adopted ks4d seed90 mf weights: train replay target, check, inference and timing",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/mf_matched_dp_20261016/ks4d/run/seed90/mf_init.pt",
+      "bytes": 120053,
+      "sha256": "22354a0f5c3f56eb922ebabfd5fd9751009a33ad9fbbe7b43435942dac29ddcd",
+      "reason": [
+        "current adopted ks4d seed90 mf_init weights: train replay target, check, inference and timing",
+        "Observed successful read-only preflight: all_60_adopted_weights, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/non_kpp_cubic_ood_20261023/datasets/cubic/D_2p5/field.npz",
+      "bytes": 177673,
+      "sha256": "8578863b72ddf621c29b895201c7d8052a3ab1f03982261257b5c98c5bed1d56",
+      "reason": [
+        "Current cubic reference field or its sampling/simulation provenance; supports the exact retained samples, PDE settings and zero boundary-loss evidence. Resume particle-state snapshots are not retained."
+      ]
+    },
+    {
+      "path": "output/non_kpp_cubic_ood_20261023/datasets/cubic/D_2p5/samples.json",
+      "bytes": 543,
+      "sha256": "1fc98b9c563ee0df4d049d3a707ce5c299ae8dbf90830f4de00ca6fd1af76e53",
+      "reason": [
+        "Current cubic reference field or its sampling/simulation provenance; supports the exact retained samples, PDE settings and zero boundary-loss evidence. Resume particle-state snapshots are not retained."
+      ]
+    },
+    {
+      "path": "output/non_kpp_cubic_ood_20261023/datasets/cubic/D_2p5/samples.npz",
+      "bytes": 6684226,
+      "sha256": "8577f2fc86047357acbbb50dd48c2ef2085aa9969d19af4c86148965d617ffdc",
+      "reason": [
+        "Observed successful read-only preflight: cubic_context_and_physical_inputs"
+      ]
+    },
+    {
+      "path": "output/non_kpp_cubic_ood_20261023/datasets/cubic/D_2p5/simulation.json",
+      "bytes": 7925,
+      "sha256": "65453b14789dbf3331a461a0a9745db801619408fcc06ea14e5a17006bb1cdf5",
+      "reason": [
+        "Current cubic reference field or its sampling/simulation provenance; supports the exact retained samples, PDE settings and zero boundary-loss evidence. Resume particle-state snapshots are not retained."
+      ]
+    },
+    {
+      "path": "output/non_kpp_cubic_ood_20261023/datasets/cubic/D_3/field.npz",
+      "bytes": 212401,
+      "sha256": "9c1dfbe3ad0b123f6895db4cc35bfe478f71d1dbf3d9de9332e0e9331ec066c4",
+      "reason": [
+        "Current cubic reference field or its sampling/simulation provenance; supports the exact retained samples, PDE settings and zero boundary-loss evidence. Resume particle-state snapshots are not retained."
+      ]
+    },
+    {
+      "path": "output/non_kpp_cubic_ood_20261023/datasets/cubic/D_3/samples.json",
+      "bytes": 543,
+      "sha256": "111f5e916434c8c74536481f86a3ce9011cf52337515bfca2e5b8c207d310334",
+      "reason": [
+        "Current cubic reference field or its sampling/simulation provenance; supports the exact retained samples, PDE settings and zero boundary-loss evidence. Resume particle-state snapshots are not retained."
+      ]
+    },
+    {
+      "path": "output/non_kpp_cubic_ood_20261023/datasets/cubic/D_3/samples.npz",
+      "bytes": 6687630,
+      "sha256": "fd05a7870f6df2890e5ed2533e895890e7b72a9c234675baceeb33499554e9ab",
+      "reason": [
+        "Observed successful read-only preflight: cubic_context_and_physical_inputs"
+      ]
+    },
+    {
+      "path": "output/non_kpp_cubic_ood_20261023/datasets/cubic/D_3/simulation.json",
+      "bytes": 7950,
+      "sha256": "532f77e5f4d5575ebd740b3ccd88286538ba54be1ed82d8c6ede49210dd4a537",
+      "reason": [
+        "Current cubic reference field or its sampling/simulation provenance; supports the exact retained samples, PDE settings and zero boundary-loss evidence. Resume particle-state snapshots are not retained."
+      ]
+    },
+    {
+      "path": "output/non_kpp_cubic_ood_20261023/evaluation/D_2p5/complete.json",
+      "bytes": 9600,
+      "sha256": "1b7c0e3cc6320871d21e9f6a968105948e470dec13edd342dbd5913a9788dfd2",
+      "reason": [
+        "Observed successful read-only preflight: cubic_context_and_physical_inputs"
+      ]
+    },
+    {
+      "path": "output/non_kpp_cubic_ood_20261023/evaluation/D_3/complete.json",
+      "bytes": 9621,
+      "sha256": "4d0d02f1bd50786e5cedc6e9b38d57f9c67cccab8b0f655793465f73cd2b0272",
+      "reason": [
+        "Observed successful read-only preflight: cubic_context_and_physical_inputs"
+      ]
+    },
+    {
+      "path": "output/non_kpp_cubic_ood_20261023/metrics_per_seed.csv",
+      "bytes": 23194,
+      "sha256": "bbaf0fb555db0fed386b0ce8844bf35f167c00304f2f9e825b40659437ca9ba8",
+      "reason": [
+        "Observed successful read-only preflight: cubic_figure_results"
+      ]
+    },
+    {
+      "path": "output/non_kpp_cubic_ood_20261023/summary.json",
+      "bytes": 13152,
+      "sha256": "1703e12b768df3d1bdb5af69cb7099f37f89be96b02926595b5963c1873e3eb2",
+      "reason": [
+        "Observed successful read-only preflight: cubic_figure_results"
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_0p25/field.npz",
+      "bytes": 93999,
+      "sha256": "7c678c3016a2165b85d1192570406c05986e3f71c161f4bf57ff2dbe2aaed1c9",
+      "reason": [
+        "Current cubic reference field or its sampling/simulation provenance; supports the exact retained samples, PDE settings and zero boundary-loss evidence. Resume particle-state snapshots are not retained."
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_0p25/samples.json",
+      "bytes": 713,
+      "sha256": "72ada46855e31c5a695645118093a6b87d26afac232319c1f1ad75aa7233d1b3",
+      "reason": [
+        "Current cubic reference field or its sampling/simulation provenance; supports the exact retained samples, PDE settings and zero boundary-loss evidence. Resume particle-state snapshots are not retained."
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_0p25/samples.npz",
+      "bytes": 7131511,
+      "sha256": "4e443678220ccac2cba274160d60acb1595841daa27bd381c1369ef16aeb0f97",
+      "reason": [
+        "Observed successful read-only preflight: cubic_context_and_physical_inputs"
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_0p25/simulation.json",
+      "bytes": 7563,
+      "sha256": "b9eb37545c2278de21e45ffcfdcc1f5e1913e2cfc7e4f2e89f1405c1365ed67a",
+      "reason": [
+        "Current cubic reference field or its sampling/simulation provenance; supports the exact retained samples, PDE settings and zero boundary-loss evidence. Resume particle-state snapshots are not retained."
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_0p375/field.npz",
+      "bytes": 94291,
+      "sha256": "84e3148f48e8158296d801fc599706572babb8d51338789c61ceba85cc7f93cc",
+      "reason": [
+        "Current cubic reference field or its sampling/simulation provenance; supports the exact retained samples, PDE settings and zero boundary-loss evidence. Resume particle-state snapshots are not retained."
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_0p375/samples.json",
+      "bytes": 714,
+      "sha256": "3f8b5aed4fad01115356a26c093a842665512b38cfb535e52184bbae38c78f1f",
+      "reason": [
+        "Current cubic reference field or its sampling/simulation provenance; supports the exact retained samples, PDE settings and zero boundary-loss evidence. Resume particle-state snapshots are not retained."
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_0p375/samples.npz",
+      "bytes": 7129905,
+      "sha256": "9ef71d581820ad65f62120619b2f633015b79baf354fb9e6a97a5c6451b9524b",
+      "reason": [
+        "Observed successful read-only preflight: cubic_context_and_physical_inputs"
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_0p375/simulation.json",
+      "bytes": 7603,
+      "sha256": "266afa343cefb6d11296c7dd0b11d7bcc74ab6f6ebeae260b1af295e65a667cd",
+      "reason": [
+        "Current cubic reference field or its sampling/simulation provenance; supports the exact retained samples, PDE settings and zero boundary-loss evidence. Resume particle-state snapshots are not retained."
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_0p5/field.npz",
+      "bytes": 95230,
+      "sha256": "37a0c4941276a84aeabc8b66263288f30baa92b1a5bbcf00af004a79996c6977",
+      "reason": [
+        "Current cubic reference field or its sampling/simulation provenance; supports the exact retained samples, PDE settings and zero boundary-loss evidence. Resume particle-state snapshots are not retained."
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_0p5/samples.json",
+      "bytes": 712,
+      "sha256": "b3c6384e2604526e4229261a1a36d44c4368f0851b18ac0e4606225fa7ceca92",
+      "reason": [
+        "Current cubic reference field or its sampling/simulation provenance; supports the exact retained samples, PDE settings and zero boundary-loss evidence. Resume particle-state snapshots are not retained."
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_0p5/samples.npz",
+      "bytes": 7129133,
+      "sha256": "876044cd5b387232bfec143ab3a0fdb956b2e241d5edd311b78c4f13344089ec",
+      "reason": [
+        "Observed successful read-only preflight: cubic_context_and_physical_inputs"
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_0p5/simulation.json",
+      "bytes": 7604,
+      "sha256": "6e299e3740ccb26473fd74dc43660fcfdf60527c940a035c88e88ccf34560ce7",
+      "reason": [
+        "Current cubic reference field or its sampling/simulation provenance; supports the exact retained samples, PDE settings and zero boundary-loss evidence. Resume particle-state snapshots are not retained."
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_0p75/field.npz",
+      "bytes": 100046,
+      "sha256": "7de56bcafbb55ed0b6640c5f36ff807e55066d435b2349a65d215b2353249047",
+      "reason": [
+        "Current cubic reference field or its sampling/simulation provenance; supports the exact retained samples, PDE settings and zero boundary-loss evidence. Resume particle-state snapshots are not retained."
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_0p75/samples.json",
+      "bytes": 713,
+      "sha256": "ba18e590cbfd610461e57c1ca18329b6ba22b2d2d8b50d0c50fd7f2e356cdca1",
+      "reason": [
+        "Current cubic reference field or its sampling/simulation provenance; supports the exact retained samples, PDE settings and zero boundary-loss evidence. Resume particle-state snapshots are not retained."
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_0p75/samples.npz",
+      "bytes": 7128191,
+      "sha256": "480df12397049b5077a9fa7842331e69c40de228455dfb7bcca25eb2b63c4666",
+      "reason": [
+        "Observed successful read-only preflight: cubic_context_and_physical_inputs"
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_0p75/simulation.json",
+      "bytes": 7655,
+      "sha256": "25222c35d020d8a3cd5deba1e8e53541f2b89ac4146d2bded41d1ffe5bd12244",
+      "reason": [
+        "Current cubic reference field or its sampling/simulation provenance; supports the exact retained samples, PDE settings and zero boundary-loss evidence. Resume particle-state snapshots are not retained."
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_1/field.npz",
+      "bytes": 106413,
+      "sha256": "621ea4dcf214c9f848061effe0dc01a42cb09fc0869143bf498c8d7480e4bed2",
+      "reason": [
+        "Current cubic reference field or its sampling/simulation provenance; supports the exact retained samples, PDE settings and zero boundary-loss evidence. Resume particle-state snapshots are not retained."
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_1/samples.json",
+      "bytes": 712,
+      "sha256": "d856646eb79081edf9cb81b50f3de7f94f3a23fc628227f5611f2eab42a3abb6",
+      "reason": [
+        "Current cubic reference field or its sampling/simulation provenance; supports the exact retained samples, PDE settings and zero boundary-loss evidence. Resume particle-state snapshots are not retained."
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_1/samples.npz",
+      "bytes": 7128582,
+      "sha256": "504e22765c60775db971d42d371fc8da1b1d0c0f841132be4dcfef9c1941f26f",
+      "reason": [
+        "Observed successful read-only preflight: cubic_context_and_physical_inputs"
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_1/simulation.json",
+      "bytes": 7654,
+      "sha256": "388498d1248677d5126121d102d779de1782903cc4359f6b81bbc30b42f983e4",
+      "reason": [
+        "Current cubic reference field or its sampling/simulation provenance; supports the exact retained samples, PDE settings and zero boundary-loss evidence. Resume particle-state snapshots are not retained."
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_1p5/field.npz",
+      "bytes": 120581,
+      "sha256": "02da5976d5a3ce65ac67c6f09240e62f09c1dfc70cb379480f59fb9833e12b1a",
+      "reason": [
+        "Current cubic reference field or its sampling/simulation provenance; supports the exact retained samples, PDE settings and zero boundary-loss evidence. Resume particle-state snapshots are not retained."
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_1p5/samples.json",
+      "bytes": 712,
+      "sha256": "f0c13d7169e28ad476a317fd8132abf9cf4bfecd43f03c3c1b311e597012eb9e",
+      "reason": [
+        "Current cubic reference field or its sampling/simulation provenance; supports the exact retained samples, PDE settings and zero boundary-loss evidence. Resume particle-state snapshots are not retained."
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_1p5/samples.npz",
+      "bytes": 7128237,
+      "sha256": "93d64254f124d712de586298c8c83fba3cebc65965c00b525c5f921b29350070",
+      "reason": [
+        "Observed successful read-only preflight: cubic_context_and_physical_inputs"
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_1p5/simulation.json",
+      "bytes": 7731,
+      "sha256": "95d6f94c4e05ab5c3ebbe3cf2fba7bab1a0041bb2b9586f8ba9c4ed0e807dfac",
+      "reason": [
+        "Current cubic reference field or its sampling/simulation provenance; supports the exact retained samples, PDE settings and zero boundary-loss evidence. Resume particle-state snapshots are not retained."
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_2/field.npz",
+      "bytes": 135189,
+      "sha256": "5ce3d224893d71de82cdab1402a8339e46ec3fd7691f0ed85487a8eca7ebce02",
+      "reason": [
+        "Current cubic reference field or its sampling/simulation provenance; supports the exact retained samples, PDE settings and zero boundary-loss evidence. Resume particle-state snapshots are not retained."
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_2/samples.json",
+      "bytes": 712,
+      "sha256": "8d55c4f79c826315635431843e1787caae14de9499099944a07627e5c6a2d03f",
+      "reason": [
+        "Current cubic reference field or its sampling/simulation provenance; supports the exact retained samples, PDE settings and zero boundary-loss evidence. Resume particle-state snapshots are not retained."
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_2/samples.npz",
+      "bytes": 7129123,
+      "sha256": "6c7491f2ab7d4d7264aa402378eec9da66bbf685200c71c717d180f5e65e0b03",
+      "reason": [
+        "Observed successful read-only preflight: cubic_context_and_physical_inputs"
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/datasets/cubic/D_2/simulation.json",
+      "bytes": 7820,
+      "sha256": "825f92a6709441b8063da1c242fefc8f641d5cc051e3771068cb6317711bac01",
+      "reason": [
+        "Current cubic reference field or its sampling/simulation provenance; supports the exact retained samples, PDE settings and zero boundary-loss evidence. Resume particle-state snapshots are not retained."
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/plan.json",
+      "bytes": 839,
+      "sha256": "05d1ee7bce13c70f0bf11f132f516a2615b9d8f457c3319f4e2ddb54790187ba",
+      "reason": [
+        "Observed successful read-only preflight: cubic_context_and_physical_inputs"
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/runs/cubic/config.json",
+      "bytes": 1567,
+      "sha256": "30cd8c073883e859ca3fa9eb1f9894c9bdb18d7a595389bf890446d5a5f19076",
+      "reason": [
+        "Observed successful read-only preflight: cubic_context_and_physical_inputs"
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/runs/cubic/seed88/complete.json",
+      "bytes": 379,
+      "sha256": "96b4867858d817447e2a5ed62cf7580a8c81983f0910efbcad32d87eaf04fb53",
+      "reason": [
+        "Observed successful read-only preflight: all_60_adopted_weights, cubic_model_loading"
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/runs/cubic/seed88/dp.pt",
+      "bytes": 115639,
+      "sha256": "9ebec77a8aed659e665cd1a13215a99b2f9923267225f8f916c00179bae17a6a",
+      "reason": [
+        "Observed successful read-only preflight: all_60_adopted_weights, cubic_model_loading"
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/runs/cubic/seed88/mf.pt",
+      "bytes": 116983,
+      "sha256": "068675a4a7f03b4ed3aeeb8368f20d6f455bef1cada710321123dc850529a768",
+      "reason": [
+        "Observed successful read-only preflight: all_60_adopted_weights, cubic_model_loading"
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/runs/cubic/seed88/mf_dp.pt",
+      "bytes": 117097,
+      "sha256": "f30deb1faf813a903a46f855bd7ef742a2dc7cb75f1859dc7d34abd1cff299d8",
+      "reason": [
+        "Observed successful read-only preflight: all_60_adopted_weights, cubic_model_loading"
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/runs/cubic/seed88/mf_init.pt",
+      "bytes": 118517,
+      "sha256": "1d379c6f9e0b0487d4097539672f6d4eada3a0ca16c3c05016ddaa3eba1677e4",
+      "reason": [
+        "Observed successful read-only preflight: all_60_adopted_weights, cubic_model_loading"
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/runs/cubic/seed89/complete.json",
+      "bytes": 379,
+      "sha256": "1a70bc156fa3831b989afd936ec37055211bd06c4b327fbe9168a9d18e12c329",
+      "reason": [
+        "Observed successful read-only preflight: all_60_adopted_weights, cubic_model_loading"
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/runs/cubic/seed89/dp.pt",
+      "bytes": 115639,
+      "sha256": "5b374f8af775d28678bcbf44bc4d7559f49afa2e75ff2289c4de60c702d983d6",
+      "reason": [
+        "Observed successful read-only preflight: all_60_adopted_weights, cubic_model_loading"
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/runs/cubic/seed89/mf.pt",
+      "bytes": 116983,
+      "sha256": "da0aace3f6a1f5acd2f51884f85474ff7579b90224b6362db5c146d599ef4550",
+      "reason": [
+        "Observed successful read-only preflight: all_60_adopted_weights, cubic_model_loading"
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/runs/cubic/seed89/mf_dp.pt",
+      "bytes": 117097,
+      "sha256": "d43cb755d5e66bd97551d93c69759694dbee7b99807da608a398b3bee18509a7",
+      "reason": [
+        "Observed successful read-only preflight: all_60_adopted_weights, cubic_model_loading"
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/runs/cubic/seed89/mf_init.pt",
+      "bytes": 118517,
+      "sha256": "69a0947913911d2334a86031da2354d5bc82d04f0901270c95395fa0cbe4c1c3",
+      "reason": [
+        "Observed successful read-only preflight: all_60_adopted_weights, cubic_model_loading"
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/runs/cubic/seed90/complete.json",
+      "bytes": 379,
+      "sha256": "33639f41c22a6645d44191bb6c1320f51dd8e1932be1d5be85e85721f2f2b530",
+      "reason": [
+        "Observed successful read-only preflight: all_60_adopted_weights, cubic_model_loading"
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/runs/cubic/seed90/dp.pt",
+      "bytes": 115639,
+      "sha256": "72ccee49de42807ea0130bebfec02956a198aae4fd5ed88c5e7b13063907ff2b",
+      "reason": [
+        "Observed successful read-only preflight: all_60_adopted_weights, cubic_model_loading"
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/runs/cubic/seed90/mf.pt",
+      "bytes": 116983,
+      "sha256": "52a3312effe002d2b986e206bcc7936fa0cf27883700260202c67c3934a3606e",
+      "reason": [
+        "Observed successful read-only preflight: all_60_adopted_weights, cubic_model_loading"
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/runs/cubic/seed90/mf_dp.pt",
+      "bytes": 117097,
+      "sha256": "623254c6b7a14a32870cacc123e432ffa656f0f23dd47dc93947c39bfe5e8b02",
+      "reason": [
+        "Observed successful read-only preflight: all_60_adopted_weights, cubic_model_loading"
+      ]
+    },
+    {
+      "path": "output/non_kpp_diffusion_sweep_20261020/runs/cubic/seed90/mf_init.pt",
+      "bytes": 118517,
+      "sha256": "f0f73c67b446389c5c6ebc245b6b1452362bb95e6ad86ad8a0d9b8f4f64343e0",
+      "reason": [
+        "Observed successful read-only preflight: all_60_adopted_weights, cubic_model_loading"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/generated/kpp2d/level_00.npz",
+      "bytes": 6332756,
+      "sha256": "8cfa4a34c17d9c6da675f0d1fc4f03079f07fa0b5dd00e79df7b2258bd4718fa",
+      "reason": [
+        "Current nine generated 100k clouds: three methods times three model seeds; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/generated/kpp2d/level_01.npz",
+      "bytes": 6333223,
+      "sha256": "6fb618f4049abcf20b00e589e0075f5e556fa42657ef360dd671164b8a90df10",
+      "reason": [
+        "Current nine generated 100k clouds: three methods times three model seeds; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/generated/kpp2d/level_02.npz",
+      "bytes": 6333386,
+      "sha256": "8aa72852acd162b8c25f6b6cfc2351b28737a3318e6edd8c15634c16570c8ce1",
+      "reason": [
+        "Current nine generated 100k clouds: three methods times three model seeds; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/generated/kpp2d/level_03.npz",
+      "bytes": 6333745,
+      "sha256": "14fef077e5a2af243e4efb7d688f72e169de769143525eedc0c193ded7f94ffb",
+      "reason": [
+        "Current nine generated 100k clouds: three methods times three model seeds; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/generated/kpp2d/level_04.npz",
+      "bytes": 6334625,
+      "sha256": "a1e70c5a30270288567c8b0639a8774c8beaba78db26cda72d2ed3e8b4108729",
+      "reason": [
+        "Current nine generated 100k clouds: three methods times three model seeds; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/generated/kpp2d/level_05.npz",
+      "bytes": 6335101,
+      "sha256": "ba57d8e8758965afaef0aeeec92ded212da292d0b8812365ae4d1b153a8d2ba1",
+      "reason": [
+        "Current nine generated 100k clouds: three methods times three model seeds; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/generated/kpp2d/level_06.npz",
+      "bytes": 6335971,
+      "sha256": "bf9f4378685d20c9974c379ae7d807a40eb19f7177a890d00cb7f11515f21997",
+      "reason": [
+        "Current nine generated 100k clouds: three methods times three model seeds; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/generated/kpp2d/level_07.npz",
+      "bytes": 6336384,
+      "sha256": "d0aea8c9bcc3d7d31e4e4dda0287dc743246380c6226c381831261234666b1d6",
+      "reason": [
+        "Current nine generated 100k clouds: three methods times three model seeds; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/generated/kpp2d/level_08.npz",
+      "bytes": 6336866,
+      "sha256": "5ec536a920bdc02bf3737e352945e98bb26ed4a6d54fbb02c271582f57a409d0",
+      "reason": [
+        "Current nine generated 100k clouds: three methods times three model seeds; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/generated/kpp2d/level_09.npz",
+      "bytes": 6337332,
+      "sha256": "9f8e415f0f0bf01474bda11040828d14a376742e136aabf999721477a70e54e2",
+      "reason": [
+        "Current nine generated 100k clouds: three methods times three model seeds; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/generated/kpp2d/level_10.npz",
+      "bytes": 6337939,
+      "sha256": "c1ee4228880c4b1059d040194e45536ad5f16bb34b5c55b917bca7500130f40d",
+      "reason": [
+        "Current nine generated 100k clouds: three methods times three model seeds; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/generated/kpp2d/source.npz",
+      "bytes": 741703,
+      "sha256": "b641485ceca03b074d37376ccf111a1bc802195b8046ae03fb54603e30bd2acd",
+      "reason": [
+        "Actual shared 100k Gaussian source supplied to the selected generators; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/generated/kpp3d/level_00.npz",
+      "bytes": 9545988,
+      "sha256": "422d25d431123f3f1646f366017f738b5fd651a2802c29038f1ae3ea51f73ceb",
+      "reason": [
+        "Current nine generated 100k clouds: three methods times three model seeds; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/generated/kpp3d/level_01.npz",
+      "bytes": 9545292,
+      "sha256": "9a7a96174806f70456cf8e6ea324172b32575d51c196a1d1f91e8a119004223f",
+      "reason": [
+        "Current nine generated 100k clouds: three methods times three model seeds; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/generated/kpp3d/level_02.npz",
+      "bytes": 9545713,
+      "sha256": "c3b9ed6c64cbe0aa51b6af4c7937dc12f9b830cc32d32622070c6ecca03ae7b5",
+      "reason": [
+        "Current nine generated 100k clouds: three methods times three model seeds; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/generated/kpp3d/level_03.npz",
+      "bytes": 9545474,
+      "sha256": "79fe2e35522180d88346d6d81be5ce046ec47a31d47a487ea2f4feec1290757d",
+      "reason": [
+        "Current nine generated 100k clouds: three methods times three model seeds; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/generated/kpp3d/level_04.npz",
+      "bytes": 9545193,
+      "sha256": "5dcb86c276ca15445d345ac8fc47bc3dbb4d14b5cd1b097a4b79f9f4d14d548b",
+      "reason": [
+        "Current nine generated 100k clouds: three methods times three model seeds; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/generated/kpp3d/level_05.npz",
+      "bytes": 9545439,
+      "sha256": "93afb2457ed20a6b344161d11181728e2a94059522c7a58204d5a0050220c6d3",
+      "reason": [
+        "Current nine generated 100k clouds: three methods times three model seeds; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/generated/kpp3d/level_06.npz",
+      "bytes": 9545474,
+      "sha256": "c40e47535618e9b24508cee3a38c54fc36e1b8ee41064d1248bbe992cf2a26d0",
+      "reason": [
+        "Current nine generated 100k clouds: three methods times three model seeds; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/generated/kpp3d/level_07.npz",
+      "bytes": 9546016,
+      "sha256": "a800e11c278e6fa36627aa17674e439b2c10ebf44d117d380351bc08e6e8de5a",
+      "reason": [
+        "Current nine generated 100k clouds: three methods times three model seeds; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/generated/kpp3d/level_08.npz",
+      "bytes": 9546445,
+      "sha256": "81472875f9d08e88742e37688598076a85045e7dd98fd9b0e8431cba0323a0dc",
+      "reason": [
+        "Current nine generated 100k clouds: three methods times three model seeds; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/generated/kpp3d/level_09.npz",
+      "bytes": 9546999,
+      "sha256": "ac1d12a67ade99df21fea3a71a79200129c874064ce946cb11902a42d808deed",
+      "reason": [
+        "Current nine generated 100k clouds: three methods times three model seeds; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/generated/kpp3d/level_10.npz",
+      "bytes": 9546916,
+      "sha256": "d04cfe0ecf87b73f6b4d61a6d9c1d3e38598f70d129db12a0f0ea05871e517d8",
+      "reason": [
+        "Current nine generated 100k clouds: three methods times three model seeds; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/generated/kpp3d/source.npz",
+      "bytes": 1112187,
+      "sha256": "a2dfe923d83bc264815c83d8d2c258485dca924ecae5d50c8f1e163de0de8b22",
+      "reason": [
+        "Actual shared 100k Gaussian source supplied to the selected generators; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/independent_metric_checks.json",
+      "bytes": 607,
+      "sha256": "1d7f4341f16f70d176ae275aa744b92bd14bf06ee942144d518a4c98163a6443",
+      "reason": [
+        "Independent metric verification for the adopted histogram solver"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/metrics_per_seed.csv",
+      "bytes": 77859,
+      "sha256": "e117d5582123b0b56d9e99126295d15ba781add92bc2b194f32ddd0c03c251a1",
+      "reason": [
+        "Adopted per-seed W2 targets and primal/dual/marginal solver certificates; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/prediction_verification.json",
+      "bytes": 1974,
+      "sha256": "593327f879e5928882cf90db8a030e16045acec29fee3ba8b2984fa44b228bf3",
+      "reason": [
+        "Evidence that current 100k predictions used the adopted checkpoint conventions"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/reference_plan.json",
+      "bytes": 693,
+      "sha256": "dc2bccb7bc63f044af3d22ce870970fd272b384522522d24cc7456dc3df7d202",
+      "reason": [
+        "Final 100k reference physical protocol and source hashes"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp2d/manifest.json",
+      "bytes": 6779,
+      "sha256": "85c5a6b8b254532cac0c8e79506eb2097dd681ab84722d45cbb65038877454fc",
+      "reason": [
+        "Exact final 100k physical reference files/hashes and numerical protocol; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp2d/original_gpu_kpp2d_s2p0_seed10999.npz",
+      "bytes": 4641668,
+      "sha256": "14564652c8bff51820d4899f0ad999547b40406ba06b15881e8d052e14de9de1",
+      "reason": [
+        "Current 100k physical reference used by periodic histogram W2; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp2d/original_gpu_kpp2d_s2p25_seed10999.npz",
+      "bytes": 4637001,
+      "sha256": "0e5a1ae1494ca085f66e6672eb43388716e5c37bf54350e19d3d8ae0b7bd0d9d",
+      "reason": [
+        "Current 100k physical reference used by periodic histogram W2; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp2d/original_gpu_kpp2d_s2p5_seed10999.npz",
+      "bytes": 4649196,
+      "sha256": "bb30c707a17815c55b362a1cffa8b162581f7e7c74c813f81042a2adda7603bc",
+      "reason": [
+        "Current 100k physical reference used by periodic histogram W2; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp2d/original_gpu_kpp2d_s2p75_seed10999.npz",
+      "bytes": 4639316,
+      "sha256": "af59b64feb5259ab0895c21d7ecafe993de4792f1314c76f1191bfdcdfb02c1b",
+      "reason": [
+        "Current 100k physical reference used by periodic histogram W2; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp2d/original_gpu_kpp2d_s3p0_seed10999.npz",
+      "bytes": 4640619,
+      "sha256": "961cde7298d934b4c568dd69932f3dfe136b444f01b93e06e9da7b9477e6dccf",
+      "reason": [
+        "Current 100k physical reference used by periodic histogram W2; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp2d/original_gpu_kpp2d_s3p25_seed10999.npz",
+      "bytes": 4639071,
+      "sha256": "87cb9799b567e6da2ad57f74ac9a620e3be2ab0cabd49517cdfbaef7101bb72a",
+      "reason": [
+        "Current 100k physical reference used by periodic histogram W2; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp2d/original_gpu_kpp2d_s3p5_seed10999.npz",
+      "bytes": 4635661,
+      "sha256": "f6c09499684bec60446bfd643a910a6d9e1c1cd272241da03fce9cc6ff376945",
+      "reason": [
+        "Current 100k physical reference used by periodic histogram W2; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp2d/original_gpu_kpp2d_s3p75_seed10999.npz",
+      "bytes": 4640407,
+      "sha256": "a86cd81c244f55b5c58d22cbd583782d1acb5c04a7765bc656131111efa4ce79",
+      "reason": [
+        "Current 100k physical reference used by periodic histogram W2; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp2d/original_gpu_kpp2d_s4p0_seed10999.npz",
+      "bytes": 4643304,
+      "sha256": "fc8163d39a6ee01b46eacc4e76c0cc97aecd04cc67c23b16296808885a3db80b",
+      "reason": [
+        "Current 100k physical reference used by periodic histogram W2; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp2d/original_gpu_kpp2d_s4p25_seed10999.npz",
+      "bytes": 4642678,
+      "sha256": "d916e298cbb091be07d3821536aac93896e47a7aec005504fce21376a423af79",
+      "reason": [
+        "Current 100k physical reference used by periodic histogram W2; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp2d/original_gpu_kpp2d_s4p5_seed10999.npz",
+      "bytes": 4639120,
+      "sha256": "c1678beeb99fe903751f8a643918d70284d8e4159b5e14e5fe82bcba8b4d9494",
+      "reason": [
+        "Current 100k physical reference used by periodic histogram W2; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp2d/resume_provenance.json",
+      "bytes": 501,
+      "sha256": "37cc27798e2bd20b5fc74d70b8c6917c96402a2e4e42834c3d0ece5f354a4588",
+      "reason": [
+        "Provenance of the completed final 2D simulation initial resume; old checkpoint itself is unnecessary"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp2d/resume_slicing_validation.json",
+      "bytes": 1046,
+      "sha256": "6d768fe5ad74e865bf60fe60f946f5707e7b6943369131b14ff9bc1900e17122",
+      "reason": [
+        "Verified seed/ensemble selection for the completed 2D physical reference"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp2d/validation.json",
+      "bytes": 643,
+      "sha256": "0c8be83a54719347a9762f649e94a7b8d3632c80e49effec3f15ad00cbd85a89",
+      "reason": [
+        "Current 2D reference GPU-versus-original physical-kernel verification"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp3d/manifest.json",
+      "bytes": 6799,
+      "sha256": "7c21ba06643cf52a7280763574675e42fb37ae65ec47935e7c1fc5d2cc3f6a96",
+      "reason": [
+        "Exact final 100k physical reference files/hashes and numerical protocol; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp3d/original_gpu_kpp3d_s2p0_seed10999.npz",
+      "bytes": 6411195,
+      "sha256": "776f639dbac87ab539da8dc5fe1f7a3fa242171d475c68ab54c0c9df7280c0e7",
+      "reason": [
+        "Current 100k physical reference used by periodic histogram W2; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp3d/original_gpu_kpp3d_s2p25_seed10999.npz",
+      "bytes": 6401839,
+      "sha256": "5e5b0f56ca58ab8861944014a243cb41c94a2178f9eb9bd28a80af1f8bd3b354",
+      "reason": [
+        "Current 100k physical reference used by periodic histogram W2; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp3d/original_gpu_kpp3d_s2p5_seed10999.npz",
+      "bytes": 6406027,
+      "sha256": "a15917a45b02c1ae3eb61b650f00e3f6195b7f916ba805f0cf51a71e388aa589",
+      "reason": [
+        "Current 100k physical reference used by periodic histogram W2; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp3d/original_gpu_kpp3d_s2p75_seed10999.npz",
+      "bytes": 6411479,
+      "sha256": "e01219908e94829876e5c3cf60d3b1bd837fac4763c4360494f905844baeca0b",
+      "reason": [
+        "Current 100k physical reference used by periodic histogram W2; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp3d/original_gpu_kpp3d_s3p0_seed10999.npz",
+      "bytes": 6406756,
+      "sha256": "a92c5160b53ffcabc55877cec394ae83e535f676f7d15509fe6360b03eae5711",
+      "reason": [
+        "Current 100k physical reference used by periodic histogram W2; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp3d/original_gpu_kpp3d_s3p25_seed10999.npz",
+      "bytes": 6402983,
+      "sha256": "e463ed5c1162457b03c5294f7b75b50c716dbe8feb63330fed14b4eeacb9fbe8",
+      "reason": [
+        "Current 100k physical reference used by periodic histogram W2; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp3d/original_gpu_kpp3d_s3p5_seed10999.npz",
+      "bytes": 6404221,
+      "sha256": "b13e40c85ffff8f6e9d1f793240d1ab38127463870416627deea60a83890c0cf",
+      "reason": [
+        "Current 100k physical reference used by periodic histogram W2; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp3d/original_gpu_kpp3d_s3p75_seed10999.npz",
+      "bytes": 6403041,
+      "sha256": "9692c187e61a0c5a8450774aeeb17d4f3439fcb8bb35bc42985031aebc1c4d00",
+      "reason": [
+        "Current 100k physical reference used by periodic histogram W2; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp3d/original_gpu_kpp3d_s4p0_seed10999.npz",
+      "bytes": 6401042,
+      "sha256": "665d9eab2b6025d17be9e7c6ee7dd64d106429b22efef6a13a315dfd2eff506f",
+      "reason": [
+        "Current 100k physical reference used by periodic histogram W2; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp3d/original_gpu_kpp3d_s4p25_seed10999.npz",
+      "bytes": 6402807,
+      "sha256": "10b05c7303bd04a63d77d8e55d359799e117b4faf50f9d076afc383e6917b1e6",
+      "reason": [
+        "Current 100k physical reference used by periodic histogram W2; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp3d/original_gpu_kpp3d_s4p5_seed10999.npz",
+      "bytes": 6403508,
+      "sha256": "a5df1a0fae053d8e804a6dcd2d7809e3ecde1014ddbe868555f53c376d6a3c84",
+      "reason": [
+        "Current 100k physical reference used by periodic histogram W2; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references/kpp3d/validation.json",
+      "bytes": 667,
+      "sha256": "822db24abc8375671277c82f0c00c97e22557a25c92a7a5235a72db4f20f6998",
+      "reason": [
+        "Current 3D reference GPU-versus-original physical-kernel verification"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/references_complete.json",
+      "bytes": 70,
+      "sha256": "287138c6db34f5263b92a59896fb221a202446a72fc16c7910608da4e0e7e5f7",
+      "reason": [
+        "Completion record for all 22 final physical references"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/kpp2d/level_2/inputs.json",
+      "bytes": 559,
+      "sha256": "fbf9d70ffff3f772e1ccf60feeefc57c8822bd35c73e0e160730043ef6a4ab50",
+      "reason": [
+        "Current evaluation input hashes checked by paper_reproduction.evaluate_kpp; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/kpp2d/level_2p25/inputs.json",
+      "bytes": 561,
+      "sha256": "1d70dd1bed19363517533b8a4f11d57f03e059d55654a6ee8a230b6329d3fddb",
+      "reason": [
+        "Current evaluation input hashes checked by paper_reproduction.evaluate_kpp; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/kpp2d/level_2p5/inputs.json",
+      "bytes": 559,
+      "sha256": "c97b59141c875948bad10eb3d590b9d2bef75d1c6aec170061e47877b27bca90",
+      "reason": [
+        "Current evaluation input hashes checked by paper_reproduction.evaluate_kpp; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/kpp2d/level_2p75/inputs.json",
+      "bytes": 561,
+      "sha256": "e81dc5ee0476c9d846040bedfd35613a4ef1e7f8856bb12cbf5c0885476d2480",
+      "reason": [
+        "Current evaluation input hashes checked by paper_reproduction.evaluate_kpp; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/kpp2d/level_3/inputs.json",
+      "bytes": 559,
+      "sha256": "0eb5048351253a3e9b671839f114e3b14634bb51232f28fdbf7d38bb2ab9130e",
+      "reason": [
+        "Current evaluation input hashes checked by paper_reproduction.evaluate_kpp; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/kpp2d/level_3p25/inputs.json",
+      "bytes": 561,
+      "sha256": "7f2b39cbbd4487f028da923f335470f4697cd343cb14c00e643d68f52cf4aacd",
+      "reason": [
+        "Current evaluation input hashes checked by paper_reproduction.evaluate_kpp; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/kpp2d/level_3p5/inputs.json",
+      "bytes": 559,
+      "sha256": "8d2f56bc482eeb0d8522867ddef0a64b246e381b3a8b0f27e585a080eb14c8f7",
+      "reason": [
+        "Current evaluation input hashes checked by paper_reproduction.evaluate_kpp; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/kpp2d/level_3p75/inputs.json",
+      "bytes": 561,
+      "sha256": "899ed7837d121ede0b33d17ecd828b7393230e5196140df938b0320c7368a09e",
+      "reason": [
+        "Current evaluation input hashes checked by paper_reproduction.evaluate_kpp; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/kpp2d/level_4/inputs.json",
+      "bytes": 559,
+      "sha256": "9818965482182ff336f535c064daf7dfe981be6955c2a75d3e529359b5f5647d",
+      "reason": [
+        "Current evaluation input hashes checked by paper_reproduction.evaluate_kpp; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/kpp2d/level_4p25/inputs.json",
+      "bytes": 561,
+      "sha256": "21f00dc9a46e022579d27df5e0a5d73261434654c72f031950cb775617d9d73b",
+      "reason": [
+        "Current evaluation input hashes checked by paper_reproduction.evaluate_kpp; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/kpp2d/level_4p5/inputs.json",
+      "bytes": 559,
+      "sha256": "c19d72b2dead6c33bc7be38bd7a64e296d370ebda9f7a1a5bea96d4881f9766d",
+      "reason": [
+        "Current evaluation input hashes checked by paper_reproduction.evaluate_kpp; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/kpp3d/level_2/inputs.json",
+      "bytes": 595,
+      "sha256": "79ed494925086541ae0f6b6635a46b586f6788c653442eb172a0ff0d80ff911e",
+      "reason": [
+        "Current evaluation input hashes checked by paper_reproduction.evaluate_kpp; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/kpp3d/level_2p25/inputs.json",
+      "bytes": 597,
+      "sha256": "6e8a91020cbd1308937232e5099e84f37babc7542abb055700bd3b2a4c5460bc",
+      "reason": [
+        "Current evaluation input hashes checked by paper_reproduction.evaluate_kpp; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/kpp3d/level_2p5/inputs.json",
+      "bytes": 595,
+      "sha256": "4ae61323826e64f3f3a32e66a1f07290888cc3d1000d8a68f07bff2d8406662c",
+      "reason": [
+        "Current evaluation input hashes checked by paper_reproduction.evaluate_kpp; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/kpp3d/level_2p75/inputs.json",
+      "bytes": 597,
+      "sha256": "c2d932a51f240441c8d654e1bd2eb448cb8cdc70348d5089b341acdaeb376eff",
+      "reason": [
+        "Current evaluation input hashes checked by paper_reproduction.evaluate_kpp; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/kpp3d/level_3/inputs.json",
+      "bytes": 595,
+      "sha256": "c793d72c3690d60aa5471951ef3be11be0622f929f249ae12f30906815054b57",
+      "reason": [
+        "Current evaluation input hashes checked by paper_reproduction.evaluate_kpp; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/kpp3d/level_3p25/inputs.json",
+      "bytes": 597,
+      "sha256": "935d2a68bb5ea982d6291926eb8c567133713772f5b404664121a7032fb7eadd",
+      "reason": [
+        "Current evaluation input hashes checked by paper_reproduction.evaluate_kpp; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/kpp3d/level_3p5/inputs.json",
+      "bytes": 595,
+      "sha256": "bbea6944e367ab4fb8971e72dffd83cff5c3d5761ebbd300309c431bce4fb32a",
+      "reason": [
+        "Current evaluation input hashes checked by paper_reproduction.evaluate_kpp; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/kpp3d/level_3p75/inputs.json",
+      "bytes": 597,
+      "sha256": "a0b780b580afd7908128545bc9269bb7719ab88d246d8bf8acfdad031e28fcff",
+      "reason": [
+        "Current evaluation input hashes checked by paper_reproduction.evaluate_kpp; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/kpp3d/level_4/inputs.json",
+      "bytes": 595,
+      "sha256": "1a3d7f19ebb2363cc383bd6cf5b05fdd3b770810d2bf73cb99160dc50fc8ca33",
+      "reason": [
+        "Current evaluation input hashes checked by paper_reproduction.evaluate_kpp; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/kpp3d/level_4p25/inputs.json",
+      "bytes": 597,
+      "sha256": "5ac3dd851af0ffc3f5de0e6534e10b9316e1a7412573fc77d672215ed3fd4ef4",
+      "reason": [
+        "Current evaluation input hashes checked by paper_reproduction.evaluate_kpp; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/kpp3d/level_4p5/inputs.json",
+      "bytes": 595,
+      "sha256": "e8e6982d10b4424fc829828ea5d698bb4ec6c318153a2fe6ffffffd593556347",
+      "reason": [
+        "Current evaluation input hashes checked by paper_reproduction.evaluate_kpp; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/non_kpp_cubic/level_0p25/inputs.json",
+      "bytes": 743,
+      "sha256": "856e862fdff8391f3afa433e76f5700cf90013c4c305af3deeb732d3471ba6d4",
+      "reason": [
+        "Observed successful read-only preflight: cubic_context_and_physical_inputs"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/non_kpp_cubic/level_0p375/inputs.json",
+      "bytes": 747,
+      "sha256": "42a11d88d6742a07bc29784ea18fad9d686ba605c40bda06248cbcd11318b01f",
+      "reason": [
+        "Observed successful read-only preflight: cubic_context_and_physical_inputs"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/non_kpp_cubic/level_0p5/inputs.json",
+      "bytes": 741,
+      "sha256": "38277a235c97c07b459a25da6f4a71b03a433cfffe650d9e6d0d775546f2db0c",
+      "reason": [
+        "Observed successful read-only preflight: cubic_context_and_physical_inputs"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/non_kpp_cubic/level_0p75/inputs.json",
+      "bytes": 744,
+      "sha256": "b5c4c66d12342a186a9f7f62b768c1c9cdc9e4e89410fc09ce5464ea9db8d252",
+      "reason": [
+        "Observed successful read-only preflight: cubic_context_and_physical_inputs"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/non_kpp_cubic/level_1/inputs.json",
+      "bytes": 739,
+      "sha256": "cca9152890e3bdc884c713b57529ca288eacec132a95f54585463b0858a78d21",
+      "reason": [
+        "Observed successful read-only preflight: cubic_context_and_physical_inputs"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/non_kpp_cubic/level_1p5/inputs.json",
+      "bytes": 739,
+      "sha256": "2fecacc7051ccc53cc0d51972e7fbfc64b9ad1b145341fa3ea3f5c619339984f",
+      "reason": [
+        "Observed successful read-only preflight: cubic_context_and_physical_inputs"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/results/non_kpp_cubic/level_2/inputs.json",
+      "bytes": 738,
+      "sha256": "f3f9829270384da5f402b91aa990aed46ba5959d3c32cb3fef8e62189429fc03",
+      "reason": [
+        "Observed successful read-only preflight: cubic_context_and_physical_inputs"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/summary.csv",
+      "bytes": 20064,
+      "sha256": "29e85efcea2df24d17255b6a563504594f8462513fb50f258d7028e766db7c42",
+      "reason": [
+        "Current KPP W2 figure means/min-max and shared cubic summaries; Observed read by the actual dataset/checkpoint/evaluation/timing-input/figure/runtime preflight"
+      ]
+    },
+    {
+      "path": "output/other_histogram_100k_bins16_20261023/verification.json",
+      "bytes": 824,
+      "sha256": "44936de2cff8a43c66035c4b5246ec157873605d6ea0811693a6f08ddceb83aa",
+      "reason": [
+        "Final evaluation completeness and solver-certificate summary"
+      ]
+    },
+    {
+      "path": "output/particle_count100k_budget_comparison_20261009/particles/sigma100_inputs.npz",
+      "bytes": 3600782,
+      "sha256": "43b475ddc8625a4c055544e115a5da69c836954424f5eda8bc61b24d8c2b5c10",
+      "reason": [
+        "two-step MF reevaluation: all20 exact100k sources/references; sigma160 is additionally required by inference timing; includes physical reference_initial"
+      ]
+    },
+    {
+      "path": "output/particle_count100k_budget_comparison_20261009/particles/sigma10_inputs.npz",
+      "bytes": 3600782,
+      "sha256": "563343f97bdac2b425477aa7111a83d51eb59f4a769f28388b515618f0aaa0a0",
+      "reason": [
+        "two-step MF reevaluation: all20 exact100k sources/references; sigma160 is additionally required by inference timing; includes physical reference_initial"
+      ]
+    },
+    {
+      "path": "output/particle_count100k_budget_comparison_20261009/particles/sigma110_inputs.npz",
+      "bytes": 3600782,
+      "sha256": "76dedf9d4f71a84d49fada268d5872be3f2ba42ddb0913f99738dafd81128664",
+      "reason": [
+        "two-step MF reevaluation: all20 exact100k sources/references; sigma160 is additionally required by inference timing; includes physical reference_initial"
+      ]
+    },
+    {
+      "path": "output/particle_count100k_budget_comparison_20261009/particles/sigma120_inputs.npz",
+      "bytes": 3600782,
+      "sha256": "6ce026096eeb998385c5a2487b10bf43a22f34876e8be676a121265e73acfc13",
+      "reason": [
+        "two-step MF reevaluation: all20 exact100k sources/references; sigma160 is additionally required by inference timing; includes physical reference_initial"
+      ]
+    },
+    {
+      "path": "output/particle_count100k_budget_comparison_20261009/particles/sigma130_inputs.npz",
+      "bytes": 3600782,
+      "sha256": "4feac4458ef0c6f05ad554777742c476fbcf27dcf3f36afc20bc9ee2fb427b9c",
+      "reason": [
+        "two-step MF reevaluation: all20 exact100k sources/references; sigma160 is additionally required by inference timing; includes physical reference_initial"
+      ]
+    },
+    {
+      "path": "output/particle_count100k_budget_comparison_20261009/particles/sigma140_inputs.npz",
+      "bytes": 3600782,
+      "sha256": "f0819fae44fabb11adadc1eff4492d5a5e1a3c3a4086079cc4af9c8444da43d9",
+      "reason": [
+        "two-step MF reevaluation: all20 exact100k sources/references; sigma160 is additionally required by inference timing; includes physical reference_initial"
+      ]
+    },
+    {
+      "path": "output/particle_count100k_budget_comparison_20261009/particles/sigma150_inputs.npz",
+      "bytes": 3600782,
+      "sha256": "2a564ec9a7daed1bd08b98e46f16afca30ad0a161fe74685ff7fcc03dd78b237",
+      "reason": [
+        "two-step MF reevaluation: all20 exact100k sources/references; sigma160 is additionally required by inference timing; includes physical reference_initial"
+      ]
+    },
+    {
+      "path": "output/particle_count100k_budget_comparison_20261009/particles/sigma160_inputs.npz",
+      "bytes": 3600782,
+      "sha256": "2637b650a97efd1a7099a0d67e1e5578e155849357bec31c65a66f60171cec69",
+      "reason": [
+        "two-step MF reevaluation: all20 exact100k sources/references; sigma160 is additionally required by inference timing; includes physical reference_initial",
+        "Observed successful read-only preflight: comparison_only_obsolete_baseline, training_and_timing_inputs"
+      ]
+    },
+    {
+      "path": "output/particle_count100k_budget_comparison_20261009/particles/sigma170_inputs.npz",
+      "bytes": 3600782,
+      "sha256": "30d4efe9f498b893a3566bb5f8f576eba6894048855a88556413e967793356e9",
+      "reason": [
+        "two-step MF reevaluation: all20 exact100k sources/references; sigma160 is additionally required by inference timing; includes physical reference_initial"
+      ]
+    },
+    {
+      "path": "output/particle_count100k_budget_comparison_20261009/particles/sigma180_inputs.npz",
+      "bytes": 3600782,
+      "sha256": "78e83252132bd8a8c5c61904b7c0b524389d4db11857653cda739e53ff18a73c",
+      "reason": [
+        "two-step MF reevaluation: all20 exact100k sources/references; sigma160 is additionally required by inference timing; includes physical reference_initial"
+      ]
+    },
+    {
+      "path": "output/particle_count100k_budget_comparison_20261009/particles/sigma190_inputs.npz",
+      "bytes": 3600782,
+      "sha256": "0d3f04803781ac4452e52991b3acf73c9652739a10ee0816aa3a39346f8409af",
+      "reason": [
+        "two-step MF reevaluation: all20 exact100k sources/references; sigma160 is additionally required by inference timing; includes physical reference_initial"
+      ]
+    },
+    {
+      "path": "output/particle_count100k_budget_comparison_20261009/particles/sigma200_inputs.npz",
+      "bytes": 3600782,
+      "sha256": "761efcc4327759f05c01b896206f0862c7cec3cb8d79d99ec3d948625582f1eb",
+      "reason": [
+        "two-step MF reevaluation: all20 exact100k sources/references; sigma160 is additionally required by inference timing; includes physical reference_initial"
+      ]
+    },
+    {
+      "path": "output/particle_count100k_budget_comparison_20261009/particles/sigma20_inputs.npz",
+      "bytes": 3600782,
+      "sha256": "8b01c5f81a2da58d84975f1259bdf9458cb1913ec4cfb1e7d17d4a7080823277",
+      "reason": [
+        "two-step MF reevaluation: all20 exact100k sources/references; sigma160 is additionally required by inference timing; includes physical reference_initial"
+      ]
+    },
+    {
+      "path": "output/particle_count100k_budget_comparison_20261009/particles/sigma30_inputs.npz",
+      "bytes": 3600782,
+      "sha256": "bcded6e00f6dc51995e30b13ed4b3c898edb5234aa06ad981dcc9c473bbd2277",
+      "reason": [
+        "two-step MF reevaluation: all20 exact100k sources/references; sigma160 is additionally required by inference timing; includes physical reference_initial"
+      ]
+    },
+    {
+      "path": "output/particle_count100k_budget_comparison_20261009/particles/sigma40_inputs.npz",
+      "bytes": 3600782,
+      "sha256": "3de167f88d6860e356bd2bd07cda3d19d4f30606279535db76309e2a1f42c4ce",
+      "reason": [
+        "two-step MF reevaluation: all20 exact100k sources/references; sigma160 is additionally required by inference timing; includes physical reference_initial"
+      ]
+    },
+    {
+      "path": "output/particle_count100k_budget_comparison_20261009/particles/sigma50_inputs.npz",
+      "bytes": 3600782,
+      "sha256": "28bcc752ff6c5a966bd83e1cc3a75f5c6945d7a5209043a7754fae004e12885d",
+      "reason": [
+        "two-step MF reevaluation: all20 exact100k sources/references; sigma160 is additionally required by inference timing; includes physical reference_initial"
+      ]
+    },
+    {
+      "path": "output/particle_count100k_budget_comparison_20261009/particles/sigma60_inputs.npz",
+      "bytes": 3600782,
+      "sha256": "291b4b6651cdee84416593727b1df4b2d4a2f1f9a2fbf9f1776df613c2adc2ed",
+      "reason": [
+        "two-step MF reevaluation: all20 exact100k sources/references; sigma160 is additionally required by inference timing; includes physical reference_initial"
+      ]
+    },
+    {
+      "path": "output/particle_count100k_budget_comparison_20261009/particles/sigma70_inputs.npz",
+      "bytes": 3600782,
+      "sha256": "274c712458d4565afc199b000d9db4f95b3823805128001877b743fa004504b3",
+      "reason": [
+        "two-step MF reevaluation: all20 exact100k sources/references; sigma160 is additionally required by inference timing; includes physical reference_initial"
+      ]
+    },
+    {
+      "path": "output/particle_count100k_budget_comparison_20261009/particles/sigma80_inputs.npz",
+      "bytes": 3600782,
+      "sha256": "d2ade5e23384818517bdeeaa76b29c24113791ecee983648fcb9c08014feccc5",
+      "reason": [
+        "two-step MF reevaluation: all20 exact100k sources/references; sigma160 is additionally required by inference timing; includes physical reference_initial"
+      ]
+    },
+    {
+      "path": "output/particle_count100k_budget_comparison_20261009/particles/sigma90_inputs.npz",
+      "bytes": 3600782,
+      "sha256": "a7fed35e4b1c2ae9d453eb77f8a0a781097c917844113077098666b150961dcd",
+      "reason": [
+        "two-step MF reevaluation: all20 exact100k sources/references; sigma160 is additionally required by inference timing; includes physical reference_initial"
+      ]
+    }
+  ],
+  "note": "Numerical arrays and checkpoint bytes are unchanged. Two KS manifest evidence fields were removed; original physical identities and dataset signatures are unchanged."
+}

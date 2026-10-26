@@ -1,0 +1,25 @@
+{
+  "model": "non_kpp_cubic",
+  "level": 0.75,
+  "N": 100000,
+  "bins": 16,
+  "dimension": 3,
+  "periodic": false,
+  "origin": [
+    -28.454803466796875,
+    -32.12102127075195,
+    -26.362882614135742
+  ],
+  "width": [
+    3.6319422721862793,
+    3.960943341255188,
+    3.4923739433288574
+  ],
+  "provenance": {
+    "dataset": "output\\non_kpp_diffusion_sweep_20261020\\datasets\\cubic\\D_0p75\\samples.npz",
+    "dataset_sha256": "480df12397049b5077a9fa7842331e69c40de228455dfb7bcca25eb2b63c4666",
+    "source_indices_sha256": "0d73a8324484448a1e947ca72b6b0f4ad6e2bb94d2ee08b136e669454ff3162b",
+    "target_indices_sha256": "f5f7c4e6bbbc466f6dca1e2fd3bde1b02a3f3fa5921680f2e16d99676ff59d0a",
+    "budget": 2000
+  }
+}

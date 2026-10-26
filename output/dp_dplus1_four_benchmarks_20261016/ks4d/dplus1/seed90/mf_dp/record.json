@@ -1,0 +1,16 @@
+{
+  "model": "ks4d",
+  "variant": "dplus1",
+  "seed": 90,
+  "method": "mf_dp",
+  "DP_stage_seconds": 7.865562099999806,
+  "DP_updates": 500,
+  "parameters": 8964,
+  "MF_frozen_unchanged": true,
+  "control_parameters_bitwise_equal": null,
+  "control_loss_trace_byte_identical": null,
+  "ot_solves": 8,
+  "checkpoint_sha256": "886bd1c2800abd7531eb861af433540d33c2ed2d5801a400d715032ffee4fcb6",
+  "reused_verified_run": false,
+  "origin": "this_experiment"
+}

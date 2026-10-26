@@ -1,0 +1,225 @@
+{
+  "identity": {
+    "protocol": {
+      "schema": "uploaded_kpp_training_v1",
+      "model_id": "kpp2d_uploaded_plus_drift_plus_potential_kappa_offset_resample256_v1",
+      "name": "kpp2d",
+      "dimension": 2,
+      "family": "kpp",
+      "dt": 0.00390625,
+      "generations": 4096,
+      "final_time": 0.02,
+      "lam": 2.0,
+      "theta": 1.0,
+      "reaction_rate": 0.0,
+      "resample_every": 256,
+      "mu": 1.0,
+      "chi": 50.26548245743669,
+      "delta": 0.1,
+      "flow_amplitude": 1.0,
+      "n_train": 20000,
+      "n_eval": 20000,
+      "level_definition": "s=-log2(kappa)",
+      "boundary": "torus [0,2*pi)^d",
+      "phase": 0,
+      "potential": "kappa*lambda^2 + lambda*v1",
+      "eigenvalue": "kappa + sum log(mean weights)/elapsed time",
+      "resampler": "multinomial inverse CDF, once per forcing period",
+      "reaction_in_weights": 0.0,
+      "time_direction": "forward j*dt",
+      "source_file": "E:\\working_space\\overleaf-6ab213532624b316eadcbdcc\\deepparticle\\data\\particle_sources\\kpp_archive_20261012\\source_snapshot\\kpp_common.py",
+      "source_sha256": "41c725df17e169b2e6c26aa8070ee7af55c6b4dc0bf6590840323e2c4ecaaf07"
+    },
+    "train_levels": [
+      2.0,
+      2.25,
+      2.5,
+      2.75,
+      3.0,
+      3.25,
+      3.5,
+      3.75
+    ],
+    "eval_levels": [
+      2.0,
+      2.25,
+      2.5,
+      2.75,
+      3.0,
+      3.25,
+      3.5,
+      3.75,
+      4.0,
+      4.25,
+      4.5
+    ],
+    "train_physical_seed": 666,
+    "eval_physical_seed": 999,
+    "prior": "Normal(0,pi), distinct training/evaluation pools; same pool across kappa",
+    "source": "Validated GPU port of the unmodified uploaded source, independent Philox streams by seed"
+  },
+  "protocol": {
+    "schema": "uploaded_kpp_training_v1",
+    "model_id": "kpp2d_uploaded_plus_drift_plus_potential_kappa_offset_resample256_v1",
+    "name": "kpp2d",
+    "dimension": 2,
+    "family": "kpp",
+    "dt": 0.00390625,
+    "generations": 4096,
+    "final_time": 0.02,
+    "lam": 2.0,
+    "theta": 1.0,
+    "reaction_rate": 0.0,
+    "resample_every": 256,
+    "mu": 1.0,
+    "chi": 50.26548245743669,
+    "delta": 0.1,
+    "flow_amplitude": 1.0,
+    "n_train": 20000,
+    "n_eval": 20000,
+    "level_definition": "s=-log2(kappa)",
+    "boundary": "torus [0,2*pi)^d",
+    "phase": 0,
+    "potential": "kappa*lambda^2 + lambda*v1",
+    "eigenvalue": "kappa + sum log(mean weights)/elapsed time",
+    "resampler": "multinomial inverse CDF, once per forcing period",
+    "reaction_in_weights": 0.0,
+    "time_direction": "forward j*dt",
+    "source_file": "E:\\working_space\\overleaf-6ab213532624b316eadcbdcc\\deepparticle\\data\\particle_sources\\kpp_archive_20261012\\source_snapshot\\kpp_common.py",
+    "source_sha256": "41c725df17e169b2e6c26aa8070ee7af55c6b4dc0bf6590840323e2c4ecaaf07"
+  },
+  "purpose": "experiment",
+  "evidence": {
+    "basis": "Actual executed user-uploaded source, not canonical mainV2 physics",
+    "source": "E:\\working_space\\overleaf-6ab213532624b316eadcbdcc\\deepparticle\\data\\particle_sources\\kpp_archive_20261012\\source_snapshot\\kpp_common.py",
+    "source_sha256": "41c725df17e169b2e6c26aa8070ee7af55c6b4dc0bf6590840323e2c4ecaaf07",
+    "preserved": [
+      "2D time-dependent flow",
+      "3D positive drift and negative potential",
+      "no reaction term in weights",
+      "kappa offset",
+      "resample every 256 substeps"
+    ],
+    "previous_material": "E:\\working_space\\overleaf-6ab213532624b316eadcbdcc\\output\\kpp_original_sampling_20261014\\gpu_manifest.json"
+  },
+  "status": "complete",
+  "train": [
+    {
+      "level": 2.0,
+      "parameter": 0.25,
+      "file": "clouds/train_00.npz",
+      "sha256": "f5bd7138255891c966bf09f7c73a785e9378d134c9ba7653b431c7c0d3770204"
+    },
+    {
+      "level": 2.25,
+      "parameter": 0.21022410381342863,
+      "file": "clouds/train_01.npz",
+      "sha256": "1f62ab3dad30a084eb7fbdea6d6c5f37da9191cf1b3231573c8f7b67d5d288fb"
+    },
+    {
+      "level": 2.5,
+      "parameter": 0.1767766952966369,
+      "file": "clouds/train_02.npz",
+      "sha256": "d4a85a03f85a8cd10bc571e7a921eb599048b2dada344fb6a0cf60f8424b8ca8"
+    },
+    {
+      "level": 2.75,
+      "parameter": 0.14865088937534013,
+      "file": "clouds/train_03.npz",
+      "sha256": "1054a6562fb2e6224f9a8f485c922fd3dca474223d57da6cbcbaec1ede02fbff"
+    },
+    {
+      "level": 3.0,
+      "parameter": 0.125,
+      "file": "clouds/train_04.npz",
+      "sha256": "6258c16271567d0d1120315a8912b7e77a05debffa363c47445135314366dbf3"
+    },
+    {
+      "level": 3.25,
+      "parameter": 0.10511205190671431,
+      "file": "clouds/train_05.npz",
+      "sha256": "948bc7b732281a07358f177471e0b9daeba8957896d2cb6c80884a3897c2620b"
+    },
+    {
+      "level": 3.5,
+      "parameter": 0.08838834764831845,
+      "file": "clouds/train_06.npz",
+      "sha256": "ead884f81bca2c666184e2456d1b553645250fdcc31c6117ae6f756eeec7f430"
+    },
+    {
+      "level": 3.75,
+      "parameter": 0.07432544468767006,
+      "file": "clouds/train_07.npz",
+      "sha256": "e486d1c2b2dae6c1574047cc23e3385ea1b4bad37e517ff6da2573014395417a"
+    }
+  ],
+  "eval": [
+    {
+      "level": 2.0,
+      "parameter": 0.25,
+      "file": "clouds/eval_00.npz",
+      "sha256": "f8bb15f6fe9b1dbccd0950dd1af13831d5c1d78e258ad4f7767ed93371c74e66"
+    },
+    {
+      "level": 2.25,
+      "parameter": 0.21022410381342863,
+      "file": "clouds/eval_01.npz",
+      "sha256": "b2dce61c7d3e9399fee08f1540e253b4e8b48d9184d901560c9fc2f58ef472b9"
+    },
+    {
+      "level": 2.5,
+      "parameter": 0.1767766952966369,
+      "file": "clouds/eval_02.npz",
+      "sha256": "f49dcd7977d8e438386cf6e7f8d6052d5842ef9a503cb38b1ae1d2e84abe1d8f"
+    },
+    {
+      "level": 2.75,
+      "parameter": 0.14865088937534013,
+      "file": "clouds/eval_03.npz",
+      "sha256": "9cc15087bb8b01ee2bd0b89a4289f72c872a8e6e02c9db83f4f70c92a8cae8e5"
+    },
+    {
+      "level": 3.0,
+      "parameter": 0.125,
+      "file": "clouds/eval_04.npz",
+      "sha256": "7e3ed98fa4e9a5975598463783d1df424275bc839dbc8b3f37f636b0fbdd03fe"
+    },
+    {
+      "level": 3.25,
+      "parameter": 0.10511205190671431,
+      "file": "clouds/eval_05.npz",
+      "sha256": "122af88c849d2f7edee524dac9b47b51f70472f667067ab268b597eae293f472"
+    },
+    {
+      "level": 3.5,
+      "parameter": 0.08838834764831845,
+      "file": "clouds/eval_06.npz",
+      "sha256": "2dd1ed13316ee10abccea93f66cf6cbd87f3e844c42319c01df19a2ec56ebc10"
+    },
+    {
+      "level": 3.75,
+      "parameter": 0.07432544468767006,
+      "file": "clouds/eval_07.npz",
+      "sha256": "637113fa915283313e456367b8ae431e44d9e76d48f796850d04f9ae85fb8c3c"
+    },
+    {
+      "level": 4.0,
+      "parameter": 0.0625,
+      "file": "clouds/eval_08.npz",
+      "sha256": "e674954dacbde2708d9a998388bda9a8a327c2dd7465c88f59478266195b128f"
+    },
+    {
+      "level": 4.25,
+      "parameter": 0.052556025953357156,
+      "file": "clouds/eval_09.npz",
+      "sha256": "b7b53a965ced95f9d61bd74df00b4df36dbd45173861e9c5fe6156f5e41b98e1"
+    },
+    {
+      "level": 4.5,
+      "parameter": 0.04419417382415922,
+      "file": "clouds/eval_10.npz",
+      "sha256": "798a091bb5a341b5fd1b3dc7198ed1549a9948dda7195c4ec0182d5b291397c5"
+    }
+  ],
+  "signature": "30cb5e7e664d90826235514cfebb015646d7b258c4ed0696b3c7371ad54081bf"
+}

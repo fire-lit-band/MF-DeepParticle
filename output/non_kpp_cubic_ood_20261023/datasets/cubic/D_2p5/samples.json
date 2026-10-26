@@ -1,0 +1,21 @@
+{
+  "physics": {
+    "reaction": "cubic",
+    "particles": 5000000,
+    "bins": 160,
+    "half_width": 96.0,
+    "initial_radius": 5.0,
+    "diffusion": 2.5,
+    "final_time": 20.0,
+    "dt": 0.5,
+    "seed": 666
+  },
+  "pool_particles": 200000,
+  "sampling_seeds": {
+    "eval_prior": 43345,
+    "eval_target": 33345,
+    "eval_target_independent": 53345
+  },
+  "field_sha256": "8578863b72ddf621c29b895201c7d8052a3ab1f03982261257b5c98c5bed1d56",
+  "purpose": "Evaluation only; no training or tuning samples are produced"
+}

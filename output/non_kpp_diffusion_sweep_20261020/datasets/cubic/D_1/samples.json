@@ -1,0 +1,25 @@
+{
+  "n_train": 20000,
+  "n_eval": 200000,
+  "physics": {
+    "reaction": "cubic",
+    "particles": 5000000,
+    "bins": 100,
+    "half_width": 60.0,
+    "initial_radius": 5.0,
+    "diffusion": 1.0,
+    "final_time": 20.0,
+    "dt": 0.5,
+    "seed": 666
+  },
+  "sampling_seeds": {
+    "train_target": 12345,
+    "train_prior": 22345,
+    "eval_target": 33345,
+    "eval_prior": 43345,
+    "eval_target_independent": 53345
+  },
+  "signature": "ec4b376934c58030bfe41ec0720be0fbe74d8167416bbfd6be86af862629c016",
+  "reference": "Independent draws from one fixed SGIP histogram, not independent PDE solves",
+  "target_representation": "piecewise constant density; uniform jitter within bins"
+}

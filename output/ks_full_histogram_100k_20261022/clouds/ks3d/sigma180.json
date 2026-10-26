@@ -1,0 +1,13 @@
+{
+  "file": "clouds\\ks3d\\sigma180.npz",
+  "sha256": "ce49c7d70b3c63d0370fbf0535295709d10b8f94c2c8d1d4c309707951f1f708",
+  "model": "ks3d",
+  "level": 180,
+  "particles": 100000,
+  "dimension": 3,
+  "origin": "current frozen 100k manuscript clouds",
+  "inputs": {
+    "output\\mf_matched_dp_20261016\\ks3d\\evaluation\\particles_17.npz": "56801c58202abb7f9f238203f0645c324ac88102199526d613626f8e7c4f9a06",
+    "output\\dp_dplus1_four_benchmarks_20261016\\ks3d\\evaluation\\particles_17.npz": "57d14217d302b1dc004e65b0628cced04a9f60ad180b0742249e866df70e2c31"
+  }
+}

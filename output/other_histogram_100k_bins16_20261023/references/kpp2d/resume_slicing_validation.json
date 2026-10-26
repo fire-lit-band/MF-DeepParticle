@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "cached_generation": 2304,
+  "particles_per_case": 100000,
+  "parameter_cases": 11,
+  "comparison": "one complete period of full 22-ensemble checkpoint vs retained first 11 ensembles",
+  "checks": {
+    "q": {
+      "bitwise_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    "growth": {
+      "bitwise_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    "ess_sum": {
+      "bitwise_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    "pre_selection": {
+      "bitwise_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    "probability": {
+      "bitwise_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    "selection_indices": {
+      "bitwise_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    "ancestry": {
+      "bitwise_equal": true,
+      "max_absolute_difference": 0.0
+    }
+  },
+  "rng_state_bitwise_equal": true,
+  "cached_checkpoint_sha256": "ed2f216691036da659eece4be6f747379c2d5fca717477fcde4ae5bde59845cb"
+}

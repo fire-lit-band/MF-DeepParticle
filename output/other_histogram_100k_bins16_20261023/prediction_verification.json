@@ -1,0 +1,95 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "model": "kpp2d",
+      "key": "seed88_mf",
+      "old_prediction_max_error": 0.0
+    },
+    {
+      "model": "kpp2d",
+      "key": "seed88_dp",
+      "old_prediction_max_error": 0.0
+    },
+    {
+      "model": "kpp2d",
+      "key": "seed88_mf_dp",
+      "old_prediction_max_error": 0.0
+    },
+    {
+      "model": "kpp2d",
+      "key": "seed89_mf",
+      "old_prediction_max_error": 0.0
+    },
+    {
+      "model": "kpp2d",
+      "key": "seed89_dp",
+      "old_prediction_max_error": 0.0
+    },
+    {
+      "model": "kpp2d",
+      "key": "seed89_mf_dp",
+      "old_prediction_max_error": 0.0
+    },
+    {
+      "model": "kpp2d",
+      "key": "seed90_mf",
+      "old_prediction_max_error": 0.0
+    },
+    {
+      "model": "kpp2d",
+      "key": "seed90_dp",
+      "old_prediction_max_error": 0.0
+    },
+    {
+      "model": "kpp2d",
+      "key": "seed90_mf_dp",
+      "old_prediction_max_error": 0.0
+    },
+    {
+      "model": "kpp3d",
+      "key": "seed88_mf",
+      "old_prediction_max_error": 0.0
+    },
+    {
+      "model": "kpp3d",
+      "key": "seed88_dp",
+      "old_prediction_max_error": 0.0
+    },
+    {
+      "model": "kpp3d",
+      "key": "seed88_mf_dp",
+      "old_prediction_max_error": 0.0
+    },
+    {
+      "model": "kpp3d",
+      "key": "seed89_mf",
+      "old_prediction_max_error": 0.0
+    },
+    {
+      "model": "kpp3d",
+      "key": "seed89_dp",
+      "old_prediction_max_error": 0.0
+    },
+    {
+      "model": "kpp3d",
+      "key": "seed89_mf_dp",
+      "old_prediction_max_error": 0.0
+    },
+    {
+      "model": "kpp3d",
+      "key": "seed90_mf",
+      "old_prediction_max_error": 0.0
+    },
+    {
+      "model": "kpp3d",
+      "key": "seed90_dp",
+      "old_prediction_max_error": 0.0
+    },
+    {
+      "model": "kpp3d",
+      "key": "seed90_mf_dp",
+      "old_prediction_max_error": 0.0
+    }
+  ]
+}

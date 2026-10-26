@@ -1,0 +1,23 @@
+{
+  "model": "kpp3d",
+  "level": 3.75,
+  "N": 100000,
+  "bins": 16,
+  "dimension": 3,
+  "periodic": true,
+  "origin": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "width": [
+    0.39269908169872414,
+    0.39269908169872414,
+    0.39269908169872414
+  ],
+  "provenance": {
+    "reference": "output\\other_histogram_100k_bins16_20261023\\references\\kpp3d\\original_gpu_kpp3d_s3p75_seed10999.npz",
+    "reference_sha256": "9692c187e61a0c5a8450774aeeb17d4f3439fcb8bb35bc42985031aebc1c4d00",
+    "generated_sha256": "a800e11c278e6fa36627aa17674e439b2c10ebf44d117d380351bc08e6e8de5a"
+  }
+}

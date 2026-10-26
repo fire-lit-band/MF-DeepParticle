@@ -1,0 +1,21 @@
+{
+  "model": "kpp2d",
+  "level": 2.0,
+  "N": 100000,
+  "bins": 16,
+  "dimension": 2,
+  "periodic": true,
+  "origin": [
+    0.0,
+    0.0
+  ],
+  "width": [
+    0.39269908169872414,
+    0.39269908169872414
+  ],
+  "provenance": {
+    "reference": "output\\other_histogram_100k_bins16_20261023\\references\\kpp2d\\original_gpu_kpp2d_s2p0_seed10999.npz",
+    "reference_sha256": "14564652c8bff51820d4899f0ad999547b40406ba06b15881e8d052e14de9de1",
+    "generated_sha256": "8cfa4a34c17d9c6da675f0d1fc4f03079f07fa0b5dd00e79df7b2258bd4718fa"
+  }
+}

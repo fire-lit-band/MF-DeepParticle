@@ -1,0 +1,28 @@
+{
+  "dimension": 3,
+  "status": "passed",
+  "identical_supplied_innovations": true,
+  "particles_per_case": 256,
+  "periods": 3,
+  "cases": 11,
+  "initial_numpy_uniforms_exact": true,
+  "source_terminal_float32_max_errors": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "gpu_vs_cpu_float64_max_step_error": 5.329070518200751e-15,
+  "gpu_vs_cpu_growth_max_error": 4.440892098500626e-16,
+  "cuda_graph_vs_eager": "passed, 512 particles, 3 periods, same Philox seeds",
+  "resampling_calls_per_case": 3,
+  "steps_per_period": 256,
+  "three_dimensional_potential_sign": "negative"
+}

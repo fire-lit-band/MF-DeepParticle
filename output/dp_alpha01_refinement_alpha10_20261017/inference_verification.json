@@ -1,0 +1,263 @@
+{
+  "status": "passed",
+  "identities": [
+    {
+      "model": "ks3d",
+      "seed": 88,
+      "method": "mf",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "ks3d",
+      "seed": 88,
+      "method": "dp",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "ks3d",
+      "seed": 88,
+      "method": "mf_dp",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "ks3d",
+      "seed": 88,
+      "method": "mf_two_step",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "ks3d",
+      "seed": 89,
+      "method": "mf",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "ks3d",
+      "seed": 89,
+      "method": "dp",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "ks3d",
+      "seed": 89,
+      "method": "mf_dp",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "ks3d",
+      "seed": 89,
+      "method": "mf_two_step",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "ks3d",
+      "seed": 90,
+      "method": "mf",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "ks3d",
+      "seed": 90,
+      "method": "dp",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "ks3d",
+      "seed": 90,
+      "method": "mf_dp",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "ks3d",
+      "seed": 90,
+      "method": "mf_two_step",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "ks4d",
+      "seed": 88,
+      "method": "mf",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "ks4d",
+      "seed": 88,
+      "method": "dp",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "ks4d",
+      "seed": 88,
+      "method": "mf_dp",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "ks4d",
+      "seed": 89,
+      "method": "mf",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "ks4d",
+      "seed": 89,
+      "method": "dp",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "ks4d",
+      "seed": 89,
+      "method": "mf_dp",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "ks4d",
+      "seed": 90,
+      "method": "mf",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "ks4d",
+      "seed": 90,
+      "method": "dp",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "ks4d",
+      "seed": 90,
+      "method": "mf_dp",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "kpp2d",
+      "seed": 88,
+      "method": "mf",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "kpp2d",
+      "seed": 88,
+      "method": "dp",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "kpp2d",
+      "seed": 88,
+      "method": "mf_dp",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "kpp2d",
+      "seed": 88,
+      "method": "bdp",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "kpp2d",
+      "seed": 89,
+      "method": "mf",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "kpp2d",
+      "seed": 89,
+      "method": "dp",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "kpp2d",
+      "seed": 89,
+      "method": "mf_dp",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "kpp2d",
+      "seed": 89,
+      "method": "bdp",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "kpp2d",
+      "seed": 90,
+      "method": "mf",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "kpp2d",
+      "seed": 90,
+      "method": "dp",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "kpp2d",
+      "seed": 90,
+      "method": "mf_dp",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "kpp2d",
+      "seed": 90,
+      "method": "bdp",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "kpp3d",
+      "seed": 88,
+      "method": "mf",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "kpp3d",
+      "seed": 88,
+      "method": "dp",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "kpp3d",
+      "seed": 88,
+      "method": "mf_dp",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "kpp3d",
+      "seed": 89,
+      "method": "mf",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "kpp3d",
+      "seed": 89,
+      "method": "dp",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "kpp3d",
+      "seed": 89,
+      "method": "mf_dp",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "kpp3d",
+      "seed": 90,
+      "method": "mf",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "kpp3d",
+      "seed": 90,
+      "method": "dp",
+      "resident_cpu_bitwise_equal": true
+    },
+    {
+      "model": "kpp3d",
+      "seed": 90,
+      "method": "mf_dp",
+      "resident_cpu_bitwise_equal": true
+    }
+  ],
+  "warmups": 10,
+  "repeats": 40,
+  "particles": 100000,
+  "chunk": 10000,
+  "scope": "synchronized wall time; GPU-resident only; no loading/RNG/metric OT/FK",
+  "periodic_direct_DP": "wrap source before MLP, identical to manuscript evaluation"
+}

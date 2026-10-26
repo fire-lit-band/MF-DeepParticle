@@ -1,0 +1,103 @@
+{
+  "material_passport": {
+    "origin_skill": "academic-research-suite",
+    "origin_mode": "run + validate",
+    "date": "2026-10-22",
+    "verification_status": "VERIFIED",
+    "version": "ks-hist100k-bins16-v1"
+  },
+  "user_request": "Evaluate both 3D and 4D KS using 100000-point full-dimensional histogram OT; do not replace manuscript results.",
+  "models": [
+    "ks3d",
+    "ks4d"
+  ],
+  "levels": [
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100,
+    110,
+    120,
+    130,
+    140,
+    150,
+    160,
+    170,
+    180,
+    190,
+    200
+  ],
+  "training_seeds": [
+    88,
+    89,
+    90
+  ],
+  "methods": [
+    "mf",
+    "dp",
+    "mf_dp"
+  ],
+  "particles_per_distribution": 100000,
+  "base_bins_per_axis": 16,
+  "grid": "For EACH case use the 100k reference coordinate min/max divided into 16 bins per axis; anchor at reference minimum and extend the same lattice without clipping any generated point. Share the grid across all methods and seeds. Apply this identical construction in 3D and 4D.",
+  "distance": "Unscaled squared Euclidean cost using all coordinates; exact weighted OT, square root reported as W2.",
+  "solver": "POT exact network simplex: dense for 3D and initial 4D rows; sparse column generation with a global dual certificate for remaining 4D rows. Same full squared-Euclidean OT objective, no entropic regularization. All solves check marginals and primal-dual gap. Dense-versus-sparse agreement is recorded in solver_comparison.json.",
+  "reuse_clouds": "E:\\working_space\\overleaf-6ab213532624b316eadcbdcc\\output\\ks_full_histogram_100k_20261022\\clouds",
+  "grid_choice": "User chose a complete 16-bin-per-axis comparison after the 24-bin 4D evaluation proved too slow. Same 100k clouds retained.",
+  "ks3d": "Reuse frozen 100k reference and generated clouds from current manuscript checkpoints; recompute under the common reference-anchored grid rule (original manuscript uses its historical anchored grid).",
+  "ks4d": "Shared fresh 100k uniform-unit-ball source, seed10999. Same physical scheme as current benchmark, 100k interacting particles, Brownian seed10999+1009*index. Valid raw 100k cached physical clouds may be reused after source/signature checks and exact simulation replay at sigma10.",
+  "training": "None. MF1000 / DP1000 / MF500+DP500, fixed existing checkpoints. DP d+1, alpha .1 direct and 10 refinement.",
+  "uncertainty": "Three model seeds; report mean, sample SD and min/max conditional on fixed physical references. Parameter levels are not independent training replicates.",
+  "physical_reference_caveat": "4D increases physical interaction ensemble from 10k to100k as well as evaluation size; comparison to old results is not a pure estimator-only ablation.",
+  "protected_sha256": {
+    "mainV2.tex": "92e3466688ddaf181b6c1ef0153810f59321cc77564a10e48d6cc0dce9b05a28",
+    "mainV2.pdf": "3111ec4fbf888b67e77fb31a70f208bc06f44998befa8c55dc38786b1dfab3f2",
+    "sections\\experiment_protocols.tex": "465b2245336d4fd2206d871a6528e043495a50c5d5373483a222c56fc8d6cbd0",
+    "figures\\selected_dp_results_20261017\\dplus1_ks3d_projection_20261016.pdf": "9dc15c8c275262d5a216656aa8e9c62f0423e1d9cc13973091ca18d8fa59a501",
+    "figures\\selected_dp_results_20261017\\dplus1_ks3d_projection_20261016.png": "d81242dcd4106cbd01f62db8ff20bbd2bd5699f72ba63b2e4ec4c21113fec5f5",
+    "figures\\selected_dp_results_20261017\\dplus1_ks3d_w2_20261016.pdf": "d9a5ad8ec4edf94eaad33cd27a629c9efe5c979dc3a3ec0eda80288d470b73a3",
+    "figures\\selected_dp_results_20261017\\dplus1_ks3d_w2_20261016.png": "315db946ae86d0049f0a4914cdb6dcbde5a793721069b89dfbc1afb86f6dabe1",
+    "figures\\selected_dp_results_20261017\\dplus1_ks4d_w2_20261016.pdf": "1ea6550d25869f4d51f9a8d36f4b20f407cd9f14b839b4c67aeef0b7722c8c7c",
+    "figures\\selected_dp_results_20261017\\dplus1_ks4d_w2_20261016.png": "131124ce6441ca28f300976e0e3be26b4ef172d3f4a34c8cddcc96e347ce82df"
+  },
+  "checkpoint_sha256": {
+    "output\\mf_matched_dp_20261016\\ks3d\\run\\seed88\\mf.pt": "6cadd5fedd993c94b531287b8069de8559ac491a41609dd773912f4a00b32a3f",
+    "output\\dp_dplus1_four_benchmarks_20261016\\ks3d\\dplus1\\seed88\\dp\\dp.pt": "ba624e36d9b1d7975faa3f8fac75522145168ec8ab507c64b59bef7e554824d2",
+    "output\\dp_dplus1_four_benchmarks_20261016\\ks3d\\dplus1\\seed88\\mf_dp\\mf_dp.pt": "5c9d2d16aef0e599f17b51244917be2cca970935711be7fe8e704e329f999e74",
+    "output\\mf_matched_dp_20261016\\ks3d\\run\\seed88\\mf_init.pt": "af8b03cb879d1b383a1de59cd0e8c905c7be4490b5839bf928f3fa71d5f46c89",
+    "output\\mf_matched_dp_20261016\\ks3d\\run\\seed89\\mf.pt": "27c23ea44cc1fa6e3f739089ba30c75cc29d8760a67f3725c3592c8b3ed888ba",
+    "output\\dp_dplus1_four_benchmarks_20261016\\ks3d\\dplus1\\seed89\\dp\\dp.pt": "736bd348fc6265a3b324a38095a11da76b1f645d929fbb671533101dc727c439",
+    "output\\dp_dplus1_four_benchmarks_20261016\\ks3d\\dplus1\\seed89\\mf_dp\\mf_dp.pt": "bdc6d05e5da5bbf6c1f76c8491eb9e6db00d02f21a0f02a1275ba376065b4701",
+    "output\\mf_matched_dp_20261016\\ks3d\\run\\seed89\\mf_init.pt": "d003ddbc9210491c8eff4bfba088c00f15e85fd17d3e370b7c3d7fe91397f5e0",
+    "output\\mf_matched_dp_20261016\\ks3d\\run\\seed90\\mf.pt": "a1ed7eb8f7dcb025bcb50ed1839e979efb1c056f230669d3d24f0adab4d6993d",
+    "output\\dp_dplus1_four_benchmarks_20261016\\ks3d\\dplus1\\seed90\\dp\\dp.pt": "2e68a0ef222a629e9be5a74530fb90746e69de45df5d164ddf14034b1ae79b68",
+    "output\\dp_dplus1_four_benchmarks_20261016\\ks3d\\dplus1\\seed90\\mf_dp\\mf_dp.pt": "bdb126b8f32ddb65a554517e9624e392281b0dc60a83b12bbaa86e11d249050b",
+    "output\\mf_matched_dp_20261016\\ks3d\\run\\seed90\\mf_init.pt": "a925880d373ba7f48b7b9221aab10953e1df84ced109a76b3725f5b91b7f9207",
+    "output\\mf_matched_dp_20261016\\ks4d\\run\\seed88\\mf.pt": "d5fd42f517ea40cbc77c0b9f35c0ca6452bbf9ecd3b3b34313d239abc102e6e1",
+    "output\\dp_dplus1_four_benchmarks_20261016\\ks4d\\dplus1\\seed88\\dp\\dp.pt": "367d74e0dcc9f1a987204f704fe021247071d4e4da67cf45ea1fdbd53e7c72cb",
+    "output\\dp_dplus1_four_benchmarks_20261016\\ks4d\\dplus1\\seed88\\mf_dp\\mf_dp.pt": "df158f2c25cd4d7d8569cb642e8f534f8b93094138f0880164b4c78399ddf384",
+    "output\\mf_matched_dp_20261016\\ks4d\\run\\seed88\\mf_init.pt": "ee0ff111856c21d23efbc09ba076178a072d96d16f311d359e341380bb9ce7ab",
+    "output\\mf_matched_dp_20261016\\ks4d\\run\\seed89\\mf.pt": "acf2aba91397506f159cb67647f584d3201b9e27352edd432e337d70b3c29a22",
+    "output\\dp_dplus1_four_benchmarks_20261016\\ks4d\\dplus1\\seed89\\dp\\dp.pt": "34ed277efbdfff4761538b448be69f51d28b49b6844c1f45c37e09d2ff68b580",
+    "output\\dp_dplus1_four_benchmarks_20261016\\ks4d\\dplus1\\seed89\\mf_dp\\mf_dp.pt": "dce50d42c20bc157f4aaeb10f23c4d174f7bd07bb7817b8f48209f3b42815726",
+    "output\\mf_matched_dp_20261016\\ks4d\\run\\seed89\\mf_init.pt": "267e5794635a29402d5e07c15a05e825fd33c5f797fd2220175cda8f1044b17a",
+    "output\\mf_matched_dp_20261016\\ks4d\\run\\seed90\\mf.pt": "85862ef9e71f5e762f23b7f6dc72b6e5d7ce99c3c34954aa6b409119390c57eb",
+    "output\\dp_dplus1_four_benchmarks_20261016\\ks4d\\dplus1\\seed90\\dp\\dp.pt": "0919df1b8fcfe1b4afb4a4e4e0ea770a8ad870bca35f4ce08f1b7abac4c563d9",
+    "output\\dp_dplus1_four_benchmarks_20261016\\ks4d\\dplus1\\seed90\\mf_dp\\mf_dp.pt": "886bd1c2800abd7531eb861af433540d33c2ed2d5801a400d715032ffee4fcb6",
+    "output\\mf_matched_dp_20261016\\ks4d\\run\\seed90\\mf_init.pt": "22354a0f5c3f56eb922ebabfd5fd9751009a33ad9fbbe7b43435942dac29ddcd"
+  },
+  "runtime": {
+    "python": "3.10.19 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 16:41:31) [MSC v.1929 64 bit (AMD64)]",
+    "torch": "2.8.0+cu129",
+    "POT": "0.9.7.post1",
+    "gpu": "NVIDIA GeForce RTX 5080",
+    "numpy": "2.2.5"
+  },
+  "preparation_provenance": "E:\\working_space\\overleaf-6ab213532624b316eadcbdcc\\output\\ks_full_histogram_100k_20261022"
+}

@@ -1,0 +1,179 @@
+{
+  "status": "complete",
+  "plan": {
+    "particles_per_reference": 100000,
+    "generations": 4096,
+    "levels": [
+      2.0,
+      2.25,
+      2.5,
+      2.75,
+      3.0,
+      3.25,
+      3.5,
+      3.75,
+      4.0,
+      4.25,
+      4.5
+    ],
+    "physical_seed": 10999,
+    "accelerator_sha256": "59d1a10832d9d4c83661ea7b1cc0841f35a34c6329be15465d5ef11e36cac37d",
+    "source_validation": "output\\kpp_original_sampling_20261014\\gpu_validation.json",
+    "source_validation_sha256": "a42f03442c8b5ba3f1d3092f8e25e42ea1be04a209e58bd9f6d0461f29880fdb",
+    "training_data_reused": false,
+    "methods_retrained": false,
+    "reference_uncertainty": "One independent physical reference per level; parameter levels share random innovations."
+  },
+  "validation": {
+    "dimension": 2,
+    "status": "passed",
+    "identical_supplied_innovations": true,
+    "particles_per_case": 256,
+    "periods": 3,
+    "cases": 11,
+    "initial_numpy_uniforms_exact": true,
+    "source_terminal_float32_max_errors": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "gpu_vs_cpu_float64_max_step_error": 7.105427357601002e-15,
+    "gpu_vs_cpu_growth_max_error": 0.0,
+    "cuda_graph_vs_eager": "passed, 512 particles, 3 periods, same Philox seeds",
+    "resampling_calls_per_case": 3,
+    "steps_per_period": 256,
+    "three_dimensional_potential_sign": null
+  },
+  "outputs": [
+    {
+      "file": "E:\\working_space\\overleaf-6ab213532624b316eadcbdcc\\output\\other_histogram_100k_bins16_20261023\\references\\kpp2d\\original_gpu_kpp2d_s2p0_seed10999.npz",
+      "sha256": "14564652c8bff51820d4899f0ad999547b40406ba06b15881e8d052e14de9de1",
+      "dimension": 2,
+      "level": 2.0,
+      "kappa": 0.25,
+      "seed": 10999,
+      "c_hat": 1.3298298955968664,
+      "ess_mean": 73737.64070670986,
+      "n_unique": 56380
+    },
+    {
+      "file": "E:\\working_space\\overleaf-6ab213532624b316eadcbdcc\\output\\other_histogram_100k_bins16_20261023\\references\\kpp2d\\original_gpu_kpp2d_s2p25_seed10999.npz",
+      "sha256": "0e5a1ae1494ca085f66e6672eb43388716e5c37bf54350e19d3d8ae0b7bd0d9d",
+      "dimension": 2,
+      "level": 2.25,
+      "kappa": 0.21022410381342863,
+      "seed": 10999,
+      "c_hat": 1.2356499633534948,
+      "ess_mean": 74639.78111516645,
+      "n_unique": 56650
+    },
+    {
+      "file": "E:\\working_space\\overleaf-6ab213532624b316eadcbdcc\\output\\other_histogram_100k_bins16_20261023\\references\\kpp2d\\original_gpu_kpp2d_s2p5_seed10999.npz",
+      "sha256": "bb30c707a17815c55b362a1cffa8b162581f7e7c74c813f81042a2adda7603bc",
+      "dimension": 2,
+      "level": 2.5,
+      "kappa": 0.1767766952966369,
+      "seed": 10999,
+      "c_hat": 1.1550022072058361,
+      "ess_mean": 75208.61286711725,
+      "n_unique": 56587
+    },
+    {
+      "file": "E:\\working_space\\overleaf-6ab213532624b316eadcbdcc\\output\\other_histogram_100k_bins16_20261023\\references\\kpp2d\\original_gpu_kpp2d_s2p75_seed10999.npz",
+      "sha256": "af59b64feb5259ab0895c21d7ecafe993de4792f1314c76f1191bfdcdfb02c1b",
+      "dimension": 2,
+      "level": 2.75,
+      "kappa": 0.14865088937534013,
+      "seed": 10999,
+      "c_hat": 1.0853741623065019,
+      "ess_mean": 75497.27887878765,
+      "n_unique": 56677
+    },
+    {
+      "file": "E:\\working_space\\overleaf-6ab213532624b316eadcbdcc\\output\\other_histogram_100k_bins16_20261023\\references\\kpp2d\\original_gpu_kpp2d_s3p0_seed10999.npz",
+      "sha256": "961cde7298d934b4c568dd69932f3dfe136b444f01b93e06e9da7b9477e6dccf",
+      "dimension": 2,
+      "level": 3.0,
+      "kappa": 0.125,
+      "seed": 10999,
+      "c_hat": 1.0249426554119685,
+      "ess_mean": 75572.47161954557,
+      "n_unique": 56713
+    },
+    {
+      "file": "E:\\working_space\\overleaf-6ab213532624b316eadcbdcc\\output\\other_histogram_100k_bins16_20261023\\references\\kpp2d\\original_gpu_kpp2d_s3p25_seed10999.npz",
+      "sha256": "87cb9799b567e6da2ad57f74ac9a620e3be2ab0cabd49517cdfbaef7101bb72a",
+      "dimension": 2,
+      "level": 3.25,
+      "kappa": 0.10511205190671431,
+      "seed": 10999,
+      "c_hat": 0.9721317454084291,
+      "ess_mean": 75478.34676337025,
+      "n_unique": 56507
+    },
+    {
+      "file": "E:\\working_space\\overleaf-6ab213532624b316eadcbdcc\\output\\other_histogram_100k_bins16_20261023\\references\\kpp2d\\original_gpu_kpp2d_s3p5_seed10999.npz",
+      "sha256": "f6c09499684bec60446bfd643a910a6d9e1c1cd272241da03fce9cc6ff376945",
+      "dimension": 2,
+      "level": 3.5,
+      "kappa": 0.08838834764831845,
+      "seed": 10999,
+      "c_hat": 0.9255739023760725,
+      "ess_mean": 75249.82300901994,
+      "n_unique": 56671
+    },
+    {
+      "file": "E:\\working_space\\overleaf-6ab213532624b316eadcbdcc\\output\\other_histogram_100k_bins16_20261023\\references\\kpp2d\\original_gpu_kpp2d_s3p75_seed10999.npz",
+      "sha256": "a86cd81c244f55b5c58d22cbd583782d1acb5c04a7765bc656131111efa4ce79",
+      "dimension": 2,
+      "level": 3.75,
+      "kappa": 0.07432544468767006,
+      "seed": 10999,
+      "c_hat": 0.8843030677019355,
+      "ess_mean": 74927.52928208286,
+      "n_unique": 56576
+    },
+    {
+      "file": "E:\\working_space\\overleaf-6ab213532624b316eadcbdcc\\output\\other_histogram_100k_bins16_20261023\\references\\kpp2d\\original_gpu_kpp2d_s4p0_seed10999.npz",
+      "sha256": "fc8163d39a6ee01b46eacc4e76c0cc97aecd04cc67c23b16296808885a3db80b",
+      "dimension": 2,
+      "level": 4.0,
+      "kappa": 0.0625,
+      "seed": 10999,
+      "c_hat": 0.8474360220806976,
+      "ess_mean": 74535.79659687866,
+      "n_unique": 56450
+    },
+    {
+      "file": "E:\\working_space\\overleaf-6ab213532624b316eadcbdcc\\output\\other_histogram_100k_bins16_20261023\\references\\kpp2d\\original_gpu_kpp2d_s4p25_seed10999.npz",
+      "sha256": "d916e298cbb091be07d3821536aac93896e47a7aec005504fce21376a423af79",
+      "dimension": 2,
+      "level": 4.25,
+      "kappa": 0.052556025953357156,
+      "seed": 10999,
+      "c_hat": 0.8142807824721731,
+      "ess_mean": 74100.82071274312,
+      "n_unique": 56298
+    },
+    {
+      "file": "E:\\working_space\\overleaf-6ab213532624b316eadcbdcc\\output\\other_histogram_100k_bins16_20261023\\references\\kpp2d\\original_gpu_kpp2d_s4p5_seed10999.npz",
+      "sha256": "c1678beeb99fe903751f8a643918d70284d8e4159b5e14e5fe82bcba8b4d9494",
+      "dimension": 2,
+      "level": 4.5,
+      "kappa": 0.04419417382415922,
+      "seed": 10999,
+      "c_hat": 0.7843283049541017,
+      "ess_mean": 73644.69346670705,
+      "n_unique": 56180
+    }
+  ],
+  "elapsed_this_invocation": 311.6413512999934
+}

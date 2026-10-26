@@ -1,0 +1,308 @@
+{
+  "physics": {
+    "reaction": "cubic",
+    "particles": 5000000,
+    "bins": 160,
+    "half_width": 96.0,
+    "initial_radius": 5.0,
+    "diffusion": 2.5,
+    "final_time": 20.0,
+    "dt": 0.5,
+    "seed": 666
+  },
+  "status": "complete",
+  "seconds_this_invocation": 1.3871677999995882,
+  "total_mass": 11775.101642784728,
+  "records": [
+    {
+      "step": 1,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 571.4274194506768,
+      "maximum_density": 0.9765615463240785
+    },
+    {
+      "step": 2,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 627.0454152115344,
+      "maximum_density": 0.876996497241657
+    },
+    {
+      "step": 3,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 686.1169349452438,
+      "maximum_density": 0.7788838352284614
+    },
+    {
+      "step": 4,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 747.5286964852002,
+      "maximum_density": 0.7099772419210583
+    },
+    {
+      "step": 5,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 811.0395104603214,
+      "maximum_density": 0.6603103025816535
+    },
+    {
+      "step": 6,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 876.73673843483,
+      "maximum_density": 0.6184480024068899
+    },
+    {
+      "step": 7,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 944.9293800470293,
+      "maximum_density": 0.590865133520794
+    },
+    {
+      "step": 8,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 1015.9116349651506,
+      "maximum_density": 0.5760528568223982
+    },
+    {
+      "step": 9,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 1090.1862403954003,
+      "maximum_density": 0.5530251961267015
+    },
+    {
+      "step": 10,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 1168.1619482064928,
+      "maximum_density": 0.5434961187689623
+    },
+    {
+      "step": 11,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 1250.251003975038,
+      "maximum_density": 0.537147268171835
+    },
+    {
+      "step": 12,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 1337.1004716743748,
+      "maximum_density": 0.5352758589270176
+    },
+    {
+      "step": 13,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 1429.2998048064742,
+      "maximum_density": 0.5382804825244116
+    },
+    {
+      "step": 14,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 1527.6326490934107,
+      "maximum_density": 0.5427928127137869
+    },
+    {
+      "step": 15,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 1632.8299645275515,
+      "maximum_density": 0.5453464274234862
+    },
+    {
+      "step": 16,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 1745.8106923857972,
+      "maximum_density": 0.5438938357600496
+    },
+    {
+      "step": 17,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 1867.6064564593028,
+      "maximum_density": 0.5539954398657915
+    },
+    {
+      "step": 18,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 1999.1561965835347,
+      "maximum_density": 0.5728717809130729
+    },
+    {
+      "step": 19,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 2141.894663179809,
+      "maximum_density": 0.5821636415060236
+    },
+    {
+      "step": 20,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 2297.176838231813,
+      "maximum_density": 0.5989835115679039
+    },
+    {
+      "step": 21,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 2466.748696050517,
+      "maximum_density": 0.621608854712137
+    },
+    {
+      "step": 22,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 2652.4823570083245,
+      "maximum_density": 0.6538502418843631
+    },
+    {
+      "step": 23,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 2856.2328241155215,
+      "maximum_density": 0.6604252389846449
+    },
+    {
+      "step": 24,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 3080.108459191959,
+      "maximum_density": 0.6996359298644234
+    },
+    {
+      "step": 25,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 3326.5836139879516,
+      "maximum_density": 0.6974502349493932
+    },
+    {
+      "step": 26,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 3598.346358572169,
+      "maximum_density": 0.7252533694010878
+    },
+    {
+      "step": 27,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 3898.108815030853,
+      "maximum_density": 0.7677148066501748
+    },
+    {
+      "step": 28,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 4228.843618917833,
+      "maximum_density": 0.772194766867821
+    },
+    {
+      "step": 29,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 4593.514433144753,
+      "maximum_density": 0.8221751652916065
+    },
+    {
+      "step": 30,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 4995.107836614532,
+      "maximum_density": 0.8383432024301022
+    },
+    {
+      "step": 31,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 5436.883456327668,
+      "maximum_density": 0.8553657010590207
+    },
+    {
+      "step": 32,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 5922.1157516457915,
+      "maximum_density": 0.8787173551348864
+    },
+    {
+      "step": 33,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 6454.346206046461,
+      "maximum_density": 0.8884696567607663
+    },
+    {
+      "step": 34,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 7036.527197007376,
+      "maximum_density": 0.9159923118268677
+    },
+    {
+      "step": 35,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 7672.509428819727,
+      "maximum_density": 0.9265632011435195
+    },
+    {
+      "step": 36,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 8365.683974281032,
+      "maximum_density": 0.9363493035397018
+    },
+    {
+      "step": 37,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 9119.224702026424,
+      "maximum_density": 0.9637735781078668
+    },
+    {
+      "step": 38,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 9937.126743240888,
+      "maximum_density": 0.9724464627081636
+    },
+    {
+      "step": 39,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 0,
+      "mass": 10820.979292981045,
+      "maximum_density": 0.9833572748776863
+    },
+    {
+      "step": 40,
+      "discarded": 0,
+      "bins_over_one_before_reaction": 1,
+      "mass": 11775.101642784728,
+      "maximum_density": 1.0
+    }
+  ],
+  "pde": "u_t = D Laplacian(u) + w dot grad(u) + r(u)",
+  "drift": "-w",
+  "boundary": "discard outside [-60,60]^3 as in supplied SGIP",
+  "backend": "PyTorch; seeded NumPy initial ball and torch CUDA noise/resampling",
+  "changes_from_source": [
+    "seeded RNG",
+    "skip unused final resampling",
+    "uniform random permutation replaces random-key sort for within-bin shuffle"
+  ],
+  "fdm_run": false
+}

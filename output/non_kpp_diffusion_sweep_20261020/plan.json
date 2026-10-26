@@ -1,0 +1,47 @@
+{
+  "training": {
+    "mf_steps": 1000,
+    "dp_steps": 1000,
+    "mf_lr": 0.001,
+    "dp_lr": 0.0001,
+    "batch_size": 2000,
+    "width": 64,
+    "mf_width": 64,
+    "mf_hidden_layers": 3,
+    "dp_blocks": 0,
+    "alpha": 0.1,
+    "hybrid_alpha": 10.0,
+    "profile": "original_tuned",
+    "residual_weight": 0.1,
+    "batch_refresh": 500,
+    "ot_refresh": 500,
+    "device": "cuda"
+  },
+  "train_D": [
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "eval_D": [
+    0.25,
+    0.375,
+    0.5,
+    0.75,
+    1.0,
+    1.5,
+    2.0
+  ],
+  "seeds": [
+    88,
+    89,
+    90
+  ],
+  "particles": 5000000,
+  "n_train_per_D": 20000,
+  "n_eval_per_D": 200000,
+  "metric_particles": 2000,
+  "metric_repeats": 3,
+  "conditioning": "(log2(D)+2)/3",
+  "selection": "fixed final steps; no test-based tuning"
+}

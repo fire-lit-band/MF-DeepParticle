@@ -1,0 +1,296 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "model": "ks3d",
+      "seed": 88,
+      "method": "mf",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "ks3d",
+      "seed": 88,
+      "method": "mf_init",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "ks3d",
+      "seed": 88,
+      "method": "dp",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "ks3d",
+      "seed": 88,
+      "method": "mf_dp",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "ks3d",
+      "seed": 89,
+      "method": "mf",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "ks3d",
+      "seed": 89,
+      "method": "mf_init",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "ks3d",
+      "seed": 89,
+      "method": "dp",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "ks3d",
+      "seed": 89,
+      "method": "mf_dp",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "ks3d",
+      "seed": 90,
+      "method": "mf",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "ks3d",
+      "seed": 90,
+      "method": "mf_init",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "ks3d",
+      "seed": 90,
+      "method": "dp",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "ks3d",
+      "seed": 90,
+      "method": "mf_dp",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "ks4d",
+      "seed": 88,
+      "method": "mf",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "ks4d",
+      "seed": 88,
+      "method": "mf_init",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "ks4d",
+      "seed": 88,
+      "method": "dp",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "ks4d",
+      "seed": 88,
+      "method": "mf_dp",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "ks4d",
+      "seed": 89,
+      "method": "mf",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "ks4d",
+      "seed": 89,
+      "method": "mf_init",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "ks4d",
+      "seed": 89,
+      "method": "dp",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "ks4d",
+      "seed": 89,
+      "method": "mf_dp",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "ks4d",
+      "seed": 90,
+      "method": "mf",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "ks4d",
+      "seed": 90,
+      "method": "mf_init",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "ks4d",
+      "seed": 90,
+      "method": "dp",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "ks4d",
+      "seed": 90,
+      "method": "mf_dp",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "kpp2d",
+      "seed": 88,
+      "method": "mf",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "kpp2d",
+      "seed": 88,
+      "method": "mf_init",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "kpp2d",
+      "seed": 88,
+      "method": "dp",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "kpp2d",
+      "seed": 88,
+      "method": "mf_dp",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "kpp2d",
+      "seed": 89,
+      "method": "mf",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "kpp2d",
+      "seed": 89,
+      "method": "mf_init",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "kpp2d",
+      "seed": 89,
+      "method": "dp",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "kpp2d",
+      "seed": 89,
+      "method": "mf_dp",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "kpp2d",
+      "seed": 90,
+      "method": "mf",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "kpp2d",
+      "seed": 90,
+      "method": "mf_init",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "kpp2d",
+      "seed": 90,
+      "method": "dp",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "kpp2d",
+      "seed": 90,
+      "method": "mf_dp",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "kpp3d",
+      "seed": 88,
+      "method": "mf",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "kpp3d",
+      "seed": 88,
+      "method": "mf_init",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "kpp3d",
+      "seed": 88,
+      "method": "dp",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "kpp3d",
+      "seed": 88,
+      "method": "mf_dp",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "kpp3d",
+      "seed": 89,
+      "method": "mf",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "kpp3d",
+      "seed": 89,
+      "method": "mf_init",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "kpp3d",
+      "seed": 89,
+      "method": "dp",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "kpp3d",
+      "seed": 89,
+      "method": "mf_dp",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "kpp3d",
+      "seed": 90,
+      "method": "mf",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "kpp3d",
+      "seed": 90,
+      "method": "mf_init",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "kpp3d",
+      "seed": 90,
+      "method": "dp",
+      "weights_bitwise_equal": true
+    },
+    {
+      "model": "kpp3d",
+      "seed": 90,
+      "method": "mf_dp",
+      "weights_bitwise_equal": true
+    }
+  ],
+  "one_sequential_training_process": true,
+  "threads": 1,
+  "timing_scope": "complete setup, sources, OT, updates, checkpoint I/O; no imports/data checks/reference generation"
+}

@@ -1,0 +1,16 @@
+{
+  "model": "kpp2d",
+  "variant": "dplus1",
+  "seed": 89,
+  "method": "dp",
+  "DP_stage_seconds": 18.37656000000061,
+  "DP_updates": 1000,
+  "parameters": 8706,
+  "MF_frozen_unchanged": true,
+  "control_parameters_bitwise_equal": null,
+  "control_loss_trace_byte_identical": null,
+  "ot_solves": 16,
+  "checkpoint_sha256": "ec1cde9ade8733df5935aa563cab4c951e22953e8fba0c9e88f0cb699aa6b16e",
+  "reused_verified_run": false,
+  "origin": "this_experiment"
+}

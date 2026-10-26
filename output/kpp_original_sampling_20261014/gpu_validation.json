@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "results": [
+    {
+      "dimension": 2,
+      "status": "passed",
+      "identical_supplied_innovations": true,
+      "particles_per_case": 256,
+      "periods": 3,
+      "cases": 4,
+      "initial_numpy_uniforms_exact": true,
+      "source_terminal_float32_max_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gpu_vs_cpu_float64_max_step_error": 4.440892098500626e-15,
+      "gpu_vs_cpu_growth_max_error": 4.440892098500626e-16,
+      "cuda_graph_vs_eager": "passed, 512 particles, 3 periods, same Philox seeds",
+      "resampling_calls_per_case": 3,
+      "steps_per_period": 256,
+      "three_dimensional_potential_sign": null
+    },
+    {
+      "dimension": 3,
+      "status": "passed",
+      "identical_supplied_innovations": true,
+      "particles_per_case": 256,
+      "periods": 3,
+      "cases": 4,
+      "initial_numpy_uniforms_exact": true,
+      "source_terminal_float32_max_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gpu_vs_cpu_float64_max_step_error": 3.552713678800501e-15,
+      "gpu_vs_cpu_growth_max_error": 4.440892098500626e-16,
+      "cuda_graph_vs_eager": "passed, 512 particles, 3 periods, same Philox seeds",
+      "resampling_calls_per_case": 3,
+      "steps_per_period": 256,
+      "three_dimensional_potential_sign": "negative"
+    }
+  ],
+  "source_hashes": {
+    "kpp_common.py": "41c725df17e169b2e6c26aa8070ee7af55c6b4dc0bf6590840323e2c4ecaaf07",
+    "kpp3d_kolmogorov.py": "e5506a52a985ce0c252bc0d0a5f7f148cb22628d4504e149408f46ebec0f6f93"
+  }
+}
